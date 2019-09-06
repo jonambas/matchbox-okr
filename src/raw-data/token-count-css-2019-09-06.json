@@ -3,1854 +3,1962 @@
   "data": [
     {
       "file": "PlanPrice.module.scss",
-      "css": "padding-right: rem(8);",
+      "code": "padding-right: rem(8);",
       "line": 12
     },
-    { "file": "NameCell.module.scss", "css": "margin-bottom: 0;", "line": 4 },
-    { "file": "NameCell.module.scss", "css": "margin-bottom: 0;", "line": 9 },
-    { "file": "Pagination.module.scss", "css": "font-size: 80%;", "line": 25 },
+    { "file": "NameCell.module.scss", "code": "margin-bottom: 0;", "line": 4 },
+    { "file": "NameCell.module.scss", "code": "margin-bottom: 0;", "line": 9 },
+    { "file": "Pagination.module.scss", "code": "font-size: 80%;", "line": 25 },
     {
       "file": "Pagination.module.scss",
-      "css": "color: rgba(0,0,0,0.5);",
+      "code": "color: rgba(0,0,0,0.5);",
       "line": 27
     },
     {
       "file": "Pagination.module.scss",
-      "css": "margin-right: 10px",
+      "code": "margin-right: 10px",
       "line": 29
     },
-    { "file": "SortLabel.module.scss", "css": "margin-top: -4px;", "line": 21 },
-    { "file": "SortLabel.module.scss", "css": "margin-top: 4px;", "line": 25 },
+    {
+      "file": "SortLabel.module.scss",
+      "code": "margin-top: -4px;",
+      "line": 21
+    },
+    { "file": "SortLabel.module.scss", "code": "margin-top: 4px;", "line": 25 },
     {
       "file": "TableCollection.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 4
     },
-    { "file": "AceWrapper.module.scss", "css": "font-size: 0;", "line": 4 },
+    { "file": "AceWrapper.module.scss", "code": "font-size: 0;", "line": 4 },
     {
       "file": "ContentEditor.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 11
     },
-    { "file": "ContentEditor.module.scss", "css": "z-index: 1;", "line": 13 },
+    { "file": "ContentEditor.module.scss", "code": "z-index: 1;", "line": 13 },
     {
       "file": "ContentEditor.module.scss",
-      "css": "margin-top: 0;",
+      "code": "margin-top: 0;",
       "line": 26
     },
     {
       "file": "ContentEditor.scss",
-      "css": "border-bottom-right-radius: 2px;",
+      "code": "border-bottom-right-radius: 2px;",
       "line": 5
     },
     {
       "file": "ContentEditor.scss",
-      "css": "border-bottom-left-radius: 2px;",
+      "code": "border-bottom-left-radius: 2px;",
       "line": 6
     },
-    { "file": "ContentEditor.scss", "css": "font-size: rem(13);", "line": 30 },
+    { "file": "ContentEditor.scss", "code": "font-size: rem(13);", "line": 30 },
     {
       "file": "ContentEditor.scss",
-      "css": "//   padding-right: 19px;",
+      "code": "//   padding-right: 19px;",
       "line": 37
     },
     {
       "file": "ContentEditor.scss",
-      "css": "//   padding-left: 6px;",
+      "code": "//   padding-left: 6px;",
       "line": 38
     },
     {
       "file": "ManualEntryForm.module.scss",
-      "css": "margin-top: 1.4rem;",
+      "code": "margin-top: 1.4rem;",
       "line": 11
     },
-    { "file": "DateSelector.module.scss", "css": "padding: 0;", "line": 11 },
-    { "file": "DateSelector.module.scss", "css": "margin: 0;", "line": 24 },
+    { "file": "DateSelector.module.scss", "code": "padding: 0;", "line": 11 },
+    { "file": "DateSelector.module.scss", "code": "margin: 0;", "line": 24 },
     {
       "file": "DateSelector.module.scss",
-      "css": "margin-left: rem(18)",
+      "code": "margin-left: rem(18)",
       "line": 30
     },
     {
       "file": "DateSelector.module.scss",
-      "css": "padding-top: 0;",
+      "code": "padding-top: 0;",
       "line": 36
     },
     {
       "file": "DateSelector.module.scss",
-      "css": "padding: rem(4) rem(11);",
+      "code": "padding: rem(4) rem(11);",
       "line": 55
     },
     {
       "file": "DateSelector.module.scss",
-      "css": "padding: 2px rem(6);",
+      "code": "padding: 2px rem(6);",
       "line": 80
     },
-    { "file": "DateSelector.module.scss", "css": "margin: 1px 0;", "line": 81 },
-    { "file": "DateSelector.module.scss", "css": "z-index: 100;", "line": 115 },
-    { "file": "DateSelector.module.scss", "css": "color: white;", "line": 142 },
     {
       "file": "DateSelector.module.scss",
-      "css": "border-top-left-radius: 4px;",
+      "code": "margin: 1px 0;",
+      "line": 81
+    },
+    {
+      "file": "DateSelector.module.scss",
+      "code": "z-index: 100;",
+      "line": 115
+    },
+    {
+      "file": "DateSelector.module.scss",
+      "code": "color: white;",
+      "line": 142
+    },
+    {
+      "file": "DateSelector.module.scss",
+      "code": "border-top-left-radius: 4px;",
       "line": 144
     },
     {
       "file": "DateSelector.module.scss",
-      "css": "border-bottom-left-radius: 4px;",
+      "code": "border-bottom-left-radius: 4px;",
       "line": 145
     },
-    { "file": "DateSelector.module.scss", "css": "color: white;", "line": 149 },
     {
       "file": "DateSelector.module.scss",
-      "css": "border-top-right-radius: 4px;",
+      "code": "color: white;",
+      "line": 149
+    },
+    {
+      "file": "DateSelector.module.scss",
+      "code": "border-top-right-radius: 4px;",
       "line": 151
     },
     {
       "file": "DateSelector.module.scss",
-      "css": "border-bottom-right-radius: 4px;",
+      "code": "border-bottom-right-radius: 4px;",
       "line": 152
     },
-    { "file": "ReadyFor.module.scss", "css": "margin-right: 0;", "line": 7 },
-    { "file": "Empty.module.scss", "css": "padding: rem(80) 0;", "line": 5 },
-    { "file": "FullPage.module.scss", "css": "z-index: 100;", "line": 13 },
+    { "file": "ReadyFor.module.scss", "code": "margin-right: 0;", "line": 7 },
+    { "file": "Empty.module.scss", "code": "padding: rem(80) 0;", "line": 5 },
+    { "file": "FullPage.module.scss", "code": "z-index: 100;", "line": 13 },
     {
       "file": "FullPage.module.scss",
-      "css": "border-right: 1px solid white;",
+      "code": "border-right: 1px solid white;",
       "line": 29
     },
     {
       "file": "FullPage.module.scss",
-      "css": "color: white !important;",
+      "code": "color: white !important;",
       "line": 30
     },
-    { "file": "FullPage.module.scss", "css": "margin: 0;", "line": 34 },
-    { "file": "FullPage.module.scss", "css": "padding: 0;", "line": 35 },
-    { "file": "FullPage.module.scss", "css": "color: white;", "line": 50 },
-    { "file": "FullPage.module.scss", "css": "margin: 0;", "line": 52 },
+    { "file": "FullPage.module.scss", "code": "margin: 0;", "line": 34 },
+    { "file": "FullPage.module.scss", "code": "padding: 0;", "line": 35 },
+    { "file": "FullPage.module.scss", "code": "color: white;", "line": 50 },
+    { "file": "FullPage.module.scss", "code": "margin: 0;", "line": 52 },
     {
       "file": "FullPage.module.scss",
-      "css": "padding-top: rem(56);",
+      "code": "padding-top: rem(56);",
       "line": 57
     },
-    { "file": "Alert.module.scss", "css": "padding-left: 20px;", "line": 1 },
+    { "file": "Alert.module.scss", "code": "padding-left: 20px;", "line": 1 },
     {
       "file": "GrantsCheckboxes.module.scss",
-      "css": "margin-bottom: 1rem;",
+      "code": "margin-bottom: 1rem;",
       "line": 4
     },
     {
       "file": "GrantsCheckboxes.module.scss",
-      "css": "margin-bottom: rem(3);",
+      "code": "margin-bottom: rem(3);",
       "line": 13
     },
     {
       "file": "GrantsCheckboxes.module.scss",
-      "css": "margin-right: -4px;",
+      "code": "margin-right: -4px;",
       "line": 16
     },
-    { "file": "generic.module.scss", "css": ".st0{fill:#828287}", "line": 0 },
-    { "file": "generic.module.scss", "css": ".st1{fill:#f2f2f5}", "line": 1 },
+    { "file": "generic.module.scss", "code": ".st0{fill:#828287}", "line": 0 },
+    { "file": "generic.module.scss", "code": ".st1{fill:#f2f2f5}", "line": 1 },
     {
       "file": "generic.module.scss",
-      "css": ".st2{fill:#d2d2d7;stroke:#d2d2d7;stroke-width:0.75;}",
+      "code": ".st2{fill:#d2d2d7;stroke:#d2d2d7;stroke-width:0.75;}",
       "line": 2
     },
-    { "file": "generic.module.scss", "css": ".st3{fill:#aaaaaf}", "line": 3 },
+    { "file": "generic.module.scss", "code": ".st3{fill:#aaaaaf}", "line": 3 },
     {
       "file": "generic.module.scss",
-      "css": ".st5{fill:none;stroke:#414146;stroke-width:0.75;stroke-miterlimit:10}",
+      "code": ".st5{fill:none;stroke:#414146;stroke-width:0.75;stroke-miterlimit:10}",
       "line": 4
     },
     {
       "file": "generic.module.scss",
-      "css": ".st6{fill:none;stroke:#d2d2d7;stroke-linecap:round;stroke-linejoin:round}",
+      "code": ".st6{fill:none;stroke:#d2d2d7;stroke-linecap:round;stroke-linejoin:round}",
       "line": 5
     },
-    { "file": "generic.module.scss", "css": ".st10{fill:#fa6423}", "line": 6 },
+    { "file": "generic.module.scss", "code": ".st10{fill:#fa6423}", "line": 6 },
     {
       "file": "generic.module.scss",
-      "css": ".st13{fill:none;stroke:#37aadc;stroke-linecap:round;stroke-linejoin:round}",
+      "code": ".st13{fill:none;stroke:#37aadc;stroke-linecap:round;stroke-linejoin:round}",
       "line": 7
     },
     {
       "file": "generic.module.scss",
-      "css": ".st14{stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#bebec3}",
+      "code": ".st14{stroke-linecap:round;stroke-linejoin:round;fill:none;stroke:#bebec3}",
       "line": 9
     },
     {
       "file": "generic.module.scss",
-      "css": ".st15{fill:#f2f2f5;stroke:#37aadc}",
+      "code": ".st15{fill:#f2f2f5;stroke:#37aadc}",
       "line": 10
     },
-    { "file": "generic.module.scss", "css": ".st16{fill:#f2f2f5}", "line": 11 },
     {
       "file": "generic.module.scss",
-      "css": ".st17{fill:#f2f2f5;stroke:#fa6423;stroke-width:0.75;stroke-miterlimit:10}",
+      "code": ".st16{fill:#f2f2f5}",
+      "line": 11
+    },
+    {
+      "file": "generic.module.scss",
+      "code": ".st17{fill:#f2f2f5;stroke:#fa6423;stroke-width:0.75;stroke-miterlimit:10}",
       "line": 12
     },
     {
       "file": "generic.module.scss",
-      "css": ".st18{fill:#c8c8cd;stroke:#c8c8cd;}",
+      "code": ".st18{fill:#c8c8cd;stroke:#c8c8cd;}",
       "line": 13
     },
     {
       "file": "generic.module.scss",
-      "css": ".st19{fill:#37aadc;stroke-width:0.5;stroke:#37aadc}",
+      "code": ".st19{fill:#37aadc;stroke-width:0.5;stroke:#37aadc}",
       "line": 14
     },
-    { "file": "setup.module.scss", "css": ".st0{fill:#828287}", "line": 0 },
-    { "file": "setup.module.scss", "css": ".st1{fill:#bebec3}", "line": 1 },
-    { "file": "setup.module.scss", "css": ".st2{fill:#d2d2d7}", "line": 2 },
+    { "file": "setup.module.scss", "code": ".st0{fill:#828287}", "line": 0 },
+    { "file": "setup.module.scss", "code": ".st1{fill:#bebec3}", "line": 1 },
+    { "file": "setup.module.scss", "code": ".st2{fill:#d2d2d7}", "line": 2 },
     {
       "file": "setup.module.scss",
-      "css": ".st3{fill:#f2f2f5;stroke:#37aadc;stroke-width:0.75;stroke-miterlimit:10;stroke-linejoin:round}",
+      "code": ".st3{fill:#f2f2f5;stroke:#37aadc;stroke-width:0.75;stroke-miterlimit:10;stroke-linejoin:round}",
       "line": 3
     },
-    { "file": "setup.module.scss", "css": ".st4{fill:#f2f2f5}", "line": 4 },
+    { "file": "setup.module.scss", "code": ".st4{fill:#f2f2f5}", "line": 4 },
     {
       "file": "setup.module.scss",
-      "css": ".st5{stroke:#fa6423;stroke-width:0.75;stroke-miterlimit:10;stroke-linejoin:round}",
+      "code": ".st5{stroke:#fa6423;stroke-width:0.75;stroke-miterlimit:10;stroke-linejoin:round}",
       "line": 5
     },
     {
       "file": "setup.module.scss",
-      "css": ".st5,.st6{fill:#f2f2f5}",
+      "code": ".st5,.st6{fill:#f2f2f5}",
       "line": 6
     },
-    { "file": "setup.module.scss", "css": ".st7{fill:#aaaaaf}", "line": 7 },
-    { "file": "setup.module.scss", "css": ".st8{fill:#fa6423}", "line": 8 },
+    { "file": "setup.module.scss", "code": ".st7{fill:#aaaaaf}", "line": 7 },
+    { "file": "setup.module.scss", "code": ".st8{fill:#fa6423}", "line": 8 },
     {
       "file": "setup.module.scss",
-      "css": ".st10,.st9{fill:none;stroke-width:0.75}",
+      "code": ".st10,.st9{fill:none;stroke-width:0.75}",
       "line": 9
     },
     {
       "file": "setup.module.scss",
-      "css": ".st9{stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#37aadc}",
+      "code": ".st9{stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke:#37aadc}",
       "line": 10
     },
-    { "file": "setup.module.scss", "css": ".st10{stroke:#bebec3}", "line": 11 },
     {
       "file": "setup.module.scss",
-      "css": ".st11{stroke-dasharray:3.9632,5.2842;fill:none;stroke:#d2d2d7}",
+      "code": ".st10{stroke:#bebec3}",
+      "line": 11
+    },
+    {
+      "file": "setup.module.scss",
+      "code": ".st11{stroke-dasharray:3.9632,5.2842;fill:none;stroke:#d2d2d7}",
       "line": 13
     },
     {
       "file": "setup.module.scss",
-      "css": ".st12{fill:#f2f2f5;stroke:#fa6423;stroke-width:.75}",
+      "code": ".st12{fill:#f2f2f5;stroke:#fa6423;stroke-width:.75}",
       "line": 14
     },
-    { "file": "setup.module.scss", "css": ".st13{fill:#c8c8cd}", "line": 15 },
-    { "file": "setup.module.scss", "css": ".st14{fill:#37aadc}", "line": 16 },
+    { "file": "setup.module.scss", "code": ".st13{fill:#c8c8cd}", "line": 15 },
+    { "file": "setup.module.scss", "code": ".st14{fill:#37aadc}", "line": 16 },
     {
       "file": "templates.module.scss",
-      "css": ".st0{fill:#f2f2f5;stroke:#37aadc;stroke-width:0.5;stroke-miterlimit:10;stroke-linejoin:round;}",
+      "code": ".st0{fill:#f2f2f5;stroke:#37aadc;stroke-width:0.5;stroke-miterlimit:10;stroke-linejoin:round;}",
       "line": 0
     },
-    { "file": "templates.module.scss", "css": ".st3{fill:#828287}", "line": 1 },
-    { "file": "templates.module.scss", "css": ".st4{fill:#f2f2f5}", "line": 2 },
-    { "file": "templates.module.scss", "css": ".st6{fill:#bebec3}", "line": 3 },
-    { "file": "templates.module.scss", "css": ".st8{fill:#fa6423}", "line": 4 },
     {
       "file": "templates.module.scss",
-      "css": ".st10,.st9{fill:none;stroke:#37aadc;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}",
+      "code": ".st3{fill:#828287}",
+      "line": 1
+    },
+    {
+      "file": "templates.module.scss",
+      "code": ".st4{fill:#f2f2f5}",
+      "line": 2
+    },
+    {
+      "file": "templates.module.scss",
+      "code": ".st6{fill:#bebec3}",
+      "line": 3
+    },
+    {
+      "file": "templates.module.scss",
+      "code": ".st8{fill:#fa6423}",
+      "line": 4
+    },
+    {
+      "file": "templates.module.scss",
+      "code": ".st10,.st9{fill:none;stroke:#37aadc;stroke-width:0.5;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}",
       "line": 5
     },
     {
       "file": "templates.module.scss",
-      "css": ".st10{stroke:#bebec3}",
+      "code": ".st10{stroke:#bebec3}",
       "line": 6
     },
     {
       "file": "templates.module.scss",
-      "css": ".st12{fill:#c8c8cd}",
+      "code": ".st12{fill:#c8c8cd}",
       "line": 7
     },
     {
       "file": "templates.module.scss",
-      "css": ".st14{fill:#f2f2f5}",
+      "code": ".st14{fill:#f2f2f5}",
       "line": 8
     },
-    { "file": "users.module.scss", "css": ".st0{fill:#828287}", "line": 0 },
-    { "file": "users.module.scss", "css": ".st1{fill:#bebec3}", "line": 1 },
+    { "file": "users.module.scss", "code": ".st0{fill:#828287}", "line": 0 },
+    { "file": "users.module.scss", "code": ".st1{fill:#bebec3}", "line": 1 },
     {
       "file": "users.module.scss",
-      "css": ".st2{fill:#f2f2f5;stroke:#37aadc;stroke-width:0.75;stroke-miterlimit:10;stroke-linejoin:round}",
+      "code": ".st2{fill:#f2f2f5;stroke:#37aadc;stroke-width:0.75;stroke-miterlimit:10;stroke-linejoin:round}",
       "line": 2
     },
-    { "file": "users.module.scss", "css": ".st3{fill:#f2f2f5}", "line": 3 },
+    { "file": "users.module.scss", "code": ".st3{fill:#f2f2f5}", "line": 3 },
     {
       "file": "users.module.scss",
-      "css": ".st4{stroke-width:0.75;fill:#f2f2f5;stroke:#fa6423;stroke-linejoin:round}",
+      "code": ".st4{stroke-width:0.75;fill:#f2f2f5;stroke:#fa6423;stroke-linejoin:round}",
       "line": 5
     },
     {
       "file": "users.module.scss",
-      "css": ".st5{fill:none;stroke:#d2d2d7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9632,5.2842}",
+      "code": ".st5{fill:none;stroke:#d2d2d7;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:3.9632,5.2842}",
       "line": 6
     },
-    { "file": "users.module.scss", "css": ".st6{fill:#37aadc}", "line": 7 },
+    { "file": "users.module.scss", "code": ".st6{fill:#37aadc}", "line": 7 },
     {
       "file": "users.module.scss",
-      "css": ".st7,.st8{fill:none;stroke:#37aadc;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}",
+      "code": ".st7,.st8{fill:none;stroke:#37aadc;stroke-width:0.75;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10}",
       "line": 8
     },
-    { "file": "users.module.scss", "css": ".st8{stroke:#bebec3}", "line": 9 },
-    { "file": "users.module.scss", "css": ".st9{fill:#fa6423}", "line": 10 },
-    { "file": "users.module.scss", "css": ".st10{fill:#f2f2f5}", "line": 11 },
+    { "file": "users.module.scss", "code": ".st8{stroke:#bebec3}", "line": 9 },
+    { "file": "users.module.scss", "code": ".st9{fill:#fa6423}", "line": 10 },
+    { "file": "users.module.scss", "code": ".st10{fill:#f2f2f5}", "line": 11 },
     {
       "file": "LabelledValue.module.scss",
-      "css": "margin-bottom: rem(12);",
+      "code": "margin-bottom: rem(12);",
       "line": 4
     },
     {
       "file": "LabelledValue.module.scss",
-      "css": "font-size: rem(15);",
+      "code": "font-size: rem(15);",
       "line": 26
     },
     {
       "file": "LabelledValue.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 28
     },
     {
       "file": "LabelledValue.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 32
     },
-    { "file": "Layout.module.scss", "css": "padding: 0;", "line": 30 },
-    { "file": "Layout.module.scss", "css": "margin: 0 auto;", "line": 41 },
-    { "file": "Layout.module.scss", "css": "margin: 0 auto;", "line": 47 },
-    { "file": "Layout.module.scss", "css": "margin: 0 auto;", "line": 55 },
-    { "file": "LineBreak.module.scss", "css": "margin: 0;", "line": 13 },
+    { "file": "Layout.module.scss", "code": "padding: 0;", "line": 30 },
+    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 41 },
+    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 47 },
+    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 55 },
+    { "file": "LineBreak.module.scss", "code": "margin: 0;", "line": 13 },
     {
       "file": "LineBreak.module.scss",
-      "css": "font-size: .75rem;",
+      "code": "font-size: .75rem;",
       "line": 17
     },
-    { "file": "Loading.module.scss", "css": "margin-left: -35px;", "line": 6 },
-    { "file": "Loading.module.scss", "css": "margin-top: -35px;", "line": 7 },
-    { "file": "Loading.module.scss", "css": "fill: none;", "line": 32 },
+    { "file": "Loading.module.scss", "code": "margin-left: -35px;", "line": 6 },
+    { "file": "Loading.module.scss", "code": "margin-top: -35px;", "line": 7 },
+    { "file": "Loading.module.scss", "code": "fill: none;", "line": 32 },
     {
       "file": "LongTextContainer.module.scss",
-      "css": "font-size: rem(15);",
+      "code": "font-size: rem(15);",
       "line": 3
     },
     {
       "file": "AccountDropdown.module.scss",
-      "css": "margin-top: -0.1em;",
+      "code": "margin-top: -0.1em;",
       "line": 22
     },
-    { "file": "NavItem.module.scss", "css": "margin: 0;", "line": 4 },
-    { "file": "NavItem.module.scss", "css": "padding: 0;", "line": 5 },
+    { "file": "NavItem.module.scss", "code": "margin: 0;", "line": 4 },
+    { "file": "NavItem.module.scss", "code": "padding: 0;", "line": 5 },
     {
       "file": "NavItem.module.scss",
-      "css": "padding: rem(9) rem(18);",
+      "code": "padding: rem(9) rem(18);",
       "line": 11
     },
     {
       "file": "NavItem.module.scss",
-      "css": "border-bottom: none;",
+      "code": "border-bottom: none;",
       "line": 15
     },
     {
       "file": "NavItem.module.scss",
-      "css": "padding: rem(15) rem(18);",
+      "code": "padding: rem(15) rem(18);",
       "line": 27
     },
-    { "file": "NavItem.module.scss", "css": "font-size: rem(16);", "line": 28 },
     {
       "file": "NavItem.module.scss",
-      "css": "margin-bottom: rem(13);",
+      "code": "font-size: rem(16);",
+      "line": 28
+    },
+    {
+      "file": "NavItem.module.scss",
+      "code": "margin-bottom: rem(13);",
       "line": 66
     },
     {
       "file": "NavItem.module.scss",
-      "css": "padding: rem(4) rem(18) rem(4) rem(54);",
+      "code": "padding: rem(4) rem(18) rem(4) rem(54);",
       "line": 70
     },
-    { "file": "Navigation.module.scss", "css": "z-index: 100;", "line": 4 },
+    { "file": "Navigation.module.scss", "code": "z-index: 100;", "line": 4 },
     {
       "file": "Navigation.module.scss",
-      "css": "border-right: none;",
+      "code": "border-right: none;",
       "line": 12
     },
     {
       "file": "Navigation.module.scss",
-      "css": "padding-top: rem(56);",
+      "code": "padding-top: rem(56);",
       "line": 51
     },
     {
       "file": "Navigation.module.scss",
-      "css": "padding-top: rem(112);",
+      "code": "padding-top: rem(112);",
       "line": 55
     },
-    { "file": "Navigation.module.scss", "css": "margin: 0;", "line": 61 },
-    { "file": "Navigation.module.scss", "css": "padding: 0;", "line": 62 },
+    { "file": "Navigation.module.scss", "code": "margin: 0;", "line": 61 },
+    { "file": "Navigation.module.scss", "code": "padding: 0;", "line": 62 },
     {
       "file": "Notification.module.scss",
-      "css": "font-size: rem(13);",
+      "code": "font-size: rem(13);",
       "line": 16
     },
     {
       "file": "Notification.module.scss",
-      "css": "border-radius: 100%;",
+      "code": "border-radius: 100%;",
       "line": 39
     },
     {
       "file": "Notification.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 48
     },
     {
       "file": "NotificationCenter.module.scss",
-      "css": "margin-right: 2px;",
+      "code": "margin-right: 2px;",
       "line": 5
     },
     {
       "file": "PlanPicker.module.scss",
-      "css": "border-bottom: none;",
+      "code": "border-bottom: none;",
       "line": 12
     },
     {
       "file": "PlanPicker.module.scss",
-      "css": "font-size: rem(16);",
+      "code": "font-size: rem(16);",
       "line": 19
     },
-    { "file": "PlanPicker.module.scss", "css": "z-index: 1;", "line": 28 },
+    { "file": "PlanPicker.module.scss", "code": "z-index: 1;", "line": 28 },
     {
       "file": "PlanPicker.module.scss",
-      "css": "padding-left: rem(40);",
+      "code": "padding-left: rem(40);",
       "line": 59
     },
-    { "file": "PlanPicker.module.scss", "css": "z-index: 100;", "line": 88 },
+    { "file": "PlanPicker.module.scss", "code": "z-index: 100;", "line": 88 },
     {
       "file": "PlanPicker.module.scss",
-      "css": "font-size: rem(21);",
+      "code": "font-size: rem(21);",
       "line": 123
     },
-    { "file": "PlanPicker.module.scss", "css": "margin: 0;", "line": 124 },
+    { "file": "PlanPicker.module.scss", "code": "margin: 0;", "line": 124 },
     {
       "file": "PlanPicker.module.scss",
-      "css": "font-size: rem(15);",
+      "code": "font-size: rem(15);",
       "line": 129
     },
-    { "file": "PlanPicker.module.scss", "css": "margin: 0;", "line": 130 },
+    { "file": "PlanPicker.module.scss", "code": "margin: 0;", "line": 130 },
     {
       "file": "FileFieldWrapper.module.scss",
-      "css": "margin-left: 0;",
+      "code": "margin-left: 0;",
       "line": 5
     },
     {
       "file": "FileFieldWrapper.module.scss",
-      "css": "margin-right: 0;",
+      "code": "margin-right: 0;",
       "line": 6
     },
-    { "file": "FileFieldWrapper.module.scss", "css": "padding: 0;", "line": 7 },
     {
       "file": "FileFieldWrapper.module.scss",
-      "css": "border-bottom-left-radius: 0;",
+      "code": "padding: 0;",
+      "line": 7
+    },
+    {
+      "file": "FileFieldWrapper.module.scss",
+      "code": "border-bottom-left-radius: 0;",
       "line": 11
     },
     {
       "file": "FileFieldWrapper.module.scss",
-      "css": "border-top-left-radius: 0;",
+      "code": "border-top-left-radius: 0;",
       "line": 12
     },
     {
       "file": "PartnerLogos.module.scss",
-      "css": "margin-left: 30px;",
+      "code": "margin-left: 30px;",
       "line": 5
     },
-    { "file": "PartnerLogos.module.scss", "css": "fill: #231F20;", "line": 9 },
-    { "file": "PartnerLogos.module.scss", "css": "fill: #58595B;", "line": 13 },
-    { "file": "PartnerLogos.module.scss", "css": "fill: #FF9900;", "line": 17 },
-    { "file": "PartnerLogos.module.scss", "css": "fill: #FF9900;", "line": 23 },
-    { "file": "PartnerLogos.module.scss", "css": "fill: #1D74B9;", "line": 27 },
-    { "file": "PartnerLogos.module.scss", "css": "fill: #82C4E9;", "line": 31 },
+    { "file": "PartnerLogos.module.scss", "code": "fill: #231F20;", "line": 9 },
+    {
+      "file": "PartnerLogos.module.scss",
+      "code": "fill: #58595B;",
+      "line": 13
+    },
+    {
+      "file": "PartnerLogos.module.scss",
+      "code": "fill: #FF9900;",
+      "line": 17
+    },
+    {
+      "file": "PartnerLogos.module.scss",
+      "code": "fill: #FF9900;",
+      "line": 23
+    },
+    {
+      "file": "PartnerLogos.module.scss",
+      "code": "fill: #1D74B9;",
+      "line": 27
+    },
+    {
+      "file": "PartnerLogos.module.scss",
+      "code": "fill: #82C4E9;",
+      "line": 31
+    },
     {
       "file": "SummaryTable.module.scss",
-      "css": "border-left: none;",
+      "code": "border-left: none;",
       "line": 10
     },
-    { "file": "SummaryTable.module.scss", "css": "padding: 0;", "line": 11 },
+    { "file": "SummaryTable.module.scss", "code": "padding: 0;", "line": 11 },
     {
       "file": "SummaryTable.module.scss",
-      "css": "border-right: none;",
+      "code": "border-right: none;",
       "line": 14
     },
     {
       "file": "SummaryTable.module.scss",
-      "css": "background-color: #FAFAFA;",
+      "code": "background-color: #FAFAFA;",
       "line": 23
     },
     {
       "file": "SummaryTable.module.scss",
-      "css": "border-left: none;",
+      "code": "border-left: none;",
       "line": 25
     },
     {
       "file": "SummaryTable.module.scss",
-      "css": "border-right: none;",
+      "code": "border-right: none;",
       "line": 32
     },
     {
       "file": "SummaryTable.module.scss",
-      "css": "background: #F2F2F2;",
+      "code": "background: #F2F2F2;",
       "line": 44
     },
     {
       "file": "SummaryTable.module.scss",
-      "css": "background: #FAFAFA;",
+      "code": "background: #FAFAFA;",
       "line": 51
     },
     {
       "file": "SummaryTable.module.scss",
-      "css": "border-top: none;",
+      "code": "border-top: none;",
       "line": 52
     },
-    { "file": "SummaryTable.module.scss", "css": "margin: 0;", "line": 57 },
+    { "file": "SummaryTable.module.scss", "code": "margin: 0;", "line": 57 },
     {
       "file": "SummaryTable.module.scss",
-      "css": "border-left: none;",
+      "code": "border-left: none;",
       "line": 62
     },
     {
       "file": "SummaryTable.module.scss",
-      "css": "font-size: rem(12);",
+      "code": "font-size: rem(12);",
       "line": 73
     },
     {
       "file": "SummaryTable.module.scss",
-      "css": "margin: 0; // override",
+      "code": "margin: 0; // override",
       "line": 86
     },
-    { "file": "SearchPanel.module.scss", "css": "padding: 0;", "line": 9 },
-    { "file": "SearchPanel.module.scss", "css": "margin: 0;", "line": 10 },
+    { "file": "SearchPanel.module.scss", "code": "padding: 0;", "line": 9 },
+    { "file": "SearchPanel.module.scss", "code": "margin: 0;", "line": 10 },
     {
       "file": "ToggleBlock.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 6
     },
     {
       "file": "ToggleBlock.module.scss",
-      "css": "padding-top: rem(9);",
+      "code": "padding-top: rem(9);",
       "line": 13
     },
     {
       "file": "ToggleBlock.module.scss",
-      "css": "font-size: rem(15);",
+      "code": "font-size: rem(15);",
       "line": 15
     },
     {
       "file": "ToggleBlock.module.scss",
-      "css": "padding-top: rem(3);",
+      "code": "padding-top: rem(3);",
       "line": 27
     },
     {
       "file": "ToggleBlock.module.scss",
-      "css": "font-size: rem(13);",
+      "code": "font-size: rem(13);",
       "line": 28
     },
-    { "file": "Typeahead.module.scss", "css": "margin: 0 0 1rem;", "line": 3 },
-    { "file": "Typeahead.module.scss", "css": "margin-bottom: 0;", "line": 7 },
-    { "file": "Typeahead.module.scss", "css": "margin-top: 3px;", "line": 17 },
+    { "file": "Typeahead.module.scss", "code": "margin: 0 0 1rem;", "line": 3 },
+    { "file": "Typeahead.module.scss", "code": "margin-bottom: 0;", "line": 7 },
+    { "file": "Typeahead.module.scss", "code": "margin-top: 3px;", "line": 17 },
     {
       "file": "Typeahead.module.scss",
-      "css": "margin-top: rem(-18)",
+      "code": "margin-top: rem(-18)",
       "line": 36
     },
     {
       "file": "Typeahead.module.scss",
-      "css": "font-size: rem(15);",
+      "code": "font-size: rem(15);",
       "line": 43
     },
     {
       "file": "Typeahead.module.scss",
-      "css": "font-size: rem(14);",
+      "code": "font-size: rem(14);",
       "line": 48
     },
     {
       "file": "UsageReport.module.scss",
-      "css": "margin-right: rem(33);",
+      "code": "margin-right: rem(33);",
       "line": 4
     },
     {
       "file": "UsageReport.module.scss",
-      "css": "margin-bottom: rem(9);",
+      "code": "margin-bottom: rem(9);",
       "line": 8
     },
     {
       "file": "UsageReport.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 18
     },
     {
       "file": "UsageReport.module.scss",
-      "css": "padding-left: rem(9);",
+      "code": "padding-left: rem(9);",
       "line": 29
     },
-    { "file": "critical.scss", "css": "z-index: 99999;", "line": 17 },
+    { "file": "critical.scss", "code": "z-index: 99999;", "line": 17 },
     {
       "file": "critical.scss",
-      "css": "font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Arial, sans-serif;",
+      "code": "font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Arial, sans-serif;",
       "line": 66
     },
-    { "file": "index.scss", "css": "font-size: 16px;", "line": 8 },
+    { "file": "index.scss", "code": "font-size: 16px;", "line": 8 },
     {
       "file": "index.scss",
-      "css": "@media screen and (min-width: breakpoint(medium)) { font-size: 18px; }",
+      "code": "@media screen and (min-width: breakpoint(medium)) { font-size: 18px; }",
       "line": 9
     },
     {
       "file": "index.scss",
-      "css": "@media screen and (min-width: breakpoint(larger)) { font-size: 20px; }",
+      "code": "@media screen and (min-width: breakpoint(larger)) { font-size: 20px; }",
       "line": 10
     },
-    { "file": "index.scss", "css": "color: #aaa;", "line": 14 },
-    { "file": "index.scss", "css": "color: #aaa;", "line": 17 },
-    { "file": "index.scss", "css": "color: #aaa;", "line": 20 },
-    { "file": "index.scss", "css": "color: #aaa;", "line": 23 },
-    { "file": "index.scss", "css": "border-top: none;", "line": 27 },
-    { "file": "index.scss", "css": "border-left: none;", "line": 28 },
-    { "file": "index.scss", "css": "border-right: none;", "line": 29 },
+    { "file": "index.scss", "code": "color: #aaa;", "line": 14 },
+    { "file": "index.scss", "code": "color: #aaa;", "line": 17 },
+    { "file": "index.scss", "code": "color: #aaa;", "line": 20 },
+    { "file": "index.scss", "code": "color: #aaa;", "line": 23 },
+    { "file": "index.scss", "code": "border-top: none;", "line": 27 },
+    { "file": "index.scss", "code": "border-left: none;", "line": 28 },
+    { "file": "index.scss", "code": "border-right: none;", "line": 29 },
     {
       "file": "VariantsFields.module.scss",
-      "css": "font-size: rem(14);",
+      "code": "font-size: rem(14);",
       "line": 3
     },
     {
       "file": "VariantsFields.module.scss",
-      "css": "margin-bottom: -1.1rem;",
+      "code": "margin-bottom: -1.1rem;",
       "line": 9
     },
-    { "file": "VariantsFields.module.scss", "css": "z-index: 1;", "line": 10 },
+    { "file": "VariantsFields.module.scss", "code": "z-index: 1;", "line": 10 },
     {
       "file": "Section.module.scss",
-      "css": "margin-top: rem(-42);",
+      "code": "margin-top: rem(-42);",
       "line": 6
     },
-    { "file": "View.module.scss", "css": "font-size: rem(14);", "line": 5 },
-    { "file": "View.module.scss", "css": "font-size: rem(14);", "line": 9 },
-    { "file": "ListPage.module.scss", "css": "margin-bottom: 0;", "line": 3 },
-    { "file": "ListPage.module.scss", "css": "margin-bottom: 0;", "line": 7 },
-    { "file": "ListPage.module.scss", "css": "margin-bottom: 0;", "line": 13 },
-    { "file": "ListPage.module.scss", "css": "margin-bottom: 0;", "line": 17 },
+    { "file": "View.module.scss", "code": "font-size: rem(14);", "line": 5 },
+    { "file": "View.module.scss", "code": "font-size: rem(14);", "line": 9 },
+    { "file": "ListPage.module.scss", "code": "margin-bottom: 0;", "line": 3 },
+    { "file": "ListPage.module.scss", "code": "margin-bottom: 0;", "line": 7 },
+    { "file": "ListPage.module.scss", "code": "margin-bottom: 0;", "line": 13 },
+    { "file": "ListPage.module.scss", "code": "margin-bottom: 0;", "line": 17 },
     {
       "file": "ProviderForm.module.scss",
-      "css": "padding-bottom: 3em;",
+      "code": "padding-bottom: 3em;",
       "line": 5
     },
     {
       "file": "AlertCollection.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 18
     },
     {
       "file": "AlertDetails.module.scss",
-      "css": "margin: 0 rem(5) rem(10);",
+      "code": "margin: 0 rem(5) rem(10);",
       "line": 19
     },
     {
       "file": "AlertDetails.module.scss",
-      "css": "margin: 0 rem(5) rem(10) 0;",
+      "code": "margin: 0 rem(5) rem(10) 0;",
       "line": 25
     },
     {
       "file": "AlertDetails.module.scss",
-      "css": "margin: 0 rem(5) rem(10);",
+      "code": "margin: 0 rem(5) rem(10);",
       "line": 31
     },
     {
       "file": "AlertDetails.module.scss",
-      "css": "margin: 0 0 0 rem(5);",
+      "code": "margin: 0 0 0 rem(5);",
       "line": 42
     },
     {
       "file": "AlertForm.module.scss",
-      "css": "padding-top: rem(20);",
+      "code": "padding-top: rem(20);",
       "line": 3
     },
     {
       "file": "AlertForm.module.scss",
-      "css": "padding: rem(15) 0;",
+      "code": "padding: rem(15) 0;",
       "line": 7
     },
     {
       "file": "AlertForm.module.scss",
-      "css": "padding-top: rem(15);",
+      "code": "padding-top: rem(15);",
       "line": 11
     },
     {
       "file": "AlertForm.module.scss",
-      "css": "padding-top: rem(15);",
+      "code": "padding-top: rem(15);",
       "line": 15
     },
     {
       "file": "AlertForm.module.scss",
-      "css": "padding-top: rem(15);",
+      "code": "padding-top: rem(15);",
       "line": 19
     },
     {
       "file": "AlertForm.module.scss",
-      "css": "margin-top: rem(20);",
+      "code": "margin-top: rem(20);",
       "line": 27
     },
     {
       "file": "EvaluatorFields.module.scss",
-      "css": "margin-bottom: rem(20);",
+      "code": "margin-bottom: rem(20);",
       "line": 4
     },
     {
       "file": "EvaluatorFields.module.scss",
-      "css": "margin-top: rem(-15);",
+      "code": "margin-top: rem(-15);",
       "line": 5
     },
     {
       "file": "DetailsPage.module.scss",
-      "css": "margin: 0 rem(3) rem(5);",
+      "code": "margin: 0 rem(3) rem(5);",
       "line": 3
     },
-    { "file": "ListPage.module.scss", "css": "padding: 1rem;", "line": 5 },
+    { "file": "ListPage.module.scss", "code": "padding: 1rem;", "line": 5 },
     {
       "file": "ListPage.module.scss",
-      "css": "padding: rem(10) 0 rem(45);",
+      "code": "padding: rem(10) 0 rem(45);",
       "line": 12
     },
     {
       "file": "ListPage.module.scss",
-      "css": "font-size: rem(17);",
+      "code": "font-size: rem(17);",
       "line": 18
     },
     {
       "file": "ListPage.module.scss",
-      "css": "margin-bottom: rem(30);",
+      "code": "margin-bottom: rem(30);",
       "line": 20
     },
     {
       "file": "PendingCancelGlobalBanner.module.scss",
-      "css": "color: white;",
+      "code": "color: white;",
       "line": 10
     },
     {
       "file": "PendingCancelGlobalBanner.module.scss",
-      "css": "color: white;",
+      "code": "color: white;",
       "line": 18
     },
     {
       "file": "PendingCancelGlobalBanner.module.scss",
-      "css": "border: 2px solid white;",
+      "code": "border: 2px solid white;",
       "line": 19
     },
     {
       "file": "PendingCancelGlobalBanner.module.scss",
-      "css": "margin-left: 2rem;",
+      "code": "margin-left: 2rem;",
       "line": 20
     },
     {
       "file": "PendingCancelGlobalBanner.module.scss",
-      "css": "padding-left: initial 1rem;",
+      "code": "padding-left: initial 1rem;",
       "line": 21
     },
     {
       "file": "PendingCancelGlobalBanner.module.scss",
-      "css": "color: white;",
+      "code": "color: white;",
       "line": 34
     },
     {
       "file": "PendingCancelGlobalBanner.module.scss",
-      "css": "margin-right: 8px;",
+      "code": "margin-right: 8px;",
       "line": 35
     },
     {
       "file": "PlanSummary.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 1
     },
     {
       "file": "RecipientValidationModal.module.scss",
-      "css": "margin: 10px 20px;",
+      "code": "margin: 10px 20px;",
       "line": 17
     },
     {
       "file": "RecipientValidationModal.module.scss",
-      "css": "margin: 0 20px;",
+      "code": "margin: 0 20px;",
       "line": 23
     },
     {
       "file": "RecipientValidationModal.module.scss",
-      "css": "padding: 15px 0;",
+      "code": "padding: 15px 0;",
       "line": 24
     },
     {
       "file": "RecipientValidationModal.module.scss",
-      "css": "margin: 0 auto;",
+      "code": "margin: 0 auto;",
       "line": 30
     },
     {
       "file": "TutorialItem.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 9
     },
     {
       "file": "TutorialItem.module.scss",
-      "css": "font-size: rem(15);",
+      "code": "font-size: rem(15);",
       "line": 10
     },
     {
       "file": "TutorialItem.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 26
     },
     {
       "file": "TutorialItem.module.scss",
-      "css": "border-radius: 50%;",
+      "code": "border-radius: 50%;",
       "line": 45
     },
-    { "file": "Dot.module.scss", "css": "margin: 0 13px 0 0;", "line": 3 },
-    { "file": "Dot.module.scss", "css": "border-radius: 50%;", "line": 6 },
+    { "file": "Dot.module.scss", "code": "margin: 0 13px 0 0;", "line": 3 },
+    { "file": "Dot.module.scss", "code": "border-radius: 50%;", "line": 6 },
     {
       "file": "FilterSortCollection.module.scss",
-      "css": "padding: 1rem 1rem 0;",
+      "code": "padding: 1rem 1rem 0;",
       "line": 7
     },
     {
       "file": "FilterSortCollection.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 16
     },
     {
       "file": "ProvidersBreakdown.module.scss",
-      "css": "border-bottom: 0px;",
+      "code": "border-bottom: 0px;",
       "line": 4
     },
     {
       "file": "ProvidersBreakdown.module.scss",
-      "css": "border-bottom: 0px;",
+      "code": "border-bottom: 0px;",
       "line": 9
     },
-    { "file": "SeedList.module.scss", "css": "margin-left: 20px;", "line": 11 },
+    {
+      "file": "SeedList.module.scss",
+      "code": "margin-left: 20px;",
+      "line": 11
+    },
     {
       "file": "TestListPage.module.scss",
-      "css": "font-size: medium;",
+      "code": "font-size: medium;",
       "line": 6
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "padding: 0 0 0 rem(2.1);",
+      "code": "padding: 0 0 0 rem(2.1);",
       "line": 10
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "padding: rem(0.3) 0 rem(0.3) rem(1);",
+      "code": "padding: rem(0.3) 0 rem(0.3) rem(1);",
       "line": 14
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "padding-top: 0;",
+      "code": "padding-top: 0;",
       "line": 24
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "padding: 0.2rem 1rem 0 0;",
+      "code": "padding: 0.2rem 1rem 0 0;",
       "line": 28
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "font-size: large;",
+      "code": "font-size: large;",
       "line": 31
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "padding: 0 0 0 1.3rem;",
+      "code": "padding: 0 0 0 1.3rem;",
       "line": 44
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "margin: 0.2rem 0 0 0;",
+      "code": "margin: 0.2rem 0 0 0;",
       "line": 45
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "margin: 0 0.5rem 0 0.5rem;",
+      "code": "margin: 0 0.5rem 0 0.5rem;",
       "line": 49
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "padding: 0 0 0 1.2rem;",
+      "code": "padding: 0 0 0 1.2rem;",
       "line": 55
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "margin: 0.2rem 0 0 0;",
+      "code": "margin: 0.2rem 0 0 0;",
       "line": 56
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "padding: 0 0.2rem 0 0;",
+      "code": "padding: 0 0.2rem 0 0;",
       "line": 61
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 69
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "padding: 0.4rem 0 0.1rem 0;",
+      "code": "padding: 0.4rem 0 0.1rem 0;",
       "line": 71
     },
     {
       "file": "TestListPage.module.scss",
-      "css": "padding-top: 0;",
+      "code": "padding-top: 0;",
       "line": 79
     },
     {
       "file": "JoinForm.module.scss",
-      "css": "margin-bottom: rem(16);",
+      "code": "margin-bottom: rem(16);",
       "line": 3
     },
-    { "file": "Steps.module.scss", "css": "font-size: rem(15);", "line": 18 },
-    { "file": "BackupCodesList.module.scss", "css": "padding: 0;", "line": 3 },
+    { "file": "Steps.module.scss", "code": "font-size: rem(15);", "line": 18 },
+    { "file": "BackupCodesList.module.scss", "code": "padding: 0;", "line": 3 },
     {
       "file": "BackupCodesList.module.scss",
-      "css": "font-size: rem(16);",
+      "code": "font-size: rem(16);",
       "line": 14
     },
     {
       "file": "ApiDetails.module.scss",
-      "css": "padding: rem(20) rem(30);",
+      "code": "padding: rem(20) rem(30);",
       "line": 3
     },
     {
       "file": "ApiDetails.module.scss",
-      "css": "font-size: rem(20);",
+      "code": "font-size: rem(20);",
       "line": 8
     },
     {
       "file": "ApiDetails.module.scss",
-      "css": "padding: rem(15) 0;",
+      "code": "padding: rem(15) 0;",
       "line": 19
     },
     {
       "file": "ApiDetails.module.scss",
-      "css": "margin: rem(40) 0;",
+      "code": "margin: rem(40) 0;",
       "line": 20
     },
     {
       "file": "ApiDetails.module.scss",
-      "css": "margin-right: rem(10);",
+      "code": "margin-right: rem(10);",
       "line": 24
     },
     {
       "file": "ApiDetails.module.scss",
-      "css": "margin-top: rem(15);",
+      "code": "margin-top: rem(15);",
       "line": 30
     },
-    { "file": "ApiDetails.module.scss", "css": "margin: 1rem;", "line": 31 },
+    { "file": "ApiDetails.module.scss", "code": "margin: 1rem;", "line": 31 },
     {
       "file": "ApiDetails.module.scss",
-      "css": "font-size: rem(13);",
+      "code": "font-size: rem(13);",
       "line": 35
     },
     {
       "file": "ApiDetails.module.scss",
-      "css": "padding-left: 1em;",
+      "code": "padding-left: 1em;",
       "line": 40
     },
-    { "file": "ApiDetails.module.scss", "css": "color: #8FC4FE;", "line": 44 },
+    { "file": "ApiDetails.module.scss", "code": "color: #8FC4FE;", "line": 44 },
     {
       "file": "CodeBlock.module.scss",
-      "css": "background: #3C3C40;",
+      "code": "background: #3C3C40;",
       "line": 3
     },
-    { "file": "CodeBlock.module.scss", "css": "color: white;", "line": 9 },
-    { "file": "CodeBlock.module.scss", "css": "color: white;", "line": 13 },
+    { "file": "CodeBlock.module.scss", "code": "color: white;", "line": 9 },
+    { "file": "CodeBlock.module.scss", "code": "color: white;", "line": 13 },
     {
       "file": "FileUploadWrapper.module.scss",
-      "css": "margin: 0 auto;",
+      "code": "margin: 0 auto;",
       "line": 4
     },
     {
       "file": "FileUploadWrapper.module.scss",
-      "css": "font-size: rem(20);",
+      "code": "font-size: rem(20);",
       "line": 17
     },
     {
       "file": "FileUploadWrapper.module.scss",
-      "css": "font-size: rem(15);",
+      "code": "font-size: rem(15);",
       "line": 25
     },
     {
       "file": "FileUploadWrapper.module.scss",
-      "css": "padding: rem(50);",
+      "code": "padding: rem(50);",
       "line": 36
     },
     {
       "file": "FileUploadWrapper.module.scss",
-      "css": "border: 1px dashed transparent;",
+      "code": "border: 1px dashed transparent;",
       "line": 37
     },
     {
       "file": "RecipientValidationPriceTable.module.scss",
-      "css": "border-bottom: 0;",
+      "code": "border-bottom: 0;",
       "line": 4
     },
     {
       "file": "RecipientValidationPriceTable.module.scss",
-      "css": "font-size: rem(15);",
+      "code": "font-size: rem(15);",
       "line": 5
     },
     {
       "file": "RVDisabledPage.module.scss",
-      "css": "padding: rem(30) rem(45) rem(15);",
+      "code": "padding: rem(30) rem(45) rem(15);",
       "line": 3
     },
     {
       "file": "RVDisabledPage.module.scss",
-      "css": "font-size: rem(17);",
+      "code": "font-size: rem(17);",
       "line": 4
     },
     {
       "file": "RVDisabledPage.module.scss",
-      "css": "margin-bottom: rem(60);",
+      "code": "margin-bottom: rem(60);",
       "line": 8
     },
     {
       "file": "RVDisabledPage.module.scss",
-      "css": "@media screen and (min-width: breakpoint(large)) { margin-right: 25%; }",
+      "code": "@media screen and (min-width: breakpoint(large)) { margin-right: 25%; }",
       "line": 10
     },
     {
       "file": "SingleAddressForm.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 21
     },
     {
       "file": "SingleAddressForm.module.scss",
-      "css": "padding-left: rem(40)",
+      "code": "padding-left: rem(40)",
       "line": 22
     },
     {
       "file": "SingleAddressForm.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 26
     },
     {
       "file": "SingleAddressForm.module.scss",
-      "css": "font-size: rem(20);",
+      "code": "font-size: rem(20);",
       "line": 31
     },
     {
       "file": "SingleAddressForm.module.scss",
-      "css": "margin: 4rem auto 0;",
+      "code": "margin: 4rem auto 0;",
       "line": 42
     },
     {
       "file": "SingleAddressForm.module.scss",
-      "css": "margin: 3em auto;",
+      "code": "margin: 3em auto;",
       "line": 47
     },
-    { "file": "Tooltip.module.scss", "css": "margin-top: -0.05em;", "line": 4 },
-    { "file": "Tooltip.module.scss", "css": "margin-left: 1ch;", "line": 5 },
-    { "file": "Tooltip.module.scss", "css": "padding: 10px;", "line": 9 },
+    {
+      "file": "Tooltip.module.scss",
+      "code": "margin-top: -0.05em;",
+      "line": 4
+    },
+    { "file": "Tooltip.module.scss", "code": "margin-left: 1ch;", "line": 5 },
+    { "file": "Tooltip.module.scss", "code": "padding: 10px;", "line": 9 },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "padding: 12px;",
+      "code": "padding: 12px;",
       "line": 3
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "font-size: 2.5em;",
+      "code": "font-size: 2.5em;",
       "line": 9
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin-top: .5em;",
+      "code": "margin-top: .5em;",
       "line": 12
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin-bottom: 2rem;",
+      "code": "margin-bottom: 2rem;",
       "line": 13
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin-top: 4rem;",
+      "code": "margin-top: 4rem;",
       "line": 21
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin-bottom: 1.5rem;",
+      "code": "margin-bottom: 1.5rem;",
       "line": 22
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin-right: 20px;",
+      "code": "margin-right: 20px;",
       "line": 25
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "padding-left: 2rem;",
+      "code": "padding-left: 2rem;",
       "line": 26
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "padding-right: 2rem;",
+      "code": "padding-right: 2rem;",
       "line": 27
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "font-size: 2.5em;",
+      "code": "font-size: 2.5em;",
       "line": 32
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin-top: .5em;",
+      "code": "margin-top: .5em;",
       "line": 35
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin-right: 1em;",
+      "code": "margin-right: 1em;",
       "line": 36
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin-bottom: 3rem;",
+      "code": "margin-bottom: 3rem;",
       "line": 41
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "font-size: 90%;",
+      "code": "font-size: 90%;",
       "line": 42
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin: 0 auto;",
+      "code": "margin: 0 auto;",
       "line": 47
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "padding: 2rem 3rem;",
+      "code": "padding: 2rem 3rem;",
       "line": 51
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "padding: 8px 0;",
+      "code": "padding: 8px 0;",
       "line": 55
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin-top: .5em;",
+      "code": "margin-top: .5em;",
       "line": 59
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "margin-right: 1em;",
+      "code": "margin-right: 1em;",
       "line": 60
     },
     {
       "file": "RecipientValidationPage.module.scss",
-      "css": "margin-bottom: 2rem;",
+      "code": "margin-bottom: 2rem;",
       "line": 8
     },
     {
       "file": "RecipientValidationPage.module.scss",
-      "css": "margin: 0 auto;",
+      "code": "margin: 0 auto;",
       "line": 15
     },
     {
       "file": "RecipientValidationPage.module.scss",
-      "css": "padding: 2rem 3rem;",
+      "code": "padding: 2rem 3rem;",
       "line": 19
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "margin-bottom: 2rem;",
+      "code": "margin-bottom: 2rem;",
       "line": 3
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "margin-bottom: 2rem;",
+      "code": "margin-bottom: 2rem;",
       "line": 8
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "padding-left: 1em;",
+      "code": "padding-left: 1em;",
       "line": 12
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "margin-bottom: 2rem;",
+      "code": "margin-bottom: 2rem;",
       "line": 16
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "font-size: 1rem;",
+      "code": "font-size: 1rem;",
       "line": 17
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "margin-bottom: 2rem;",
+      "code": "margin-bottom: 2rem;",
       "line": 27
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "color: #44D09E;",
+      "code": "color: #44D09E;",
       "line": 31
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "color: #8FC4FE;",
+      "code": "color: #8FC4FE;",
       "line": 43
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "margin-bottom: 2.5rem;",
+      "code": "margin-bottom: 2.5rem;",
       "line": 52
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "margin-bottom: 1.5rem;",
+      "code": "margin-bottom: 1.5rem;",
       "line": 56
     },
-    { "file": "SingleResult.module.scss", "css": "padding: 1rem;", "line": 58 },
+    {
+      "file": "SingleResult.module.scss",
+      "code": "padding: 1rem;",
+      "line": 58
+    },
     {
       "file": "UploadedListPage.module.scss",
-      "css": "font-size: 1rem;",
+      "code": "font-size: 1rem;",
       "line": 3
     },
     {
       "file": "UploadedListPage.module.scss",
-      "css": "padding-left: 12px;",
+      "code": "padding-left: 12px;",
       "line": 5
     },
     {
       "file": "CustomReportRow.module.scss",
-      "css": "border-bottom: none;",
+      "code": "border-bottom: none;",
       "line": 7
     },
     {
       "file": "CustomReports.module.scss",
-      "css": "margin-top: -0.2em;",
+      "code": "margin-top: -0.2em;",
       "line": 23
     },
     {
       "file": "CustomReports.module.scss",
-      "css": "margin-right: 0.5ch;",
+      "code": "margin-right: 0.5ch;",
       "line": 24
     },
     {
       "file": "MetricCard.module.scss",
-      "css": "padding: rem(30);",
+      "code": "padding: rem(30);",
       "line": 10
     },
     {
       "file": "MetricCard.module.scss",
-      "css": "font-size: rem(36);",
+      "code": "font-size: rem(36);",
       "line": 16
     },
     {
       "file": "MetricCard.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 17
     },
     {
       "file": "MetricCard.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 21
     },
     {
       "file": "MetricsSummary.module.scss",
-      "css": "font-size: rem(36);",
+      "code": "font-size: rem(36);",
       "line": 4
     },
     {
       "file": "MetricsSummary.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 5
     },
     {
       "file": "MetricsSummary.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 14
     },
     {
       "file": "MetricsSummary.module.scss",
-      "css": "font-size: rem(19);",
+      "code": "font-size: rem(19);",
       "line": 19
     },
     {
       "file": "MetricsSummary.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 21
     },
     {
       "file": "MetricsSummary.module.scss",
-      "css": "padding: rem(30);",
+      "code": "padding: rem(30);",
       "line": 34
     },
-    { "file": "MetricsSummary.module.scss", "css": "margin: 0;", "line": 39 },
+    { "file": "MetricsSummary.module.scss", "code": "margin: 0;", "line": 39 },
     {
       "file": "ReportOptions.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 5
     },
-    { "file": "Typeahead.module.scss", "css": "z-index: 1;", "line": 8 },
-    { "file": "Typeahead.module.scss", "css": "margin-top: 3px;", "line": 13 },
+    { "file": "Typeahead.module.scss", "code": "z-index: 1;", "line": 8 },
+    { "file": "Typeahead.module.scss", "code": "margin-top: 3px;", "line": 13 },
     {
       "file": "Typeahead.module.scss",
-      "css": "font-size: rem(15);",
+      "code": "font-size: rem(15);",
       "line": 39
     },
     {
       "file": "Typeahead.module.scss",
-      "css": "font-size: rem(14);",
+      "code": "font-size: rem(14);",
       "line": 47
     },
     {
       "file": "EngagementChart.module.scss",
-      "css": "font-size: rem(13);",
+      "code": "font-size: rem(13);",
       "line": 13
     },
     {
       "file": "EngagementSummary.module.scss",
-      "css": "padding: rem(30);",
+      "code": "padding: rem(30);",
       "line": 3
     },
     {
       "file": "EngagementSummary.module.scss",
-      "css": "font-size: rem(36);",
+      "code": "font-size: rem(36);",
       "line": 7
     },
     {
       "file": "EngagementSummary.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 8
     },
     {
       "file": "EngagementSummary.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 17
     },
     {
       "file": "EngagementSummary.module.scss",
-      "css": "font-size: rem(19);",
+      "code": "font-size: rem(19);",
       "line": 22
     },
     {
       "file": "EngagementSummary.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 24
     },
     {
       "file": "CursorPaging.module.scss",
-      "css": "font-size: 80%;",
+      "code": "font-size: 80%;",
       "line": 16
     },
     {
       "file": "CursorPaging.module.scss",
-      "css": "color: rgba(0,0,0,0.5);",
+      "code": "color: rgba(0,0,0,0.5);",
       "line": 18
     },
     {
       "file": "CursorPaging.module.scss",
-      "css": "margin-left: 20px;",
+      "code": "margin-left: 20px;",
       "line": 19
     },
-    { "file": "CursorPaging.module.scss", "css": "color: black;", "line": 23 },
-    { "file": "SearchForm.module.scss", "css": "margin: 0;", "line": 8 },
+    { "file": "CursorPaging.module.scss", "code": "color: black;", "line": 23 },
+    { "file": "SearchForm.module.scss", "code": "margin: 0;", "line": 8 },
     {
       "file": "SearchForm.module.scss",
-      "css": "margin-bottom: 5px;",
+      "code": "margin-bottom: 5px;",
       "line": 27
     },
     {
       "file": "SearchForm.module.scss",
-      "css": "margin-left: 5px;",
+      "code": "margin-left: 5px;",
       "line": 32
     },
     {
       "file": "SearchForm.module.scss",
-      "css": "margin-bottom: 1px;",
+      "code": "margin-bottom: 1px;",
       "line": 33
     },
     {
       "file": "MessageEventsPage.module.scss",
-      "css": "margin-left: 5px;",
+      "code": "margin-left: 5px;",
       "line": 12
     },
     {
       "file": "MessageEventsPage.module.scss",
-      "css": "margin-bottom: 3px;",
+      "code": "margin-bottom: 3px;",
       "line": 13
     },
-    { "file": "LineChart.scss", "css": "margin-bottom: rem(30);", "line": 4 },
-    { "file": "LineChart.scss", "css": "margin-bottom: 0;", "line": 8 },
-    { "file": "LineChart.scss", "css": "font-size: 13px;", "line": 14 },
-    { "file": "LineChart.scss", "css": "font-size: 13px", "line": 37 },
+    { "file": "LineChart.scss", "code": "margin-bottom: rem(30);", "line": 4 },
+    { "file": "LineChart.scss", "code": "margin-bottom: 0;", "line": 8 },
+    { "file": "LineChart.scss", "code": "font-size: 13px;", "line": 14 },
+    { "file": "LineChart.scss", "code": "font-size: 13px", "line": 37 },
     {
       "file": "LineChart.scss",
-      "css": "background: #fff !important; // fuck cssinjs",
+      "code": "background: #fff !important; // fuck cssinjs",
       "line": 68
     },
     {
       "file": "LineChart.scss",
-      "css": "padding: rem(18) !important;",
+      "code": "padding: rem(18) !important;",
       "line": 72
     },
-    { "file": "LineChart.scss", "css": "font-size: rem(15);", "line": 77 },
+    { "file": "LineChart.scss", "code": "font-size: rem(15);", "line": 77 },
     {
       "file": "LineChart.scss",
-      "css": "margin-bottom: rem(9) !important;",
+      "code": "margin-bottom: rem(9) !important;",
       "line": 78
     },
     {
       "file": "LineChart.scss",
-      "css": "font-size: rem(13) !important;",
+      "code": "font-size: rem(13) !important;",
       "line": 82
     },
-    { "file": "LineChart.scss", "css": "margin: 0 !important;", "line": 83 },
-    { "file": "LineChart.scss", "css": "padding: 0 !important;", "line": 84 },
-    { "file": "LineChart.scss", "css": "padding-right: rem(55);", "line": 89 },
-    { "file": "LineChart.scss", "css": "margin-left: rem(30);", "line": 103 },
-    { "file": "LineChart.scss", "css": "padding-top: rem(11);", "line": 104 },
-    { "file": "LineChart.scss", "css": "padding-bottom: rem(0);", "line": 105 },
+    { "file": "LineChart.scss", "code": "margin: 0 !important;", "line": 83 },
+    { "file": "LineChart.scss", "code": "padding: 0 !important;", "line": 84 },
+    { "file": "LineChart.scss", "code": "padding-right: rem(55);", "line": 89 },
+    { "file": "LineChart.scss", "code": "margin-left: rem(30);", "line": 103 },
+    { "file": "LineChart.scss", "code": "padding-top: rem(11);", "line": 104 },
     {
       "file": "LineChart.scss",
-      "css": "padding: rem(0) rem(15) rem(24) rem(6);",
+      "code": "padding-bottom: rem(0);",
+      "line": 105
+    },
+    {
+      "file": "LineChart.scss",
+      "code": "padding: rem(0) rem(15) rem(24) rem(6);",
       "line": 111
     },
-    { "file": "LineChart.scss", "css": "font-size: rem(13);", "line": 112 },
-    { "file": "LineChart.scss", "css": "margin-top: rem(-24);", "line": 115 },
+    { "file": "LineChart.scss", "code": "font-size: rem(13);", "line": 112 },
+    { "file": "LineChart.scss", "code": "margin-top: rem(-24);", "line": 115 },
     {
       "file": "ChartHeader.module.scss",
-      "css": "font-size: rem(13);",
+      "code": "font-size: rem(13);",
       "line": 8
     },
-    { "file": "ChartHeader.module.scss", "css": "margin-top: 0;", "line": 24 },
-    { "file": "ChartHeader.module.scss", "css": "margin-left: 0;", "line": 25 },
-    { "file": "Legend.module.scss", "css": "margin-top: rem(3);", "line": 3 },
+    { "file": "ChartHeader.module.scss", "code": "margin-top: 0;", "line": 24 },
+    {
+      "file": "ChartHeader.module.scss",
+      "code": "margin-left: 0;",
+      "line": 25
+    },
+    { "file": "Legend.module.scss", "code": "margin-top: rem(3);", "line": 3 },
     {
       "file": "Legend.module.scss",
-      "css": "margin-right: rem(9);",
+      "code": "margin-right: rem(9);",
       "line": 17
     },
-    { "file": "Legend.module.scss", "css": "margin-top: -2px;", "line": 18 },
+    { "file": "Legend.module.scss", "code": "margin-top: -2px;", "line": 18 },
     {
       "file": "MetricsModal.module.scss",
-      "css": "margin-bottom: rem(3);",
+      "code": "margin-bottom: rem(3);",
       "line": 12
     },
     {
       "file": "MetricsModal.module.scss",
-      "css": "margin-right: -4px;",
+      "code": "margin-right: -4px;",
       "line": 15
     },
     {
       "file": "EditBounce.module.scss",
-      "css": "margin-bottom: 5px;",
+      "code": "margin-bottom: 5px;",
       "line": 3
     },
-    { "file": "EditBounce.module.scss", "css": "margin: 0 auto;", "line": 7 },
-    { "file": "Icons.module.scss", "css": "margin-right: 3px;", "line": 3 },
+    { "file": "EditBounce.module.scss", "code": "margin: 0 auto;", "line": 7 },
+    { "file": "Icons.module.scss", "code": "margin-right: 3px;", "line": 3 },
     {
       "file": "SendingDomainSection.module.scss",
-      "css": "margin-top: rem(-42);",
+      "code": "margin-top: rem(-42);",
       "line": 6
     },
-    { "file": "Actions.module.scss", "css": "margin-bottom: 0;", "line": 22 },
+    { "file": "Actions.module.scss", "code": "margin-bottom: 0;", "line": 22 },
     {
       "file": "Actions.module.scss",
-      "css": "padding-top: rem(8);",
+      "code": "padding-top: rem(8);",
       "line": 56
     },
     {
       "file": "Actions.module.scss",
-      "css": "margin-bottom: rem(23);",
+      "code": "margin-bottom: rem(23);",
       "line": 62
     },
     {
       "file": "ChartHeader.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 10
     },
-    { "file": "BarChart.scss", "css": "font-size: 13px;", "line": 6 },
-    { "file": "Legend.module.scss", "css": "border-radius: 50%;", "line": 12 },
-    { "file": "Legend.module.scss", "css": "font-size: rem(12);", "line": 18 },
+    { "file": "BarChart.scss", "code": "font-size: 13px;", "line": 6 },
+    { "file": "Legend.module.scss", "code": "border-radius: 50%;", "line": 12 },
+    { "file": "Legend.module.scss", "code": "font-size: rem(12);", "line": 18 },
     {
       "file": "Tooltip.module.scss",
-      "css": "padding: rem(9) rem(13);",
+      "code": "padding: rem(9) rem(13);",
       "line": 11
     },
-    { "file": "Tooltip.module.scss", "css": "font-size: rem(13);", "line": 16 },
-    { "file": "Tooltip.module.scss", "css": "font-size: rem(15);", "line": 20 },
-    { "file": "Tooltip.scss", "css": "z-index: 1;", "line": 5 },
+    {
+      "file": "Tooltip.module.scss",
+      "code": "font-size: rem(13);",
+      "line": 16
+    },
+    {
+      "file": "Tooltip.module.scss",
+      "code": "font-size: rem(15);",
+      "line": 20
+    },
+    { "file": "Tooltip.scss", "code": "z-index: 1;", "line": 5 },
     {
       "file": "TooltipMetric.module.scss",
-      "css": "margin-right: rem(12);",
+      "code": "margin-right: rem(12);",
       "line": 24
     },
     {
       "file": "TooltipMetric.module.scss",
-      "css": "background: red;",
+      "code": "background: red;",
       "line": 25
     },
     {
       "file": "TooltipMetric.module.scss",
-      "css": "font-size: rem(12);",
+      "code": "font-size: rem(12);",
       "line": 47
     },
     {
       "file": "DataCell.module.scss",
-      "css": "margin-top: -0.15em;",
+      "code": "margin-top: -0.15em;",
       "line": 46
     },
     {
       "file": "FacetFilter.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 13
     },
     {
       "file": "FacetFilter.module.scss",
-      "css": "border-top-right-radius: 0;",
+      "code": "border-top-right-radius: 0;",
       "line": 16
     },
     {
       "file": "FacetFilter.module.scss",
-      "css": "border-bottom-right-radius: 0;",
+      "code": "border-bottom-right-radius: 0;",
       "line": 17
     },
-    { "file": "FacetFilter.module.scss", "css": "z-index: 1;", "line": 20 },
+    { "file": "FacetFilter.module.scss", "code": "z-index: 1;", "line": 20 },
     {
       "file": "FacetFilter.module.scss",
-      "css": "margin-left: -1px;",
+      "code": "margin-left: -1px;",
       "line": 26
     },
     {
       "file": "FacetFilter.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 27
     },
     {
       "file": "FacetFilter.module.scss",
-      "css": "border-top-left-radius: 0;",
+      "code": "border-top-left-radius: 0;",
       "line": 30
     },
     {
       "file": "FacetFilter.module.scss",
-      "css": "border-bottom-left-radius: 0;",
+      "code": "border-bottom-left-radius: 0;",
       "line": 31
     },
     {
       "file": "InfoTooltip.module.scss",
-      "css": "margin-top: -0.05em;",
+      "code": "margin-top: -0.05em;",
       "line": 4
     },
     {
       "file": "InfoTooltip.module.scss",
-      "css": "margin-left: 1ch;",
+      "code": "margin-left: 1ch;",
       "line": 5
     },
     {
       "file": "OverviewHelpCopy.module.scss",
-      "css": "margin-top: rem(-21); // Offset Page margin bottom",
+      "code": "margin-top: rem(-21); // Offset Page margin bottom",
       "line": 3
     },
     {
       "file": "OverviewHelpCopy.module.scss",
-      "css": "margin-bottom: rem(21);",
+      "code": "margin-bottom: rem(21);",
       "line": 4
     },
     {
       "file": "OverviewHelpCopy.module.scss",
-      "css": "font-size: rem(13);",
+      "code": "font-size: rem(13);",
       "line": 5
     },
     {
       "file": "SpamTrapOverview.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 15
     },
     {
       "file": "SpamTrapOverview.module.scss",
-      "css": "margin-top: -0.4em;",
+      "code": "margin-top: -0.4em;",
       "line": 26
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": "font-size: rem(17);",
+      "code": "font-size: rem(17);",
       "line": 20
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": "margin: 0;",
+      "code": "margin: 0;",
       "line": 21
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": ".Red { fill: #FF594D; }",
+      "code": ".Red { fill: #FF594D; }",
       "line": 28
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": ".Yellow { fill: #FFDA00; }",
+      "code": ".Yellow { fill: #FFDA00; }",
       "line": 29
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": ".Green { fill: #2CC995; }",
+      "code": ".Green { fill: #2CC995; }",
       "line": 30
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": "font-size: 5px;",
+      "code": "font-size: 5px;",
       "line": 50
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": "margin-top: rem(-65);",
+      "code": "margin-top: rem(-65);",
       "line": 62
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": "font-size: rem(45);",
+      "code": "font-size: rem(45);",
       "line": 63
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": "margin: 0;",
+      "code": "margin: 0;",
       "line": 84
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": "font-size: rem(13);",
+      "code": "font-size: rem(13);",
       "line": 86
     },
     {
       "file": "HealthScoreChart.module.scss",
-      "css": "font-size: rem(17);",
+      "code": "font-size: rem(17);",
       "line": 20
     },
-    { "file": "HealthScoreChart.module.scss", "css": "margin: 0;", "line": 21 },
     {
       "file": "HealthScoreChart.module.scss",
-      "css": "margin-top: -0.1em;",
+      "code": "margin: 0;",
+      "line": 21
+    },
+    {
+      "file": "HealthScoreChart.module.scss",
+      "code": "margin-top: -0.1em;",
       "line": 26
     },
     {
       "file": "HealthScoreChart.module.scss",
-      "css": "margin-top: rem(10);",
+      "code": "margin-top: rem(10);",
       "line": 46
     },
     {
       "file": "HealthScoreChart.module.scss",
-      "css": "font-size: rem(12);",
+      "code": "font-size: rem(12);",
       "line": 55
     },
-    { "file": "MetricDisplay.module.scss", "css": "margin: 0;", "line": 12 },
-    { "file": "MetricDisplay.module.scss", "css": "margin: 0;", "line": 21 },
+    { "file": "MetricDisplay.module.scss", "code": "margin: 0;", "line": 12 },
+    { "file": "MetricDisplay.module.scss", "code": "margin: 0;", "line": 21 },
     {
       "file": "MetricDisplay.module.scss",
-      "css": "font-size: rem(33);",
+      "code": "font-size: rem(33);",
       "line": 23
     },
     {
       "file": "DetailsPages.module.scss",
-      "css": "padding-left: rem(15);",
+      "code": "padding-left: rem(15);",
       "line": 3
     },
     {
       "file": "ListComponents.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 3
     },
     {
       "file": "ListComponents.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 7
     },
     {
       "file": "ListComponents.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 13
     },
     {
       "file": "PreviewPanel.module.scss",
-      "css": "border-radius: unset;",
+      "code": "border-radius: unset;",
       "line": 2
     },
     {
       "file": "PreviewPanel.module.scss",
-      "css": "border: 1px solid #d2d2d7;",
+      "code": "border: 1px solid #d2d2d7;",
       "line": 10
     },
     {
       "file": "PreviewPanel.module.scss",
-      "css": "border-radius: 2px;",
+      "code": "border-radius: 2px;",
       "line": 11
     },
     {
       "file": "EditNavigation.module.scss",
-      "css": "background: #fff;",
+      "code": "background: #fff;",
       "line": 3
     },
     {
       "file": "Editor.module.scss",
-      "css": "padding: $phone-padding;",
+      "code": "padding: $phone-padding;",
       "line": 6
     },
     {
       "file": "Editor.module.scss",
-      "css": "background: linear-gradient(to right, #ff594d 5px, transparent 5px) !important;",
+      "code": "background: linear-gradient(to right, #ff594d 5px, transparent 5px) !important;",
       "line": 9
     },
     {
       "file": "Editor.module.scss",
-      "css": "color: inherit !important;",
+      "code": "color: inherit !important;",
       "line": 10
     },
-    { "file": "Actions.module.scss", "css": "font-size: rem(15);", "line": 10 },
-    { "file": "Actions.module.scss", "css": "margin-top: 3px;", "line": 27 },
-    { "file": "Actions.module.scss", "css": "margin-bottom: 0;", "line": 31 },
-    { "file": "Actions.module.scss", "css": "margin-top: 0;", "line": 32 },
+    {
+      "file": "Actions.module.scss",
+      "code": "font-size: rem(15);",
+      "line": 10
+    },
+    { "file": "Actions.module.scss", "code": "margin-top: 3px;", "line": 27 },
+    { "file": "Actions.module.scss", "code": "margin-bottom: 0;", "line": 31 },
+    { "file": "Actions.module.scss", "code": "margin-top: 0;", "line": 32 },
     {
       "file": "EditSection.module.scss",
-      "css": "border-radius: 2px;",
+      "code": "border-radius: 2px;",
       "line": 3
     },
     {
       "file": "EditSection.module.scss",
-      "css": "padding-bottom: 0;",
+      "code": "padding-bottom: 0;",
       "line": 13
     },
-    { "file": "FromEmail.module.scss", "css": "margin-top: 3px;", "line": 13 },
-    { "file": "FromEmail.module.scss", "css": "z-index: 1;", "line": 23 },
+    { "file": "FromEmail.module.scss", "code": "margin-top: 3px;", "line": 13 },
+    { "file": "FromEmail.module.scss", "code": "z-index: 1;", "line": 23 },
     {
       "file": "ListComponents.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 3
     },
     {
       "file": "ListComponents.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 7
     },
     {
       "file": "ListComponents.module.scss",
-      "css": "margin-bottom: 0;",
+      "code": "margin-bottom: 0;",
       "line": 13
     },
-    { "file": "phone.scss", "css": "$phone-padding: 15px;", "line": 0 },
+    { "file": "phone.scss", "code": "$phone-padding: 15px;", "line": 0 },
     {
       "file": "phone.scss",
-      "css": "$phone-height: $phone-screen-height + 40px + 40px + 2px; // screen + padding + border",
+      "code": "$phone-height: $phone-screen-height + 40px + 40px + 2px; // screen + padding + border",
       "line": 3
     },
     {
       "file": "phone.scss",
-      "css": "$phone-width: $phone-screen-width + 10px + 10px + 2px; // screen + padding + border",
+      "code": "$phone-width: $phone-screen-width + 10px + 10px + 2px; // screen + padding + border",
       "line": 4
     },
     {
       "file": "phone.scss",
-      "css": "$phone-container-min-height: $phone-height + $phone-padding * 2;",
+      "code": "$phone-container-min-height: $phone-height + $phone-padding * 2;",
       "line": 5
     },
     {
       "file": "PreviewContainer.module.scss",
-      "css": "padding: $phone-padding;",
+      "code": "padding: $phone-padding;",
       "line": 8
     },
     {
       "file": "PreviewContainer.module.scss",
-      "css": "padding: $phone-padding 0;",
+      "code": "padding: $phone-padding 0;",
       "line": 21
     },
     {
       "file": "PreviewContainer.module.scss",
-      "css": "border-radius: 40px;",
+      "code": "border-radius: 40px;",
       "line": 27
     },
     {
       "file": "PreviewContainer.module.scss",
-      "css": "margin: 0 auto;",
+      "code": "margin: 0 auto;",
       "line": 29
     },
     {
       "file": "PreviewContainer.module.scss",
-      "css": "padding: 40px 10px;",
+      "code": "padding: 40px 10px;",
       "line": 30
     },
     {
       "file": "PreviewContainer.module.scss",
-      "css": "background: white;",
+      "code": "background: white;",
       "line": 35
     },
     {
       "file": "PreviewContainer.module.scss",
-      "css": "border-radius: 2px;",
+      "code": "border-radius: 2px;",
       "line": 37
     },
     {
       "file": "PreviewErrorFrame.module.scss",
-      "css": "padding: 20%;",
+      "code": "padding: 20%;",
       "line": 3
     },
     {
       "file": "PreviewHeader.module.scss",
-      "css": "font-size: rem(18);",
+      "code": "font-size: rem(18);",
       "line": 8
     },
     {
       "file": "PreviewHeader.module.scss",
-      "css": "border-radius: 2px;",
+      "code": "border-radius: 2px;",
       "line": 19
     },
     {
       "file": "PreviewSection.module.scss",
-      "css": "border-radius: 2px;",
+      "code": "border-radius: 2px;",
       "line": 3
     },
-    { "file": "Form.module.scss", "css": "margin-left: 20px;", "line": 5 },
+    { "file": "Form.module.scss", "code": "margin-left: 20px;", "line": 5 },
     {
       "file": "SettingsSection.module.scss",
-      "css": "border-radius: 2px;",
+      "code": "border-radius: 2px;",
       "line": 3
     },
     {
       "file": "SettingsSection.module.scss",
-      "css": "padding: 1rem;",
+      "code": "padding: 1rem;",
       "line": 4
     },
     {
       "file": "SettingsSection.module.scss",
-      "css": "border-bottom: 0px;",
+      "code": "border-bottom: 0px;",
       "line": 8
     },
-    { "file": "CreatePage.module.scss", "css": "padding: 10px;", "line": 10 },
+    { "file": "CreatePage.module.scss", "code": "padding: 10px;", "line": 10 },
     {
       "file": "EditAndPreviewPage.module.scss",
-      "css": "z-index: 100;",
+      "code": "z-index: 100;",
       "line": 6
     },
     {
       "file": "EditAndPreviewPage.module.scss",
-      "css": "margin-top: 60px;",
+      "code": "margin-top: 60px;",
       "line": 11
     },
     {
       "file": "EditAndPreviewPage.module.scss",
-      "css": "color: #44D09E;",
+      "code": "color: #44D09E;",
       "line": 15
     },
     {
       "file": "TrackingDomainRow.module.scss",
-      "css": "font-size: rem(18);",
+      "code": "font-size: rem(18);",
       "line": 7
     },
-    { "file": "User.module.scss", "css": "margin-bottom: 0;", "line": 3 },
-    { "file": "User.module.scss", "css": "margin-bottom: 0;", "line": 7 },
-    { "file": "User.module.scss", "css": "font-size: rem(14);", "line": 9 }
+    { "file": "User.module.scss", "code": "margin-bottom: 0;", "line": 3 },
+    { "file": "User.module.scss", "code": "margin-bottom: 0;", "line": 7 },
+    { "file": "User.module.scss", "code": "font-size: rem(14);", "line": 9 }
   ]
 }

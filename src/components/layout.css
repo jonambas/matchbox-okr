@@ -637,32 +637,13 @@ main, header {
 }
 
 main {
-  padding: 0 0 2rem 0;
-}
-
-header {
-
+  padding: 0 0 15rem 0;
 }
 
 h1 {
-  margin: 4rem 0;
+  margin: 8rem 0 5rem;
   font-size: 20px;
   text-align: center;
-}
-
-button {
-  background: #fff;
-  color: #222;
-  font-size: 13px;
-  outline: none;
-  border: none;
-  margin: 0 8px 10px 0;
-  padding: 4px 14px;
-}
-
-button:hover {
-  background: #f6f6f6;
-  cursor: pointer;
 }
 
 ul {
@@ -685,6 +666,7 @@ table {
 
 td, th {
   padding: 3px;
+  border-bottom: 1px solid #f0f0f0;
 }
 
 td:last-child, th:last-child {
