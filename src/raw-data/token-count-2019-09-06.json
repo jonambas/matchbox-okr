@@ -6,12 +6,8 @@
       "css": "padding-right: rem(8);",
       "line": 12
     },
-    { "file": "PlanPrice.module.scss", "css": "font-weight: 400;", "line": 19 },
-    { "file": "NameCell.module.scss", "css": "font-style: italic;", "line": 3 },
     { "file": "NameCell.module.scss", "css": "margin-bottom: 0;", "line": 4 },
-    { "file": "NameCell.module.scss", "css": "font-weight: 600;", "line": 8 },
     { "file": "NameCell.module.scss", "css": "margin-bottom: 0;", "line": 9 },
-    { "file": "Pagination.module.scss", "css": "font-weight: 600;", "line": 3 },
     { "file": "Pagination.module.scss", "css": "font-size: 80%;", "line": 25 },
     {
       "file": "Pagination.module.scss",
@@ -68,11 +64,6 @@
       "css": "margin-top: 1.4rem;",
       "line": 11
     },
-    {
-      "file": "ManualEntryForm.module.scss",
-      "css": "font-style: italic;",
-      "line": 12
-    },
     { "file": "DateSelector.module.scss", "css": "padding: 0;", "line": 11 },
     { "file": "DateSelector.module.scss", "css": "margin: 0;", "line": 24 },
     {
@@ -87,11 +78,6 @@
     },
     {
       "file": "DateSelector.module.scss",
-      "css": "font-weight: 500;",
-      "line": 37
-    },
-    {
-      "file": "DateSelector.module.scss",
       "css": "padding: rem(4) rem(11);",
       "line": 55
     },
@@ -101,27 +87,7 @@
       "line": 80
     },
     { "file": "DateSelector.module.scss", "css": "margin: 1px 0;", "line": 81 },
-    {
-      "file": "DateSelector.module.scss",
-      "css": "font-weight: 400;",
-      "line": 84
-    },
-    {
-      "file": "DateSelector.module.scss",
-      "css": "font-weight: 600;",
-      "line": 110
-    },
     { "file": "DateSelector.module.scss", "css": "z-index: 100;", "line": 115 },
-    {
-      "file": "DateSelector.module.scss",
-      "css": "font-weight: 500;",
-      "line": 117
-    },
-    {
-      "file": "DateSelector.module.scss",
-      "css": "font-weight: 400;",
-      "line": 127
-    },
     { "file": "DateSelector.module.scss", "css": "color: white;", "line": 142 },
     {
       "file": "DateSelector.module.scss",
@@ -160,7 +126,6 @@
     { "file": "FullPage.module.scss", "css": "margin: 0;", "line": 34 },
     { "file": "FullPage.module.scss", "css": "padding: 0;", "line": 35 },
     { "file": "FullPage.module.scss", "css": "color: white;", "line": 50 },
-    { "file": "FullPage.module.scss", "css": "font-weight: 300;", "line": 51 },
     { "file": "FullPage.module.scss", "css": "margin: 0;", "line": 52 },
     {
       "file": "FullPage.module.scss",
@@ -388,14 +353,12 @@
       "css": "border-bottom: none;",
       "line": 15
     },
-    { "file": "NavItem.module.scss", "css": "font-weight: 500;", "line": 17 },
     {
       "file": "NavItem.module.scss",
       "css": "padding: rem(15) rem(18);",
       "line": 27
     },
     { "file": "NavItem.module.scss", "css": "font-size: rem(16);", "line": 28 },
-    { "file": "NavItem.module.scss", "css": "font-weight: 500;", "line": 44 },
     {
       "file": "NavItem.module.scss",
       "css": "margin-bottom: rem(13);",
@@ -406,9 +369,6 @@
       "css": "padding: rem(4) rem(18) rem(4) rem(54);",
       "line": 70
     },
-    { "file": "NavItem.module.scss", "css": "font-weight: 400;", "line": 71 },
-    { "file": "NavItem.module.scss", "css": "font-weight: 500;", "line": 74 },
-    { "file": "NavItem.module.scss", "css": "font-weight: 500;", "line": 112 },
     { "file": "Navigation.module.scss", "css": "z-index: 100;", "line": 4 },
     {
       "file": "Navigation.module.scss",
@@ -434,11 +394,6 @@
     },
     {
       "file": "Notification.module.scss",
-      "css": "font-weight: 600;",
-      "line": 19
-    },
-    {
-      "file": "Notification.module.scss",
       "css": "border-radius: 100%;",
       "line": 39
     },
@@ -453,16 +408,6 @@
       "line": 5
     },
     {
-      "file": "ActiveLabel.module.scss",
-      "css": "font-weight: 600;",
-      "line": 16
-    },
-    {
-      "file": "LegendItem.module.scss",
-      "css": "font-weight: 500;",
-      "line": 48
-    },
-    {
       "file": "PlanPicker.module.scss",
       "css": "border-bottom: none;",
       "line": 12
@@ -472,17 +417,7 @@
       "css": "font-size: rem(16);",
       "line": 19
     },
-    {
-      "file": "PlanPicker.module.scss",
-      "css": "font-weight: 600;",
-      "line": 20
-    },
     { "file": "PlanPicker.module.scss", "css": "z-index: 1;", "line": 28 },
-    {
-      "file": "PlanPicker.module.scss",
-      "css": "font-weight: 500;",
-      "line": 52
-    },
     {
       "file": "PlanPicker.module.scss",
       "css": "padding-left: rem(40);",
@@ -523,21 +458,6 @@
       "line": 12
     },
     {
-      "file": "FileFieldWrapper.module.scss",
-      "css": "border-style: dashed;",
-      "line": 17
-    },
-    {
-      "file": "FileFieldWrapper.module.scss",
-      "css": "border-style: solid;",
-      "line": 23
-    },
-    {
-      "file": "FileFieldWrapper.module.scss",
-      "css": "border-style: solid;",
-      "line": 29
-    },
-    {
       "file": "PartnerLogos.module.scss",
       "css": "margin-left: 30px;",
       "line": 5
@@ -568,11 +488,6 @@
       "file": "SummaryTable.module.scss",
       "css": "border-left: none;",
       "line": 25
-    },
-    {
-      "file": "SummaryTable.module.scss",
-      "css": "font-weight: 500;",
-      "line": 26
     },
     {
       "file": "SummaryTable.module.scss",
@@ -607,11 +522,6 @@
     },
     {
       "file": "SummaryTable.module.scss",
-      "css": "font-weight: 600;",
-      "line": 79
-    },
-    {
-      "file": "SummaryTable.module.scss",
       "css": "margin: 0; // override",
       "line": 86
     },
@@ -629,11 +539,6 @@
     },
     {
       "file": "ToggleBlock.module.scss",
-      "css": "font-weight: 400;",
-      "line": 14
-    },
-    {
-      "file": "ToggleBlock.module.scss",
       "css": "font-size: rem(15);",
       "line": 15
     },
@@ -646,11 +551,6 @@
       "file": "ToggleBlock.module.scss",
       "css": "font-size: rem(13);",
       "line": 28
-    },
-    {
-      "file": "ToggleBlock.module.scss",
-      "css": "font-weight: 500;",
-      "line": 29
     },
     { "file": "Typeahead.module.scss", "css": "margin: 0 0 1rem;", "line": 3 },
     { "file": "Typeahead.module.scss", "css": "margin-bottom: 0;", "line": 7 },
@@ -665,7 +565,6 @@
       "css": "font-size: rem(15);",
       "line": 43
     },
-    { "file": "Typeahead.module.scss", "css": "font-weight: 400;", "line": 44 },
     {
       "file": "Typeahead.module.scss",
       "css": "font-size: rem(14);",
@@ -683,44 +582,19 @@
     },
     {
       "file": "UsageReport.module.scss",
-      "css": "font-weight: 400;",
-      "line": 10
-    },
-    {
-      "file": "UsageReport.module.scss",
       "css": "margin-bottom: 0;",
       "line": 18
-    },
-    {
-      "file": "UsageReport.module.scss",
-      "css": "font-weight: 400;",
-      "line": 19
     },
     {
       "file": "UsageReport.module.scss",
       "css": "padding-left: rem(9);",
       "line": 29
     },
-    {
-      "file": "UsageReport.module.scss",
-      "css": "font-weight: 400;",
-      "line": 32
-    },
     { "file": "critical.scss", "css": "z-index: 99999;", "line": 17 },
     {
       "file": "critical.scss",
       "css": "font-family: -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, \"Fira Sans\", \"Droid Sans\", \"Helvetica Neue\", Arial, sans-serif;",
       "line": 66
-    },
-    {
-      "file": "index.scss",
-      "css": "@import url('/static/fonts/calibre/calibre.css');",
-      "line": 0
-    },
-    {
-      "file": "index.scss",
-      "css": "// Adjusting the root font size here will scale the UI proportionally",
-      "line": 5
     },
     { "file": "index.scss", "css": "font-size: 16px;", "line": 8 },
     {
@@ -762,16 +636,10 @@
     { "file": "ListPage.module.scss", "css": "margin-bottom: 0;", "line": 7 },
     { "file": "ListPage.module.scss", "css": "margin-bottom: 0;", "line": 13 },
     { "file": "ListPage.module.scss", "css": "margin-bottom: 0;", "line": 17 },
-    { "file": "ListPage.module.scss", "css": "font-weight: 600;", "line": 20 },
     {
       "file": "ProviderForm.module.scss",
       "css": "padding-bottom: 3em;",
       "line": 5
-    },
-    {
-      "file": "AlertCollection.module.scss",
-      "css": "font-weight: 600;",
-      "line": 7
     },
     {
       "file": "AlertCollection.module.scss",
@@ -825,11 +693,6 @@
     },
     {
       "file": "AlertForm.module.scss",
-      "css": "font-weight: normal;",
-      "line": 23
-    },
-    {
-      "file": "AlertForm.module.scss",
       "css": "margin-top: rem(20);",
       "line": 27
     },
@@ -863,11 +726,6 @@
       "file": "ListPage.module.scss",
       "css": "margin-bottom: rem(30);",
       "line": 20
-    },
-    {
-      "file": "Confirmation.module.scss",
-      "css": "font-weight: 500;",
-      "line": 24
     },
     {
       "file": "PendingCancelGlobalBanner.module.scss",
@@ -911,18 +769,8 @@
     },
     {
       "file": "RecipientValidationModal.module.scss",
-      "css": "font-weight: 600;",
-      "line": 13
-    },
-    {
-      "file": "RecipientValidationModal.module.scss",
       "css": "margin: 10px 20px;",
       "line": 17
-    },
-    {
-      "file": "RecipientValidationModal.module.scss",
-      "css": "font-weight: 600;",
-      "line": 22
     },
     {
       "file": "RecipientValidationModal.module.scss",
@@ -980,26 +828,6 @@
       "file": "ProvidersBreakdown.module.scss",
       "css": "border-bottom: 0px;",
       "line": 9
-    },
-    {
-      "file": "ProvidersBreakdown.module.scss",
-      "css": "font-weight: normal;",
-      "line": 15
-    },
-    {
-      "file": "ProvidersBreakdown.module.scss",
-      "css": "font-weight: normal;",
-      "line": 20
-    },
-    {
-      "file": "ProvidersBreakdown.module.scss",
-      "css": "font-weight: 600;",
-      "line": 23
-    },
-    {
-      "file": "TestDetails.module.scss",
-      "css": "font-weight: normal;",
-      "line": 7
     },
     { "file": "SeedList.module.scss", "css": "margin-left: 20px;", "line": 11 },
     {
@@ -1082,16 +910,8 @@
       "css": "margin-bottom: rem(16);",
       "line": 3
     },
-    { "file": "Steps.module.scss", "css": "font-weight: 500;", "line": 17 },
     { "file": "Steps.module.scss", "css": "font-size: rem(15);", "line": 18 },
-    { "file": "Steps.module.scss", "css": "font-weight: 600;", "line": 23 },
-    { "file": "Steps.module.scss", "css": "font-weight: 600;", "line": 28 },
     { "file": "BackupCodesList.module.scss", "css": "padding: 0;", "line": 3 },
-    {
-      "file": "BackupCodesList.module.scss",
-      "css": "font-weight: 600;",
-      "line": 13
-    },
     {
       "file": "BackupCodesList.module.scss",
       "css": "font-size: rem(16);",
@@ -1107,7 +927,6 @@
       "css": "font-size: rem(20);",
       "line": 8
     },
-    { "file": "ApiDetails.module.scss", "css": "font-weight: 600;", "line": 9 },
     {
       "file": "ApiDetails.module.scss",
       "css": "padding: rem(15) 0;",
@@ -1122,11 +941,6 @@
       "file": "ApiDetails.module.scss",
       "css": "margin-right: rem(10);",
       "line": 24
-    },
-    {
-      "file": "ApiDetails.module.scss",
-      "css": "font-weight: 600;",
-      "line": 26
     },
     {
       "file": "ApiDetails.module.scss",
@@ -1152,7 +966,6 @@
     },
     { "file": "CodeBlock.module.scss", "css": "color: white;", "line": 9 },
     { "file": "CodeBlock.module.scss", "css": "color: white;", "line": 13 },
-    { "file": "CodeBlock.module.scss", "css": "font-weight: 100;", "line": 19 },
     {
       "file": "FileUploadWrapper.module.scss",
       "css": "margin: 0 auto;",
@@ -1165,23 +978,8 @@
     },
     {
       "file": "FileUploadWrapper.module.scss",
-      "css": "font-weight: 600;",
-      "line": 18
-    },
-    {
-      "file": "FileUploadWrapper.module.scss",
-      "css": "font-weight: 400;",
-      "line": 24
-    },
-    {
-      "file": "FileUploadWrapper.module.scss",
       "css": "font-size: rem(15);",
       "line": 25
-    },
-    {
-      "file": "FileUploadWrapper.module.scss",
-      "css": "font-weight: 600;",
-      "line": 30
     },
     {
       "file": "FileUploadWrapper.module.scss",
@@ -1245,11 +1043,6 @@
     },
     {
       "file": "SingleAddressForm.module.scss",
-      "css": "font-weight: 600;",
-      "line": 32
-    },
-    {
-      "file": "SingleAddressForm.module.scss",
       "css": "margin: 4rem auto 0;",
       "line": 42
     },
@@ -1273,11 +1066,6 @@
     },
     {
       "file": "UploadedListForm.module.scss",
-      "css": "font-weight: 100;",
-      "line": 11
-    },
-    {
-      "file": "UploadedListForm.module.scss",
       "css": "margin-top: .5em;",
       "line": 12
     },
@@ -1285,11 +1073,6 @@
       "file": "UploadedListForm.module.scss",
       "css": "margin-bottom: 2rem;",
       "line": 13
-    },
-    {
-      "file": "UploadedListForm.module.scss",
-      "css": "font-weight: 500;",
-      "line": 16
     },
     {
       "file": "UploadedListForm.module.scss",
@@ -1320,11 +1103,6 @@
       "file": "UploadedListForm.module.scss",
       "css": "font-size: 2.5em;",
       "line": 32
-    },
-    {
-      "file": "UploadedListForm.module.scss",
-      "css": "font-weight: 400;",
-      "line": 34
     },
     {
       "file": "UploadedListForm.module.scss",
@@ -1423,16 +1201,6 @@
     },
     {
       "file": "SingleResult.module.scss",
-      "css": "font-weight: 500;",
-      "line": 32
-    },
-    {
-      "file": "SingleResult.module.scss",
-      "css": "font-weight: 500;",
-      "line": 38
-    },
-    {
-      "file": "SingleResult.module.scss",
       "css": "color: #8FC4FE;",
       "line": 43
     },
@@ -1451,11 +1219,6 @@
       "file": "UploadedListPage.module.scss",
       "css": "font-size: 1rem;",
       "line": 3
-    },
-    {
-      "file": "UploadedListPage.module.scss",
-      "css": "font-weight: 200;",
-      "line": 4
     },
     {
       "file": "UploadedListPage.module.scss",
@@ -1498,11 +1261,6 @@
       "line": 21
     },
     {
-      "file": "MetricCard.module.scss",
-      "css": "font-weight: 400;",
-      "line": 23
-    },
-    {
       "file": "MetricsSummary.module.scss",
       "css": "font-size: rem(36);",
       "line": 4
@@ -1511,11 +1269,6 @@
       "file": "MetricsSummary.module.scss",
       "css": "margin-bottom: 0;",
       "line": 5
-    },
-    {
-      "file": "MetricsSummary.module.scss",
-      "css": "font-weight: 400;",
-      "line": 10
     },
     {
       "file": "MetricsSummary.module.scss",
@@ -1550,7 +1303,6 @@
       "css": "font-size: rem(15);",
       "line": 39
     },
-    { "file": "Typeahead.module.scss", "css": "font-weight: 400;", "line": 40 },
     {
       "file": "Typeahead.module.scss",
       "css": "font-size: rem(14);",
@@ -1560,11 +1312,6 @@
       "file": "EngagementChart.module.scss",
       "css": "font-size: rem(13);",
       "line": 13
-    },
-    {
-      "file": "EngagementChart.module.scss",
-      "css": "font-weight: 500;",
-      "line": 14
     },
     {
       "file": "EngagementSummary.module.scss",
@@ -1580,11 +1327,6 @@
       "file": "EngagementSummary.module.scss",
       "css": "margin-bottom: 0;",
       "line": 8
-    },
-    {
-      "file": "EngagementSummary.module.scss",
-      "css": "font-weight: 400;",
-      "line": 13
     },
     {
       "file": "EngagementSummary.module.scss",
@@ -1617,11 +1359,6 @@
       "line": 19
     },
     { "file": "CursorPaging.module.scss", "css": "color: black;", "line": 23 },
-    {
-      "file": "CursorPaging.module.scss",
-      "css": "font-weight: bolder;",
-      "line": 24
-    },
     { "file": "SearchForm.module.scss", "css": "margin: 0;", "line": 8 },
     {
       "file": "SearchForm.module.scss",
@@ -1651,7 +1388,6 @@
     { "file": "LineChart.scss", "css": "margin-bottom: rem(30);", "line": 4 },
     { "file": "LineChart.scss", "css": "margin-bottom: 0;", "line": 8 },
     { "file": "LineChart.scss", "css": "font-size: 13px;", "line": 14 },
-    { "file": "LineChart.scss", "css": "font-weight: 500;", "line": 15 },
     { "file": "LineChart.scss", "css": "font-size: 13px", "line": 37 },
     {
       "file": "LineChart.scss",
@@ -1663,7 +1399,6 @@
       "css": "padding: rem(18) !important;",
       "line": 72
     },
-    { "file": "LineChart.scss", "css": "font-weight: 500;", "line": 75 },
     { "file": "LineChart.scss", "css": "font-size: rem(15);", "line": 77 },
     {
       "file": "LineChart.scss",
@@ -1678,7 +1413,6 @@
     { "file": "LineChart.scss", "css": "margin: 0 !important;", "line": 83 },
     { "file": "LineChart.scss", "css": "padding: 0 !important;", "line": 84 },
     { "file": "LineChart.scss", "css": "padding-right: rem(55);", "line": 89 },
-    { "file": "LineChart.scss", "css": "font-weight: 600;", "line": 92 },
     { "file": "LineChart.scss", "css": "margin-left: rem(30);", "line": 103 },
     { "file": "LineChart.scss", "css": "padding-top: rem(11);", "line": 104 },
     { "file": "LineChart.scss", "css": "padding-bottom: rem(0);", "line": 105 },
@@ -1697,7 +1431,6 @@
     { "file": "ChartHeader.module.scss", "css": "margin-top: 0;", "line": 24 },
     { "file": "ChartHeader.module.scss", "css": "margin-left: 0;", "line": 25 },
     { "file": "Legend.module.scss", "css": "margin-top: rem(3);", "line": 3 },
-    { "file": "Legend.module.scss", "css": "font-weight: 400;", "line": 11 },
     {
       "file": "Legend.module.scss",
       "css": "margin-right: rem(9);",
@@ -1732,16 +1465,10 @@
       "css": "padding-top: rem(8);",
       "line": 56
     },
-    { "file": "Actions.module.scss", "css": "font-weight: 500;", "line": 60 },
     {
       "file": "Actions.module.scss",
       "css": "margin-bottom: rem(23);",
       "line": 62
-    },
-    {
-      "file": "ChartHeader.module.scss",
-      "css": "font-weight: 500;",
-      "line": 8
     },
     {
       "file": "ChartHeader.module.scss",
@@ -1750,7 +1477,6 @@
     },
     { "file": "BarChart.scss", "css": "font-size: 13px;", "line": 6 },
     { "file": "Legend.module.scss", "css": "border-radius: 50%;", "line": 12 },
-    { "file": "Legend.module.scss", "css": "font-weight: 400;", "line": 17 },
     { "file": "Legend.module.scss", "css": "font-size: rem(12);", "line": 18 },
     {
       "file": "Tooltip.module.scss",
@@ -1772,20 +1498,9 @@
     },
     {
       "file": "TooltipMetric.module.scss",
-      "css": "font-weight: 400;",
-      "line": 42
-    },
-    {
-      "file": "TooltipMetric.module.scss",
       "css": "font-size: rem(12);",
       "line": 47
     },
-    {
-      "file": "TooltipMetric.module.scss",
-      "css": "font-weight: 500;",
-      "line": 54
-    },
-    { "file": "DataCell.module.scss", "css": "font-style: italic;", "line": 6 },
     {
       "file": "DataCell.module.scss",
       "css": "margin-top: -0.15em;",
@@ -1854,11 +1569,6 @@
     },
     {
       "file": "SpamTrapOverview.module.scss",
-      "css": "font-weight: 500;",
-      "line": 14
-    },
-    {
-      "file": "SpamTrapOverview.module.scss",
       "css": "margin-bottom: 0;",
       "line": 15
     },
@@ -1866,11 +1576,6 @@
       "file": "SpamTrapOverview.module.scss",
       "css": "margin-top: -0.4em;",
       "line": 26
-    },
-    {
-      "file": "CurrentHealthGauge.module.scss",
-      "css": "font-weight: 500;",
-      "line": 19
     },
     {
       "file": "CurrentHealthGauge.module.scss",
@@ -1904,11 +1609,6 @@
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": "font-weight: 400;",
-      "line": 51
-    },
-    {
-      "file": "CurrentHealthGauge.module.scss",
       "css": "margin-top: rem(-65);",
       "line": 62
     },
@@ -1919,11 +1619,6 @@
     },
     {
       "file": "CurrentHealthGauge.module.scss",
-      "css": "font-weight: 400;",
-      "line": 64
-    },
-    {
-      "file": "CurrentHealthGauge.module.scss",
       "css": "margin: 0;",
       "line": 84
     },
@@ -1931,11 +1626,6 @@
       "file": "CurrentHealthGauge.module.scss",
       "css": "font-size: rem(13);",
       "line": 86
-    },
-    {
-      "file": "HealthScoreChart.module.scss",
-      "css": "font-weight: 500;",
-      "line": 19
     },
     {
       "file": "HealthScoreChart.module.scss",
@@ -1959,11 +1649,6 @@
       "line": 55
     },
     { "file": "MetricDisplay.module.scss", "css": "margin: 0;", "line": 12 },
-    {
-      "file": "MetricDisplay.module.scss",
-      "css": "font-weight: 400;",
-      "line": 14
-    },
     { "file": "MetricDisplay.module.scss", "css": "margin: 0;", "line": 21 },
     {
       "file": "MetricDisplay.module.scss",
@@ -1991,24 +1676,9 @@
       "line": 13
     },
     {
-      "file": "ListComponents.module.scss",
-      "css": "font-style: italic;",
-      "line": 17
-    },
-    {
-      "file": "PreviewFrame.module.scss",
-      "css": "border-style: none; // instead of frameborder",
-      "line": 1
-    },
-    {
       "file": "PreviewPanel.module.scss",
       "css": "border-radius: unset;",
       "line": 2
-    },
-    {
-      "file": "PreviewPanel.module.scss",
-      "css": "border-style: none;",
-      "line": 3
     },
     {
       "file": "PreviewPanel.module.scss",
@@ -2040,7 +1710,6 @@
       "css": "color: inherit !important;",
       "line": 10
     },
-    { "file": "Actions.module.scss", "css": "font-weight: 400;", "line": 4 },
     { "file": "Actions.module.scss", "css": "font-size: rem(15);", "line": 10 },
     { "file": "Actions.module.scss", "css": "margin-top: 3px;", "line": 27 },
     { "file": "Actions.module.scss", "css": "margin-bottom: 0;", "line": 31 },
@@ -2071,11 +1740,6 @@
       "file": "ListComponents.module.scss",
       "css": "margin-bottom: 0;",
       "line": 13
-    },
-    {
-      "file": "ListComponents.module.scss",
-      "css": "font-style: italic;",
-      "line": 17
     },
     { "file": "phone.scss", "css": "$phone-padding: 15px;", "line": 0 },
     {
@@ -2132,11 +1796,6 @@
       "file": "PreviewErrorFrame.module.scss",
       "css": "padding: 20%;",
       "line": 3
-    },
-    {
-      "file": "PreviewFrame.module.scss",
-      "css": "border-style: none; // instead of frameborder",
-      "line": 1
     },
     {
       "file": "PreviewHeader.module.scss",

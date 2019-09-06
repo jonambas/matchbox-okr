@@ -216,10 +216,10 @@ const IndexPage = () => {
         </div>
       </div>
 
-      <h1>Tokenizables</h1>
+      <h1>Problematic or Tokenizable CSS Values</h1>
 
       <div style={{ textAlign: 'center' }}>
-        <div>Tokenizable CSS values: {tokens.data.length}</div>
+        <div>Total: {tokens.data.length}</div>
         <div>Date: {tokens.date}</div>
       </div>
 

@@ -15,7 +15,8 @@ const includes = [
   'margin',
   'padding',
   'z-index:',
-  'font'
+  'font-size',
+  'font-family'
 ];
 
 const excludes = [
@@ -28,7 +29,10 @@ const excludes = [
   'font-size(',
   'line-height(',
   'font-family(',
-  '-smoothing'
+  '-smoothing',
+  '-weight',
+  'border-style:',
+  '@import'
 ];
 
 let json;
