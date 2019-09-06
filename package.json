@@ -24,6 +24,7 @@
     "react-helmet": "^5.2.1"
   },
   "devDependencies": {
+    "glob": "^7.1.4",
     "prettier": "^1.18.2"
   },
   "keywords": [
@@ -37,7 +38,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "source": "bash ./scripts/raw.bash && node ./scripts/format-raw.js && prettier --write **/*.json && echo 'Formatted'"
+    "source": "npm run source:scss && npm run source:token && prettier --write **/*.json",
+    "source:scss": "bash ./scripts/raw.bash && node ./scripts/format-raw.js",
+    "source:token": "node ./scripts/token-count.js"
   },
   "repository": {
     "type": "git",

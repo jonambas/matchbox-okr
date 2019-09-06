@@ -8,6 +8,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 
 import data from '../raw-data/raw.json';
+import tokens from '../raw-data/token-count-2019-09-06.json';
 const exclude = ['2018-07-19']
 
 export const formatInputDate = (date) => moment(date).format('YYYY-MM-DD');
@@ -136,6 +137,9 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
+
+      <h1>UI CSS Changes</h1>
+
       <div style={{ marginLeft: '16px' }}>
         <button onClick={() => setView('insertions')}>+</button>
         <button onClick={() => setView('deletions')}>–</button>
@@ -212,6 +216,31 @@ const IndexPage = () => {
         </div>
       </div>
 
+      <h1>Tokenizables</h1>
+
+      <div style={{ textAlign: 'center' }}>
+        <div>Tokenizable CSS values: {tokens.data.length}</div>
+        <div>Date: {tokens.date}</div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>File</th>
+            <th>CSS</th>
+          </tr>
+        </thead>
+        <tbody>
+          {tokens.data.map((row, i) => {
+              return (
+                <tr key={`${row.file}-${row.line}-${i}`}>
+                  <td>{row.file} L{row.line}</td>
+                  <td>{row.css}</td>
+                </tr>
+              )
+            })}
+        </tbody>
+      </table>
 
     </Layout>
   )

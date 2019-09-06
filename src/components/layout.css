@@ -641,12 +641,12 @@ main {
 }
 
 header {
-  padding: 4rem 0;
+
 }
 
 h1 {
+  margin: 4rem 0;
   font-size: 20px;
-  margin: 0;
   text-align: center;
 }
 
@@ -674,4 +674,19 @@ ul li {
   padding: 0;
   margin: 0;
   list-style-type: none;
+}
+
+table {
+  font-size: 13px;
+  max-width: 600px;
+  margin: 0 auto;
+  table-layout: fixed;
+}
+
+td, th {
+  padding: 3px;
+}
+
+td:last-child, th:last-child {
+  text-align: right;
 }
