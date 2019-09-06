@@ -159,7 +159,7 @@ const IndexPage = () => {
                   y={barY}
                   width={barWidth}
                   height={barHeight}
-                  fill="rgba(100, 100, 180, 1)"
+                  fill="rgba(90, 90, 250, 1)"
                   style={{ pointerEvents: 'none' }}
                 />
               </Group>
