@@ -33,7 +33,6 @@ const fillByDate = ({ dataSet, fill = {}, from, to } = {}) => {
   return filledDataSet;
 };
 
-// console.log(min, max)
 const IndexPage = () => {
   const filtered = data.filter(({ date }) => !exclude.includes(date));
 
@@ -91,7 +90,6 @@ const IndexPage = () => {
     const dupeIdx = _.findIndex(acc, ['week', item.week])
 
     if (dupeIdx > -1) {
-      // console.log(dupeIdx, item.week, item.insertions)
       acc.splice(dupeIdx, 1, {
         ...acc[dupeIdx],
         insertions: acc[dupeIdx].insertions + item.insertions,
@@ -105,7 +103,6 @@ const IndexPage = () => {
     acc.push(item);
     return acc;
   }, []);
-  // console.log(byWeek, filled)
 
   const USE_WEEK = true;
   const SET = USE_WEEK ? byWeek : filled;
@@ -117,14 +114,11 @@ const IndexPage = () => {
 
   const xMax = width;
   const yMax = height - 120;
-  // console.log(xMax)
   // scales
   const xScale = scaleBand({
     rangeRound: [0, xMax],
     domain: filled.map(x),
-    // padding: 0,
-    innerPadding: 0.1,
-    outerPadding: 0
+    padding: 0,
   });
   const yScale = scaleLinear({
     rangeRound: [yMax, 0],
