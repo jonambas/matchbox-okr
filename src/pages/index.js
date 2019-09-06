@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 import { Bar } from '@vx/shape';
 import { Group } from '@vx/group';
 import { scaleBand, scaleLinear } from '@vx/scale';
@@ -41,7 +40,7 @@ const IndexPage = () => {
       return {
         insertions: acc.insertions + Number(change.insertions),
         deletions: acc.deletions + Number(change.deletions),
-        files: [...acc.files, change.path]
+        files: [...acc.files, change.path].filter((s) => !s.includes('{'))
       };
     }, { insertions: 0, deletions: 0, files: [] })
 
@@ -142,29 +141,28 @@ const IndexPage = () => {
             const barX = xScale(letter);
             const barY = yMax - barHeight;
             return (
-              <>
-              <rect
-                key={`bar-${letter}-bg`}
-                x={barX}
-                y={yMax - height}
-                width={barWidth}
-                height={height}
-                fill="rgba(245, 245, 255, 1)"
-                onClick={event => {
-                  setSelected(d)
-                }} />
-              <Bar
-                key={`bar-${letter}`}
-                x={barX}
-                y={barY}
-                width={barWidth}
-                height={barHeight}
-                fill="rgba(23, 100, 217, 1)"
-                onClick={event => {
-                  setSelected(d)
-                }}
-              />
-              </>
+              <Group key={`fbar-${letter}`}>
+                <rect
+                  x={barX}
+                  y={yMax - height}
+                  width={barWidth}
+                  height={height}
+                  fill="rgba(245, 245, 255, 1)"
+                  onClick={event => {
+                    setSelected(d)
+                  }}
+                  style={{
+                    cursor: 'pointer'
+                  }}/>
+                <Bar
+                  x={barX}
+                  y={barY}
+                  width={barWidth}
+                  height={barHeight}
+                  fill="rgba(23, 100, 217, 1)"
+                  style={{ pointerEvents: 'none' }}
+                />
+              </Group>
             );
           })}
         </Group>
@@ -173,11 +171,11 @@ const IndexPage = () => {
         <div>Week: {selected.date}</div>
         <div>Insertions: {selected.insertions}</div>
         <div>Deletions: {selected.deletions}</div>
-        <ul>Files: {selected.files && selected.files.map((file = '') => {
+        <ul>Files: {selected.files ? selected.files.map((file = '', i) => {
           return (
-            <li key={file}>{file.replace('/src/', '')}</li>
+            <li key={`${selected.week}-${file}-${i}`}>{file.replace('/src/', '')}</li>
           )
-        })}</ul>
+        }) : null}</ul>
       </div>
 
       {/* {data.map((item) => {
