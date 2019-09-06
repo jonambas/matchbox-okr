@@ -103,16 +103,23 @@ const IndexPage = () => {
     return acc;
   }, []);
 
+  const [selected, setSelected] = React.useState({});
+  const [view, setView] = React.useState('insertions');
+
   const USE_WEEK = true;
   const SET = USE_WEEK ? byWeek : filled;
-  const x = d => USE_WEEK ? d.week : d.date;
-  const y = d => d.insertions;
+  const x = (d) => USE_WEEK ? d.week : d.date;
+  const y = (d) => {
+    return view === 'delta' ? d.insertions - d.deletions : d[view];
+  }
 
   const width = 1000;
   const height = 500;
 
   const xMax = width;
   const yMax = height - 120;
+  const yMin = 0;
+
   // scales
   const xScale = scaleBand({
     rangeRound: [0, xMax],
@@ -120,26 +127,37 @@ const IndexPage = () => {
     padding: 0,
   });
   const yScale = scaleLinear({
-    rangeRound: [yMax, 0],
+    rangeRound: [yMax, yMin],
     domain: [0, Math.max(...formatted.map(y))]
   });
-
-  const [selected, setSelected] = React.useState({});
 
   return (
     <Layout>
       <SEO title="Home" />
+      <div style={{ marginLeft: '16px' }}>
+        <button onClick={() => setView('insertions')}>+</button>
+        <button onClick={() => setView('deletions')}>–</button>
+        <button onClick={() => setView('delta')}>Δ</button>
+      </div>
 
       <svg width={width} height={height}>
-        {/* <GradientTealBlue id="teal" /> */}
-        {/* <rect width={width} height={height} fill={"url(#teal)"} rx={14} /> */}
         <Group top={40}>
           {SET.map((d, i) => {
             const letter = x(d);
             const barWidth = 5;
             const barHeight = yMax - yScale(y(d));
+
             const barX = xScale(letter);
-            const barY = yMax - barHeight;
+            let barY = yMax - barHeight;
+
+            if (view === 'delta' && barHeight < 0) {
+              barY = (yMax - barHeight) / 2 + (barHeight / 2)
+            }
+
+            if (view === 'delta' && barHeight > 0) {
+              barY = (yMax - barHeight) / 2 - (barHeight / 2)
+            }
+
             return (
               <Group key={`fbar-${letter}`}>
                 <rect
@@ -158,7 +176,7 @@ const IndexPage = () => {
                   x={barX}
                   y={barY}
                   width={barWidth}
-                  height={barHeight}
+                  height={Math.abs(barHeight)}
                   fill="rgba(90, 90, 250, 1)"
                   style={{ pointerEvents: 'none' }}
                 />
@@ -184,24 +202,6 @@ const IndexPage = () => {
           )
         }) : null}</ul>
       </div>
-
-      {/* {data.map((item) => {
-        const changes = item.changes.reduce((acc, change) => {
-          return {
-            insertions: acc.insertions + Number(change.insertions),
-            deletions: acc.deletions + Number(change.deletions),
-            files: acc.files + 1
-          };
-        }, { insertions: 0, deletions: 0, files: 0 })
-        return (
-          <div key={item.date}>
-            <span>{item.date}</span>,{' '}
-            <span>{changes.insertions}</span>, {' '}
-            <span>{changes.deletions}</span>, {' '}
-            <span>{changes.files}</span>, {' '}
-          </div>
-        )
-      })} */}
 
 
     </Layout>
