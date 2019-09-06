@@ -147,7 +147,7 @@ const IndexPage = () => {
                   y={yMax - height}
                   width={barWidth}
                   height={height}
-                  fill="rgba(245, 245, 255, 1)"
+                  fill={moment(d.date).isBefore('2018-5-20') ? "rgba(235, 225, 225, 1)" : "rgba(235, 235, 245, 1)"}
                   onClick={event => {
                     setSelected(d)
                   }}
@@ -159,13 +159,20 @@ const IndexPage = () => {
                   y={barY}
                   width={barWidth}
                   height={barHeight}
-                  fill="rgba(23, 100, 217, 1)"
+                  fill="rgba(100, 100, 180, 1)"
                   style={{ pointerEvents: 'none' }}
                 />
               </Group>
             );
           })}
         </Group>
+        <Group left={20} top={yMax + 60}>
+          <rect fill="rgba(235, 225, 225, 1)"  width={10} height={12}/>
+          <text dx={20} dy={12}>Beta</text>
+          <rect x={80} fill="rgba(235, 235, 245, 1)"  width={10} height={12}/>
+          <text dx={100} dy={12}>Public</text>
+        </Group>
+
       </svg>
       <div>
         <div>Week: {selected.date}</div>

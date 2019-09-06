@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Matchbox CSS Changes`,
+    title: `UI CSS Changes`,
     description: ``,
     author: `@gatsbyjs`,
   },
