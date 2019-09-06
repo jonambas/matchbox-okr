@@ -35,4 +35,4 @@ const json = commits.map((commit) => {
 
 fs.writeFileSync(path.join(path.join(__dirname, '../src/raw-data'), builtFilename), JSON.stringify(json));
 fs.unlinkSync(path.join(__dirname, '../src/raw-data/raw.txt'));
-console.log('✅  Scss commit data generated')
+console.log(`✅  Scss commit data generated (${json.length} commits found)`)
