@@ -7,7 +7,7 @@ import moment from 'moment';
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-import data from '../raw-data/scss.json';
+import data from '../raw-data/raw.json';
 const exclude = ['2018-07-19']
 
 export const formatInputDate = (date) => moment(date).format('YYYY-MM-DD');
@@ -17,14 +17,14 @@ const fillByDate = ({ dataSet, fill = {}, from, to } = {}) => {
   let filledDataSet = [];
 
   for (let time = moment(from), index = 0; time.isBefore(moment(to)); time.add(1, 'day')) {
-    const data = orderedData[index];
+    const dataEntry = orderedData[index];
     const fillData = { ...fill, date: formatInputDate(time) };
     const week = moment(fillData.date).year()+'-'+moment(fillData.date).week();
 
-    if (!data || data.date !== fillData.date) {
+    if (!dataEntry || dataEntry.date !== fillData.date) {
       filledDataSet = [...filledDataSet, { ...fillData, week }];
     } else {
-      filledDataSet = [...filledDataSet, { ...data, week}];
+      filledDataSet = [...filledDataSet, { ...dataEntry, week}];
       index++;
     }
   }
@@ -38,13 +38,13 @@ const IndexPage = () => {
   const formatted = filtered.map((item) => {
     const changes = item.changes.reduce((acc, change) => {
       return {
-        insertions: acc.insertions + Number(change.insertions),
-        deletions: acc.deletions + Number(change.deletions),
-        files: [...acc.files, change.path].filter((s) => !s.includes('{'))
+        insertions: acc.insertions + change.insertions,
+        deletions: acc.deletions + change.deletions,
+        files: [...acc.files, change.path]
       };
     }, { insertions: 0, deletions: 0, files: [] })
 
-    return { date: item.date, ...changes }
+    return { date: item.date, ...changes, commits: [item.commit] }
   });
 
   const byDay = formatted.reduce((acc, item, i, src) => {
@@ -55,7 +55,8 @@ const IndexPage = () => {
         ...acc[dupeIdx],
         insertions: acc[dupeIdx].insertions + item.insertions,
         deletions: acc[dupeIdx].deletions + item.deletions,
-        files: [...acc[dupeIdx].files, ...item.files]
+        files: [...acc[dupeIdx].files, ...item.files],
+        commits: [...acc[dupeIdx].commits, ...item.commits]
       });
 
       return acc;
@@ -78,12 +79,12 @@ const IndexPage = () => {
       fill: {
         insertions: 0,
         deletions: 0,
-        files: []
+        files: [],
+        commits: []
       },
       from: min,
       to: max
   });
-
 
   const byWeek = filled.reduce((acc, item, i, src) => {
     const dupeIdx = _.findIndex(acc, ['week', item.week])
@@ -93,7 +94,8 @@ const IndexPage = () => {
         ...acc[dupeIdx],
         insertions: acc[dupeIdx].insertions + item.insertions,
         deletions: acc[dupeIdx].deletions + item.deletions,
-        files: [...acc[dupeIdx].files, ...item.files]
+        files: [...acc[dupeIdx].files, ...item.files],
+        commits: [...acc[dupeIdx].commits, ...item.commits]
       });
 
       return acc;
@@ -196,11 +198,18 @@ const IndexPage = () => {
         <div>Week: {selected.date}</div>
         <div>Insertions: {selected.insertions}</div>
         <div>Deletions: {selected.deletions}</div>
-        <ul>Files: {selected.files ? selected.files.map((file = '', i) => {
-          return (
-            <li key={`${selected.week}-${file}-${i}`}>{file.replace('/src/', '')}</li>
-          )
-        }) : null}</ul>
+        <div style={{ display: 'flex' }}>
+          <ul>Files: {selected.files ? selected.files.map((file = '', i) => {
+            return (
+              <li key={`${selected.week}-${file}-${i}`}>{file.replace('src/', '')}</li>
+            )
+          }) : null}</ul>
+          <ul>Commits: {selected.commits ? selected.commits.map((commit = '', i) => {
+            return (
+              <li key={`${selected.week}-${commit}-${i}`}>{commit}</li>
+            )
+          }) : null}</ul>
+        </div>
       </div>
 
 

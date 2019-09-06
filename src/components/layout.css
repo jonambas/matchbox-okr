@@ -636,9 +636,17 @@ main, header {
   margin: 0 auto;
 }
 
+main {
+  padding: 0 0 2rem 0;
+}
+
+header {
+  padding: 4rem 0;
+}
+
 h1 {
   font-size: 20px;
-  padding: 5rem 0;
+  margin: 0;
   text-align: center;
 }
 
@@ -655,4 +663,15 @@ button {
 button:hover {
   background: #f6f6f6;
   cursor: pointer;
+}
+
+ul {
+  padding: 0 1rem 0 0;
+  margin: 0 0 1rem;
+}
+
+ul li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
 }
