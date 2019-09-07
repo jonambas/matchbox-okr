@@ -1,5 +1,5 @@
 {
-  "date": "2019-09-06",
+  "date": "2019-09-01",
   "data": [
     {
       "file": "PlanPrice.module.scss",
@@ -362,10 +362,10 @@
       "code": "margin-bottom: 0;",
       "line": 32
     },
-    { "file": "Layout.module.scss", "code": "padding: 0;", "line": 30 },
-    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 41 },
-    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 47 },
-    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 55 },
+    { "file": "Layout.module.scss", "code": "padding: 0;", "line": 26 },
+    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 37 },
+    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 43 },
+    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 49 },
     { "file": "LineBreak.module.scss", "code": "margin: 0;", "line": 13 },
     {
       "file": "LineBreak.module.scss",
@@ -428,13 +428,8 @@
       "code": "padding-top: rem(56);",
       "line": 51
     },
-    {
-      "file": "Navigation.module.scss",
-      "code": "padding-top: rem(112);",
-      "line": 55
-    },
-    { "file": "Navigation.module.scss", "code": "margin: 0;", "line": 61 },
-    { "file": "Navigation.module.scss", "code": "padding: 0;", "line": 62 },
+    { "file": "Navigation.module.scss", "code": "margin: 0;", "line": 57 },
+    { "file": "Navigation.module.scss", "code": "padding: 0;", "line": 58 },
     {
       "file": "Notification.module.scss",
       "code": "font-size: rem(13);",
@@ -798,41 +793,6 @@
       "file": "ListPage.module.scss",
       "code": "margin-bottom: rem(30);",
       "line": 20
-    },
-    {
-      "file": "PendingCancelGlobalBanner.module.scss",
-      "code": "color: white;",
-      "line": 10
-    },
-    {
-      "file": "PendingCancelGlobalBanner.module.scss",
-      "code": "color: white;",
-      "line": 18
-    },
-    {
-      "file": "PendingCancelGlobalBanner.module.scss",
-      "code": "border: 2px solid white;",
-      "line": 19
-    },
-    {
-      "file": "PendingCancelGlobalBanner.module.scss",
-      "code": "margin-left: 2rem;",
-      "line": 20
-    },
-    {
-      "file": "PendingCancelGlobalBanner.module.scss",
-      "code": "padding-left: initial 1rem;",
-      "line": 21
-    },
-    {
-      "file": "PendingCancelGlobalBanner.module.scss",
-      "code": "color: white;",
-      "line": 34
-    },
-    {
-      "file": "PendingCancelGlobalBanner.module.scss",
-      "code": "margin-right: 8px;",
-      "line": 35
     },
     {
       "file": "PlanSummary.module.scss",

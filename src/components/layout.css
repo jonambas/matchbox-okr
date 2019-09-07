@@ -672,3 +672,8 @@ td, th {
 td:last-child, th:last-child {
   text-align: right;
 }
+
+svg {
+  display: block;
+  margin: 0 auto;
+}

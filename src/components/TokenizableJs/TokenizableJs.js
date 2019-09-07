@@ -1,7 +1,8 @@
 import React from 'react';
 import Button from '../button';
+import Graph from '../Graph';
 
-import tokens from '../../raw-data/token-count-js-2019-09-06.json';
+import tokens from '../../raw-data/token-count-js-now.json';
 
 function TokenizableCss(props) {
   const [show, setShow] = React.useState(false);
@@ -9,6 +10,8 @@ function TokenizableCss(props) {
   return (
     <>
       <h1>Hard Coded JS Colors</h1>
+
+      <Graph xKey='js' />
 
       <div style={{ textAlign: 'center' }}>
         <div>Total: {tokens.data.length}</div>
