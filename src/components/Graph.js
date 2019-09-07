@@ -28,7 +28,7 @@ function Graph({ xKey = 'css' }) {
   const xScale = scaleBand({
     rangeRound: [0, xMax],
     domain: dataMap.map(x),
-    padding: 0.2,
+    padding: 0.06,
   });
   const yScale = scaleLinear({
     rangeRound: [yMax, yMin],
@@ -40,7 +40,7 @@ function Graph({ xKey = 'css' }) {
       <Group top={40}>
         {dataMap.map((d, i) => {
           const letter = x(d);
-          const barWidth = xScale.bandwidth();;
+          const barWidth = xScale.bandwidth();
           const barHeight = yMax - yScale(y(d));
 
           const barX = xScale(letter);

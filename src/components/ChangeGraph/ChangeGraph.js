@@ -33,7 +33,7 @@ function ChangeGraph(props) {
   const xScale = scaleBand({
     rangeRound: [0, xMax],
     domain: SET.map(x),
-    padding: 0,
+    padding: 0.2,
   });
   const yScale = scaleLinear({
     rangeRound: [yMax, yMin],
@@ -54,7 +54,7 @@ function ChangeGraph(props) {
         <Group top={40}>
           {SET.map((d, i) => {
             const letter = x(d);
-            const barWidth = 5;
+            const barWidth = xScale.bandwidth();
             const barHeight = yMax - yScale(y(d));
 
             const barX = xScale(letter);
