@@ -1,10 +1,5 @@
 [
   {
-    "commit": "6faddaedc6b329cdf2d4999c396abce917af86ea",
-    "date": "2019-09-04",
-    "changes": []
-  },
-  {
     "commit": "9738311ba4b46ad3e4bda9f193b1ffe2d960163d",
     "date": "2019-08-29",
     "changes": [
@@ -19,11 +14,6 @@
         "deletions": 2
       }
     ]
-  },
-  {
-    "commit": "6330cd95182b15633fcfc0b020bab9f85b0a9f3c",
-    "date": "2019-08-29",
-    "changes": []
   },
   {
     "commit": "a27a20f341cc42748b0f127e07c5f4117868ced5",
@@ -563,82 +553,6 @@
         "path": "src/pages/reports/components/CustomReportRow.module.scss",
         "insertions": 0,
         "deletions": 7
-      }
-    ]
-  },
-  {
-    "commit": "5bf10aa6b745db07fab8b8d794428e5348bd7f6f",
-    "date": "2019-08-08",
-    "changes": [
-      {
-        "path": "src/pages/billing/components/PendingCancelGlobalBanner.module.scss",
-        "insertions": 6,
-        "deletions": 2
-      }
-    ]
-  },
-  {
-    "commit": "ff00f86992ba7f9115c840fe1681e06266cb9463",
-    "date": "2019-08-08",
-    "changes": [
-      {
-        "path": "src/pages/billing/components/PendingCancelGlobalBanner.module.scss",
-        "insertions": 7,
-        "deletions": 1
-      }
-    ]
-  },
-  {
-    "commit": "4c8048281cb78697fb9960f9f0937b32bb0bc57d",
-    "date": "2019-08-08",
-    "changes": [
-      {
-        "path": "src/pages/billing/components/PendingCancelGlobalBanner.module.scss",
-        "insertions": 1,
-        "deletions": 1
-      }
-    ]
-  },
-  {
-    "commit": "c1073d41b8d3e7de2e44f994c324527fbc8e8f84",
-    "date": "2019-08-07",
-    "changes": [
-      {
-        "path": "src/pages/billing/components/PendingCancelGlobalBanner.module.scss",
-        "insertions": 12,
-        "deletions": 0
-      }
-    ]
-  },
-  {
-    "commit": "f61bde44e1377c0a972b70d91c6b2a8a265fe49c",
-    "date": "2019-08-07",
-    "changes": [
-      {
-        "path": "src/components/navigation/Navigation.module.scss",
-        "insertions": 0,
-        "deletions": 15
-      },
-      {
-        "path": "src/pages/billing/components/PendingCancelGlobalBanner.module.scss",
-        "insertions": 15,
-        "deletions": 0
-      }
-    ]
-  },
-  {
-    "commit": "f145a611fd3b9339b6736ba233f9b241e7ee47f9",
-    "date": "2019-08-07",
-    "changes": [
-      {
-        "path": "src/components/layout/Layout.module.scss",
-        "insertions": 6,
-        "deletions": 0
-      },
-      {
-        "path": "src/components/navigation/Navigation.module.scss",
-        "insertions": 19,
-        "deletions": 0
       }
     ]
   },
