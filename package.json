@@ -40,8 +40,8 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
-    "source:scss": "bash ./scripts/raw.sh && node ./scripts/format-raw.js && prettier --write **/*.json",
-    "source:token": "bash ./scripts/token.sh && prettier --write **/*.json"
+    "source:scss": "sh ./scripts/raw.sh && node ./scripts/format-raw.js && prettier --write **/*.json",
+    "source:token": "sh ./scripts/token.sh && prettier --write **/*.json"
   },
   "repository": {
     "type": "git",
