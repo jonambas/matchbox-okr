@@ -6,6 +6,7 @@ import Button from "../components/button"
 import ChangeGraph from "../components/ChangeGraph/ChangeGraph"
 import TokenizableCss from "../components/TokenizableCss/TokenizableCss"
 import TokenizableJs from "../components/TokenizableJs/TokenizableJs"
+import SizeGraph from "../components/SizeGraph/SizeGraph"
 
 const IndexPage = () => {
   return (
@@ -19,6 +20,9 @@ const IndexPage = () => {
       </div>
       <div style={{ minHeight: '65vh' }}>
         <TokenizableJs/>
+      </div>
+      <div style={{ minHeight: '65vh' }}>
+        <SizeGraph/>
       </div>
     </Layout>
   )

@@ -2,7 +2,6 @@ const fs = require("fs")
 const path = require("path")
 const glob = require("glob")
 const moment = require("moment")
-const { exec, execSync } = require('child_process');
 
 const DATE = process.argv.pop();
 

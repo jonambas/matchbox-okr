@@ -43,6 +43,7 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing \"",
     "source:scss": "sh ./scripts/raw.sh && node ./scripts/format-raw.js && prettier --write **/*.json",
     "source:token": "sh ./scripts/token.sh && prettier --write **/*.json",
+    "source:size": "sh ./scripts/size.sh && prettier --write **/*.json",
     "source:component": "node ./scripts/component.js && prettier --write **/*.json"
   },
   "repository": {

@@ -843,7 +843,7 @@
     { "file": "Dot.module.scss", "code": "border-radius: 50%;", "line": 6 },
     {
       "file": "FilterSortCollection.module.scss",
-      "code": "padding: 1rem 1rem 0;",
+      "code": "padding: 0 1rem 0 1rem;",
       "line": 7
     },
     {
@@ -899,47 +899,47 @@
     {
       "file": "TestListPage.module.scss",
       "code": "padding: 0 0 0 1.3rem;",
-      "line": 44
+      "line": 40
     },
     {
       "file": "TestListPage.module.scss",
       "code": "margin: 0.2rem 0 0 0;",
-      "line": 45
+      "line": 41
     },
     {
       "file": "TestListPage.module.scss",
       "code": "margin: 0 0.5rem 0 0.5rem;",
-      "line": 49
+      "line": 45
     },
     {
       "file": "TestListPage.module.scss",
       "code": "padding: 0 0 0 1.2rem;",
-      "line": 55
+      "line": 51
     },
     {
       "file": "TestListPage.module.scss",
       "code": "margin: 0.2rem 0 0 0;",
-      "line": 56
+      "line": 52
     },
     {
       "file": "TestListPage.module.scss",
       "code": "padding: 0 0.2rem 0 0;",
-      "line": 61
+      "line": 57
     },
     {
       "file": "TestListPage.module.scss",
       "code": "margin-bottom: 0;",
-      "line": 69
+      "line": 65
     },
     {
       "file": "TestListPage.module.scss",
       "code": "padding: 0.4rem 0 0.1rem 0;",
-      "line": 71
+      "line": 67
     },
     {
       "file": "TestListPage.module.scss",
       "code": "padding-top: 0;",
-      "line": 79
+      "line": 75
     },
     {
       "file": "JoinForm.module.scss",
