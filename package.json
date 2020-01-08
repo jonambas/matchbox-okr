@@ -1,9 +1,9 @@
 {
-  "name": "matchbox-okr",
+  "name": "ux-team-okr-dashboard",
   "private": true,
   "description": "An OKR Dashboard for the SparkPost UX Team",
   "version": "0.1.0",
-  "author": "Jon Ambas",
+  "author": "SparkPost",
   "dependencies": {
     "@vx/group": "0.0.190",
     "@vx/scale": "0.0.190",
