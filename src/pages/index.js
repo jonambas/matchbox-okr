@@ -12,17 +12,17 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <div style={{ minHeight: '65vh' }}>
+      <div style={{ minHeight: "65vh" }}>
         <ChangeGraph />
       </div>
-      <div style={{ minHeight: '65vh' }}>
-        <TokenizableCss/>
+      <div style={{ minHeight: "65vh" }}>
+        <TokenizableCss />
       </div>
-      <div style={{ minHeight: '65vh' }}>
-        <TokenizableJs/>
+      <div style={{ minHeight: "65vh" }}>
+        <TokenizableJs />
       </div>
-      <div style={{ minHeight: '65vh' }}>
-        <SizeGraph/>
+      <div style={{ minHeight: "65vh" }}>
+        <SizeGraph />
       </div>
     </Layout>
   )
