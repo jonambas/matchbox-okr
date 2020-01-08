@@ -97,7 +97,7 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.scss"), {}, (err, files) => {
   )
 })
 
-const jsIncludes = [` '#`, `="#`]
+const jsIncludes = [` '#`, ` "#`, `="#`, `='#`]
 const jsExcludes = ["PropTypes", "orange", "blue", "fill: {"]
 
 glob(path.join(__dirname, "../../2web2ui/src/**/*.js"), {}, (err, files) => {

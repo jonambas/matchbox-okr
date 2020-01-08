@@ -1,6 +1,7 @@
 {
   "date": "2020-01-01",
   "data": [
+    { "file": "BarChart.js", "code": "stroke='#e1e1e6'", "line": 54 },
     { "file": "BarChart.js", "code": "activeFill: '#22838A',", "line": 142 },
     { "file": "BarChart.js", "code": "fill: '#B3ECEF',", "line": 143 },
     {
@@ -132,8 +133,16 @@
       "code": "*    { key: 'foo', fill: '#28C0C4' },",
       "line": 15
     },
+    { "file": "BarChart.js", "code": "stroke='#e1e1e6'", "line": 122 },
     { "file": "BarChart.js", "code": "activeFill: '#22838A',", "line": 198 },
     { "file": "BarChart.js", "code": "fill: '#B3ECEF',", "line": 199 },
+    { "file": "DivergingBar.js", "code": "fill='#5DCFF5'", "line": 30 },
+    {
+      "file": "DivergingBar.js",
+      "code": "return <Text {...props} fill='#0B83D6'>{label}</Text>;",
+      "line": 44
+    },
+    { "file": "DivergingBar.js", "code": "stroke='#d2d2d7'", "line": 58 },
     {
       "file": "DivergingBar.js",
       "code": "negativeFill: '#DB2F2D',",
@@ -144,6 +153,8 @@
       "code": "positiveFill: '#8CBE3C'",
       "line": 118
     },
+    { "file": "LineChart.js", "code": "fill='#5DCFF5'", "line": 53 },
+    { "file": "LineChart.js", "code": "stroke='#e1e1e6'", "line": 74 },
     { "file": "LineChart.js", "code": "stroke: '#000',", "line": 119 },
     { "file": "Sparkline.js", "code": "stroke: '#000000',", "line": 49 },
     {
