@@ -3,14 +3,19 @@ const path = require("path")
 const glob = require("glob")
 const moment = require("moment")
 
-const DATE = process.argv.pop();
+const DATE = process.argv.pop()
 
 const builtFilename = "token-count"
 const formattedDate = moment(DATE).format("YYYY-MM-DD")
-const shouldWriteFile = moment(DATE).isSame(moment(), 'month');
+const shouldWriteFile = moment(DATE).isSame(moment(), "month")
 
-let currentContent = JSON.parse(fs.readFileSync(path.join(__dirname, "../src/raw-data/token-count-raw.json"), "utf8"));
-currentContent = { ...currentContent, [formattedDate]: {} };
+let currentContent = JSON.parse(
+  fs.readFileSync(
+    path.join(__dirname, "../src/raw-data/token-count-raw.json"),
+    "utf8"
+  )
+)
+currentContent = { ...currentContent, [formattedDate]: {} }
 
 const cssIncludes = [
   "color:",
@@ -76,8 +81,7 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.scss"), {}, (err, files) => {
     return acc
   }, [])
 
-
-  currentContent[formattedDate] = { css: json.length };
+  currentContent[formattedDate] = { css: json.length }
 
   if (shouldWriteFile) {
     fs.writeFileSync(
@@ -88,7 +92,9 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.scss"), {}, (err, files) => {
       JSON.stringify({ date: formattedDate, data: json })
     )
   }
-  console.log(`✅  CSS Tokenizables for ${formattedDate} (${json.length} found)`)
+  console.log(
+    `✅  CSS Tokenizables for ${formattedDate} (${json.length} found)`
+  )
 })
 
 const jsIncludes = [` '#`, `="#`]
@@ -135,9 +141,14 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.js"), {}, (err, files) => {
       return acc
     }, [])
 
-
-  currentContent[formattedDate] = { ...currentContent[formattedDate], js: json.length };
-  fs.writeFileSync(path.join(path.join(__dirname, "../src/raw-data"), `token-count-raw.json`), JSON.stringify(currentContent))
+  currentContent[formattedDate] = {
+    ...currentContent[formattedDate],
+    js: json.length,
+  }
+  fs.writeFileSync(
+    path.join(path.join(__dirname, "../src/raw-data"), `token-count-raw.json`),
+    JSON.stringify(currentContent)
+  )
 
   if (shouldWriteFile) {
     fs.writeFileSync(
@@ -148,5 +159,7 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.js"), {}, (err, files) => {
       JSON.stringify({ date: formattedDate, data: json })
     )
   }
-  console.log(`✅  JS Tokenizables for ${formattedDate} (${json.length} found)\n`)
+  console.log(
+    `✅  JS Tokenizables for ${formattedDate} (${json.length} found)\n`
+  )
 })
