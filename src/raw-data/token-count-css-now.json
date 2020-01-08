@@ -1,11 +1,78 @@
 {
-  "date": "2019-09-01",
+  "date": "2020-01-01",
   "data": [
+    {
+      "file": "Abbreviation.module.scss",
+      "code": "border-bottom: 1px dashed currentColor;",
+      "line": 4
+    },
     {
       "file": "PlanPrice.module.scss",
       "code": "padding-right: rem(8);",
       "line": 12
     },
+    { "file": "Card.module.scss", "code": "border-radius: 5px;", "line": 3 },
+    { "file": "BarChart.scss", "code": "font-size: 13px;", "line": 6 },
+    { "file": "Legend.module.scss", "code": "margin-top: rem(3);", "line": 8 },
+    {
+      "file": "Legend.module.scss",
+      "code": "border-color: black;",
+      "line": 13
+    },
+    { "file": "Legend.module.scss", "code": "border-width: 1px;", "line": 14 },
+    {
+      "file": "Legend.module.scss",
+      "code": "margin-right: rem(9);",
+      "line": 26
+    },
+    { "file": "Legend.module.scss", "code": "margin-top: -1px;", "line": 27 },
+    {
+      "file": "Tooltip.module.scss",
+      "code": "padding: rem(9) rem(13);",
+      "line": 11
+    },
+    {
+      "file": "Tooltip.module.scss",
+      "code": "font-size: rem(13);",
+      "line": 16
+    },
+    {
+      "file": "Tooltip.module.scss",
+      "code": "font-size: rem(15);",
+      "line": 20
+    },
+    { "file": "Tooltip.scss", "code": "z-index: 1;", "line": 5 },
+    {
+      "file": "TooltipMetric.module.scss",
+      "code": "margin-right: rem(12);",
+      "line": 24
+    },
+    {
+      "file": "TooltipMetric.module.scss",
+      "code": "background: red;",
+      "line": 25
+    },
+    {
+      "file": "TooltipMetric.module.scss",
+      "code": "font-size: rem(12);",
+      "line": 47
+    },
+    {
+      "file": "CursorPaging.module.scss",
+      "code": "font-size: 80%;",
+      "line": 16
+    },
+    {
+      "file": "CursorPaging.module.scss",
+      "code": "color: rgba(0,0,0,0.5);",
+      "line": 18
+    },
+    {
+      "file": "CursorPaging.module.scss",
+      "code": "margin-left: 20px;",
+      "line": 19
+    },
+    { "file": "CursorPaging.module.scss", "code": "color: black;", "line": 23 },
     { "file": "NameCell.module.scss", "code": "margin-bottom: 0;", "line": 4 },
     { "file": "NameCell.module.scss", "code": "margin-bottom: 0;", "line": 9 },
     { "file": "Pagination.module.scss", "code": "font-size: 80%;", "line": 25 },
@@ -362,10 +429,10 @@
       "code": "margin-bottom: 0;",
       "line": 32
     },
-    { "file": "Layout.module.scss", "code": "padding: 0;", "line": 26 },
-    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 37 },
-    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 43 },
-    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 49 },
+    { "file": "Layout.module.scss", "code": "padding: 0;", "line": 30 },
+    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 41 },
+    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 47 },
+    { "file": "Layout.module.scss", "code": "margin: 0 auto;", "line": 55 },
     { "file": "LineBreak.module.scss", "code": "margin: 0;", "line": 13 },
     {
       "file": "LineBreak.module.scss",
@@ -383,40 +450,71 @@
     {
       "file": "AccountDropdown.module.scss",
       "code": "margin-top: -0.1em;",
-      "line": 22
+      "line": 29
     },
     { "file": "NavItem.module.scss", "code": "margin: 0;", "line": 4 },
     { "file": "NavItem.module.scss", "code": "padding: 0;", "line": 5 },
     {
       "file": "NavItem.module.scss",
-      "code": "padding: rem(9) rem(18);",
-      "line": 11
+      "code": "margin-bottom: rem(13);",
+      "line": 6
     },
     {
       "file": "NavItem.module.scss",
-      "code": "border-bottom: none;",
+      "code": "margin-left: rem(56);",
+      "line": 9
+    },
+    {
+      "file": "NavItem.module.scss",
+      "code": "padding-bottom: rem(13);",
       "line": 15
     },
     {
       "file": "NavItem.module.scss",
+      "code": "padding: rem(9) rem(18);",
+      "line": 22
+    },
+    {
+      "file": "NavItem.module.scss",
+      "code": "border-bottom: none;",
+      "line": 26
+    },
+    {
+      "file": "NavItem.module.scss",
       "code": "padding: rem(15) rem(18);",
-      "line": 27
+      "line": 38
     },
     {
       "file": "NavItem.module.scss",
       "code": "font-size: rem(16);",
-      "line": 28
+      "line": 39
     },
     {
       "file": "NavItem.module.scss",
-      "code": "margin-bottom: rem(13);",
-      "line": 66
+      "code": "margin-top: rem(18);",
+      "line": 44
     },
     {
       "file": "NavItem.module.scss",
-      "code": "padding: rem(4) rem(18) rem(4) rem(54);",
-      "line": 70
+      "code": "padding-top: rem(20);",
+      "line": 45
     },
+    {
+      "file": "NavItem.module.scss",
+      "code": "padding: rem(4) rem(18) rem(4) rem(8);",
+      "line": 94
+    },
+    {
+      "file": "NavItem.module.scss",
+      "code": "margin-top: rem(10);",
+      "line": 107
+    },
+    {
+      "file": "NavItem.module.scss",
+      "code": "padding-top: rem(12);",
+      "line": 108
+    },
+    { "file": "Top.module.scss", "code": "fill: currentColor;", "line": 85 },
     { "file": "Navigation.module.scss", "code": "z-index: 100;", "line": 4 },
     {
       "file": "Navigation.module.scss",
@@ -428,27 +526,17 @@
       "code": "padding-top: rem(56);",
       "line": 51
     },
-    { "file": "Navigation.module.scss", "code": "margin: 0;", "line": 57 },
-    { "file": "Navigation.module.scss", "code": "padding: 0;", "line": 58 },
     {
-      "file": "Notification.module.scss",
-      "code": "font-size: rem(13);",
-      "line": 16
+      "file": "Navigation.module.scss",
+      "code": "padding-top: rem(112);",
+      "line": 55
     },
+    { "file": "Navigation.module.scss", "code": "margin: 0;", "line": 61 },
+    { "file": "Navigation.module.scss", "code": "padding: 0;", "line": 62 },
     {
-      "file": "Notification.module.scss",
-      "code": "border-radius: 100%;",
-      "line": 39
-    },
-    {
-      "file": "Notification.module.scss",
-      "code": "margin-bottom: 0;",
-      "line": 48
-    },
-    {
-      "file": "NotificationCenter.module.scss",
-      "code": "margin-right: 2px;",
-      "line": 5
+      "file": "PercentWheel.module.scss",
+      "code": "font-size: rem(10);",
+      "line": 11
     },
     {
       "file": "PlanPicker.module.scss",
@@ -503,6 +591,11 @@
       "file": "FileFieldWrapper.module.scss",
       "code": "border-top-left-radius: 0;",
       "line": 12
+    },
+    {
+      "file": "SliderFieldWrapper.module.scss",
+      "code": "margin-bottom: 1rem;",
+      "line": 4
     },
     {
       "file": "PartnerLogos.module.scss",
@@ -664,23 +757,15 @@
       "line": 66
     },
     { "file": "index.scss", "code": "font-size: 16px;", "line": 8 },
-    {
-      "file": "index.scss",
-      "code": "@media screen and (min-width: breakpoint(medium)) { font-size: 18px; }",
-      "line": 9
-    },
-    {
-      "file": "index.scss",
-      "code": "@media screen and (min-width: breakpoint(larger)) { font-size: 20px; }",
-      "line": 10
-    },
-    { "file": "index.scss", "code": "color: #aaa;", "line": 14 },
-    { "file": "index.scss", "code": "color: #aaa;", "line": 17 },
-    { "file": "index.scss", "code": "color: #aaa;", "line": 20 },
+    { "file": "index.scss", "code": "font-size: 18px;", "line": 10 },
+    { "file": "index.scss", "code": "font-size: 20px;", "line": 13 },
+    { "file": "index.scss", "code": "color: #aaa;", "line": 19 },
     { "file": "index.scss", "code": "color: #aaa;", "line": 23 },
-    { "file": "index.scss", "code": "border-top: none;", "line": 27 },
-    { "file": "index.scss", "code": "border-left: none;", "line": 28 },
-    { "file": "index.scss", "code": "border-right: none;", "line": 29 },
+    { "file": "index.scss", "code": "color: #aaa;", "line": 27 },
+    { "file": "index.scss", "code": "color: #aaa;", "line": 31 },
+    { "file": "index.scss", "code": "border-top: none;", "line": 35 },
+    { "file": "index.scss", "code": "border-left: none;", "line": 36 },
+    { "file": "index.scss", "code": "border-right: none;", "line": 37 },
     {
       "file": "VariantsFields.module.scss",
       "code": "font-size: rem(14);",
@@ -720,18 +805,13 @@
     },
     {
       "file": "AlertDetails.module.scss",
-      "code": "margin: 0 rem(5) rem(10) 0;",
-      "line": 25
-    },
-    {
-      "file": "AlertDetails.module.scss",
-      "code": "margin: 0 rem(5) rem(10);",
-      "line": 31
+      "code": "margin-left: 0;",
+      "line": 23
     },
     {
       "file": "AlertDetails.module.scss",
       "code": "margin: 0 0 0 rem(5);",
-      "line": 42
+      "line": 32
     },
     {
       "file": "AlertForm.module.scss",
@@ -764,35 +844,156 @@
       "line": 27
     },
     {
-      "file": "EvaluatorFields.module.scss",
-      "code": "margin-bottom: rem(20);",
-      "line": 4
-    },
-    {
-      "file": "EvaluatorFields.module.scss",
-      "code": "margin-top: rem(-15);",
-      "line": 5
-    },
-    {
       "file": "DetailsPage.module.scss",
       "code": "margin: 0 rem(3) rem(5);",
       "line": 3
     },
-    { "file": "ListPage.module.scss", "code": "padding: 1rem;", "line": 5 },
     {
       "file": "ListPage.module.scss",
-      "code": "padding: rem(10) 0 rem(45);",
-      "line": 12
+      "code": "font-size: rem(14);",
+      "line": 16
+    },
+    { "file": "TfaForm.module.scss", "code": "margin-top: -1rem;", "line": 3 },
+    {
+      "file": "TfaForm.module.scss",
+      "code": "margin-bottom: 1rem;",
+      "line": 4
     },
     {
-      "file": "ListPage.module.scss",
-      "code": "font-size: rem(17);",
+      "file": "CurrentPlanSection.module.scss",
+      "code": "margin: 1rem 0 0 1rem;",
+      "line": 10
+    },
+    {
+      "file": "CurrentPlanSection.module.scss",
+      "code": "font-size: rem(14);",
+      "line": 17
+    },
+    {
+      "file": "CurrentPlanSection.module.scss",
+      "code": "padding: 0 20px;",
+      "line": 20
+    },
+    {
+      "file": "FeatureChangeSection.module.scss",
+      "code": "margin: 1rem;",
+      "line": 5
+    },
+    {
+      "file": "FeatureChangeSection.module.scss",
+      "code": "margin-right: 2rem;",
+      "line": 8
+    },
+    {
+      "file": "FeatureChangeSection.module.scss",
+      "code": "font-size: .9em;",
+      "line": 9
+    },
+    {
+      "file": "FeatureChangeSection.module.scss",
+      "code": "padding-right: 2rem;",
+      "line": 13
+    },
+    {
+      "file": "FeatureComparisonModal.module.scss",
+      "code": "padding-left: 2em;",
+      "line": 9
+    },
+    {
+      "file": "FeatureComparisonModal.module.scss",
+      "code": "font-size: 120%;",
       "line": 18
     },
     {
-      "file": "ListPage.module.scss",
-      "code": "margin-bottom: rem(30);",
+      "file": "FeatureComparisonModal.module.scss",
+      "code": "margin-bottom: 0; // override",
+      "line": 22
+    },
+    {
+      "file": "FeatureComparisonModal.module.scss",
+      "code": "font-size: 12px;",
+      "line": 27
+    },
+    {
+      "file": "FeatureComparisonModal.module.scss",
+      "code": "color: rgb(155, 152, 39);",
+      "line": 31
+    },
+    {
+      "file": "FeatureComparisonModal.module.scss",
+      "code": "color: rgb(60, 146, 240);",
+      "line": 34
+    },
+    {
+      "file": "FeatureComparisonModal.module.scss",
+      "code": "color: rgb(250, 100, 35);",
+      "line": 37
+    },
+    {
+      "file": "FeatureComparisonModal.module.scss",
+      "code": "padding: 31px;",
+      "line": 41
+    },
+    {
+      "file": "FeatureComparisonModal.module.scss",
+      "code": "font-size: 24px;",
+      "line": 42
+    },
+    {
+      "file": "PendingCancelGlobalBanner.module.scss",
+      "code": "color: white;",
+      "line": 10
+    },
+    {
+      "file": "PendingCancelGlobalBanner.module.scss",
+      "code": "color: white;",
+      "line": 18
+    },
+    {
+      "file": "PendingCancelGlobalBanner.module.scss",
+      "code": "border: 2px solid white;",
+      "line": 19
+    },
+    {
+      "file": "PendingCancelGlobalBanner.module.scss",
+      "code": "margin-left: 2rem;",
       "line": 20
+    },
+    {
+      "file": "PendingCancelGlobalBanner.module.scss",
+      "code": "padding-left: initial 1rem;",
+      "line": 21
+    },
+    {
+      "file": "PendingCancelGlobalBanner.module.scss",
+      "code": "color: white;",
+      "line": 34
+    },
+    {
+      "file": "PendingCancelGlobalBanner.module.scss",
+      "code": "margin-right: 8px;",
+      "line": 35
+    },
+    {
+      "file": "PlanSelect.module.scss",
+      "code": "margin: .5rem 1rem;",
+      "line": 3
+    },
+    {
+      "file": "PlanSelect.module.scss",
+      "code": "padding: .5rem 0;",
+      "line": 4
+    },
+    { "file": "PlanSelect.module.scss", "code": "margin: 0;", "line": 16 },
+    {
+      "file": "PlanSelect.module.scss",
+      "code": "padding-left: 20px;",
+      "line": 24
+    },
+    {
+      "file": "PlanSelect.module.scss",
+      "code": "padding-right: 20px;",
+      "line": 25
     },
     {
       "file": "PlanSummary.module.scss",
@@ -820,6 +1021,27 @@
       "line": 30
     },
     {
+      "file": "IncidentsCollection.module.scss",
+      "code": "margin-top: 0;",
+      "line": 14
+    },
+    {
+      "file": "GettingStartedGuide.module.scss",
+      "code": "margin: 0;",
+      "line": 9
+    },
+    {
+      "file": "GuideListItem.module.scss",
+      "code": "padding-top: 10px;",
+      "line": 35
+    },
+    { "file": "SignupModal.module.scss", "code": "margin: 0 auto;", "line": 4 },
+    {
+      "file": "SignupModal.module.scss",
+      "code": "margin-bottom: rem(50);",
+      "line": 16
+    },
+    {
       "file": "TutorialItem.module.scss",
       "code": "margin-bottom: 0;",
       "line": 9
@@ -839,11 +1061,71 @@
       "code": "border-radius: 50%;",
       "line": 45
     },
+    {
+      "file": "AllMessagesPage.module.scss",
+      "code": "padding-bottom: 1rem;",
+      "line": 6
+    },
+    {
+      "file": "AllMessagesPage.module.scss",
+      "code": "padding: rem(20) rem(20) 0 0;",
+      "line": 11
+    },
+    {
+      "file": "AllMessagesPage.module.scss",
+      "code": "padding-left: rem(50);",
+      "line": 18
+    },
+    {
+      "file": "AllMessagesPage.module.scss",
+      "code": "@media screen and (min-width: breakpoint(medium)) { padding-left: rem(20); }",
+      "line": 23
+    },
+    {
+      "file": "AllMessagesPage.module.scss",
+      "code": "padding-left: rem(50);",
+      "line": 24
+    },
+    {
+      "file": "AllMessagesPage.module.scss",
+      "code": "padding-left: rem(50);",
+      "line": 32
+    },
+    {
+      "file": "AllMessagesPage.module.scss",
+      "code": "padding-left: rem(50);",
+      "line": 36
+    },
+    {
+      "file": "AllMessagesPage.module.scss",
+      "code": "@media screen and (min-width: breakpoint(medium)) { padding-left: rem(20); }",
+      "line": 37
+    },
+    {
+      "file": "AllMessagesCollection.module.scss",
+      "code": "border-bottom: 0;",
+      "line": 13
+    },
+    {
+      "file": "AllMessagesCollection.module.scss",
+      "code": "border-top: 0;",
+      "line": 17
+    },
+    {
+      "file": "AllMessagesCollection.module.scss",
+      "code": "border-bottom: 0;",
+      "line": 31
+    },
+    {
+      "file": "AllMessagesCollection.module.scss",
+      "code": "border-bottom: 0;",
+      "line": 39
+    },
     { "file": "Dot.module.scss", "code": "margin: 0 13px 0 0;", "line": 3 },
     { "file": "Dot.module.scss", "code": "border-radius: 50%;", "line": 6 },
     {
       "file": "FilterSortCollection.module.scss",
-      "code": "padding: 0 1rem 0 1rem;",
+      "code": "padding: 1rem 1rem 0;",
       "line": 7
     },
     {
@@ -852,18 +1134,23 @@
       "line": 16
     },
     {
-      "file": "ProvidersBreakdown.module.scss",
+      "file": "PlacementBreakdown.module.scss",
       "code": "border-bottom: 0px;",
       "line": 4
     },
     {
-      "file": "ProvidersBreakdown.module.scss",
+      "file": "PlacementBreakdown.module.scss",
       "code": "border-bottom: 0px;",
       "line": 9
     },
     {
+      "file": "TestDetails.module.scss",
+      "code": "border-bottom: none;",
+      "line": 14
+    },
+    {
       "file": "SeedList.module.scss",
-      "code": "margin-left: 20px;",
+      "code": "margin-right: 20px;",
       "line": 11
     },
     {
@@ -903,44 +1190,42 @@
     },
     {
       "file": "TestListPage.module.scss",
-      "code": "margin: 0.2rem 0 0 0;",
-      "line": 41
-    },
-    {
-      "file": "TestListPage.module.scss",
       "code": "margin: 0 0.5rem 0 0.5rem;",
-      "line": 45
+      "line": 44
     },
     {
       "file": "TestListPage.module.scss",
       "code": "padding: 0 0 0 1.2rem;",
-      "line": 51
+      "line": 50
     },
     {
       "file": "TestListPage.module.scss",
-      "code": "margin: 0.2rem 0 0 0;",
-      "line": 52
-    },
-    {
-      "file": "TestListPage.module.scss",
-      "code": "padding: 0 0.2rem 0 0;",
-      "line": 57
+      "code": "padding: 0 0.2rem 2px 0;",
+      "line": 55
     },
     {
       "file": "TestListPage.module.scss",
       "code": "margin-bottom: 0;",
-      "line": 65
+      "line": 63
     },
     {
       "file": "TestListPage.module.scss",
       "code": "padding: 0.4rem 0 0.1rem 0;",
-      "line": 67
+      "line": 65
     },
     {
       "file": "TestListPage.module.scss",
       "code": "padding-top: 0;",
-      "line": 75
+      "line": 73
     },
+    {
+      "file": "DeliveryHistoryLineChart.module.scss",
+      "code": "margin-bottom: 0;",
+      "line": 4
+    },
+    { "file": "IpForm.module.scss", "code": "border: 0;", "line": 17 },
+    { "file": "IpForm.module.scss", "code": "padding-left: 0;", "line": 18 },
+    { "file": "IpForm.module.scss", "code": "margin-bottom: 0;", "line": 23 },
     {
       "file": "JoinForm.module.scss",
       "code": "margin-bottom: rem(16);",
@@ -1387,37 +1672,21 @@
       "code": "margin-bottom: 0;",
       "line": 24
     },
-    {
-      "file": "CursorPaging.module.scss",
-      "code": "font-size: 80%;",
-      "line": 16
-    },
-    {
-      "file": "CursorPaging.module.scss",
-      "code": "color: rgba(0,0,0,0.5);",
-      "line": 18
-    },
-    {
-      "file": "CursorPaging.module.scss",
-      "code": "margin-left: 20px;",
-      "line": 19
-    },
-    { "file": "CursorPaging.module.scss", "code": "color: black;", "line": 23 },
-    { "file": "SearchForm.module.scss", "code": "margin: 0;", "line": 8 },
+    { "file": "SearchForm.module.scss", "code": "margin: 0;", "line": 9 },
     {
       "file": "SearchForm.module.scss",
       "code": "margin-bottom: 5px;",
-      "line": 27
+      "line": 28
     },
     {
       "file": "SearchForm.module.scss",
       "code": "margin-left: 5px;",
-      "line": 32
+      "line": 33
     },
     {
       "file": "SearchForm.module.scss",
       "code": "margin-bottom: 1px;",
-      "line": 33
+      "line": 34
     },
     {
       "file": "MessageEventsPage.module.scss",
@@ -1429,48 +1698,6 @@
       "code": "margin-bottom: 3px;",
       "line": 13
     },
-    { "file": "LineChart.scss", "code": "margin-bottom: rem(30);", "line": 4 },
-    { "file": "LineChart.scss", "code": "margin-bottom: 0;", "line": 8 },
-    { "file": "LineChart.scss", "code": "font-size: 13px;", "line": 14 },
-    { "file": "LineChart.scss", "code": "font-size: 13px", "line": 37 },
-    {
-      "file": "LineChart.scss",
-      "code": "background: #fff !important; // fuck cssinjs",
-      "line": 68
-    },
-    {
-      "file": "LineChart.scss",
-      "code": "padding: rem(18) !important;",
-      "line": 72
-    },
-    { "file": "LineChart.scss", "code": "font-size: rem(15);", "line": 77 },
-    {
-      "file": "LineChart.scss",
-      "code": "margin-bottom: rem(9) !important;",
-      "line": 78
-    },
-    {
-      "file": "LineChart.scss",
-      "code": "font-size: rem(13) !important;",
-      "line": 82
-    },
-    { "file": "LineChart.scss", "code": "margin: 0 !important;", "line": 83 },
-    { "file": "LineChart.scss", "code": "padding: 0 !important;", "line": 84 },
-    { "file": "LineChart.scss", "code": "padding-right: rem(55);", "line": 89 },
-    { "file": "LineChart.scss", "code": "margin-left: rem(30);", "line": 103 },
-    { "file": "LineChart.scss", "code": "padding-top: rem(11);", "line": 104 },
-    {
-      "file": "LineChart.scss",
-      "code": "padding-bottom: rem(0);",
-      "line": 105
-    },
-    {
-      "file": "LineChart.scss",
-      "code": "padding: rem(0) rem(15) rem(24) rem(6);",
-      "line": 111
-    },
-    { "file": "LineChart.scss", "code": "font-size: rem(13);", "line": 112 },
-    { "file": "LineChart.scss", "code": "margin-top: rem(-24);", "line": 115 },
     {
       "file": "ChartHeader.module.scss",
       "code": "font-size: rem(13);",
@@ -1531,37 +1758,6 @@
     { "file": "Legend.module.scss", "code": "border-radius: 50%;", "line": 12 },
     { "file": "Legend.module.scss", "code": "font-size: rem(12);", "line": 18 },
     {
-      "file": "Tooltip.module.scss",
-      "code": "padding: rem(9) rem(13);",
-      "line": 11
-    },
-    {
-      "file": "Tooltip.module.scss",
-      "code": "font-size: rem(13);",
-      "line": 16
-    },
-    {
-      "file": "Tooltip.module.scss",
-      "code": "font-size: rem(15);",
-      "line": 20
-    },
-    { "file": "Tooltip.scss", "code": "z-index: 1;", "line": 5 },
-    {
-      "file": "TooltipMetric.module.scss",
-      "code": "margin-right: rem(12);",
-      "line": 24
-    },
-    {
-      "file": "TooltipMetric.module.scss",
-      "code": "background: red;",
-      "line": 25
-    },
-    {
-      "file": "TooltipMetric.module.scss",
-      "code": "font-size: rem(12);",
-      "line": 47
-    },
-    {
       "file": "DataCell.module.scss",
       "code": "margin-top: -0.15em;",
       "line": 46
@@ -1601,6 +1797,31 @@
       "file": "FacetFilter.module.scss",
       "code": "border-bottom-left-radius: 0;",
       "line": 31
+    },
+    {
+      "file": "FormatRow.module.scss",
+      "code": "font-size: rem(15);",
+      "line": 5
+    },
+    {
+      "file": "FormatRow.module.scss",
+      "code": "margin-top: -4px;",
+      "line": 12
+    },
+    {
+      "file": "HealthScoreLegend.module.scss",
+      "code": "font-size: rem(12);",
+      "line": 30
+    },
+    {
+      "file": "HealthScoreMetric.module.scss",
+      "code": "font-size: rem(40);",
+      "line": 13
+    },
+    {
+      "file": "HealthScoreMetric.module.scss",
+      "code": "margin: 0;",
+      "line": 14
     },
     {
       "file": "InfoTooltip.module.scss",
@@ -1725,54 +1946,34 @@
       "line": 3
     },
     {
-      "file": "ListComponents.module.scss",
-      "code": "margin-bottom: 0;",
-      "line": 3
-    },
-    {
-      "file": "ListComponents.module.scss",
-      "code": "margin-bottom: 0;",
-      "line": 7
-    },
-    {
-      "file": "ListComponents.module.scss",
-      "code": "margin-bottom: 0;",
-      "line": 13
-    },
-    {
-      "file": "PreviewPanel.module.scss",
-      "code": "border-radius: unset;",
-      "line": 2
-    },
-    {
-      "file": "PreviewPanel.module.scss",
-      "code": "border: 1px solid #d2d2d7;",
-      "line": 10
-    },
-    {
-      "file": "PreviewPanel.module.scss",
-      "code": "border-radius: 2px;",
-      "line": 11
-    },
-    {
       "file": "EditNavigation.module.scss",
       "code": "background: #fff;",
       "line": 3
     },
     {
+      "file": "EditNavigation.module.scss",
+      "code": "font-size: rem(18);",
+      "line": 16
+    },
+    {
       "file": "Editor.module.scss",
-      "code": "padding: $phone-padding;",
+      "code": "padding: $phone-padding 0;",
       "line": 6
     },
     {
       "file": "Editor.module.scss",
+      "code": "background-color: #272727;",
+      "line": 7
+    },
+    {
+      "file": "Editor.module.scss",
       "code": "background: linear-gradient(to right, #ff594d 5px, transparent 5px) !important;",
-      "line": 9
+      "line": 10
     },
     {
       "file": "Editor.module.scss",
       "code": "color: inherit !important;",
-      "line": 10
+      "line": 11
     },
     {
       "file": "Actions.module.scss",
@@ -1789,25 +1990,35 @@
     },
     {
       "file": "EditSection.module.scss",
+      "code": "margin-bottom: 0; // Overrides styles that are on the `<Card/>`",
+      "line": 5
+    },
+    {
+      "file": "EditSection.module.scss",
+      "code": "padding-top: 0;",
+      "line": 20
+    },
+    {
+      "file": "EditSection.module.scss",
       "code": "padding-bottom: 0;",
-      "line": 13
+      "line": 21
     },
     { "file": "FromEmail.module.scss", "code": "margin-top: 3px;", "line": 13 },
     { "file": "FromEmail.module.scss", "code": "z-index: 1;", "line": 23 },
     {
       "file": "ListComponents.module.scss",
       "code": "margin-bottom: 0;",
-      "line": 3
+      "line": 4
     },
     {
       "file": "ListComponents.module.scss",
       "code": "margin-bottom: 0;",
-      "line": 7
+      "line": 8
     },
     {
       "file": "ListComponents.module.scss",
       "code": "margin-bottom: 0;",
-      "line": 13
+      "line": 14
     },
     { "file": "phone.scss", "code": "$phone-padding: 15px;", "line": 0 },
     {
@@ -1877,40 +2088,55 @@
     },
     {
       "file": "PreviewSection.module.scss",
-      "code": "border-radius: 2px;",
-      "line": 3
-    },
-    { "file": "Form.module.scss", "code": "margin-left: 20px;", "line": 5 },
-    {
-      "file": "SettingsSection.module.scss",
-      "code": "border-radius: 2px;",
+      "code": "margin-bottom: 0; // Overrides styles that are on the `<Card/>`",
       "line": 3
     },
     {
-      "file": "SettingsSection.module.scss",
-      "code": "padding: 1rem;",
-      "line": 4
+      "file": "RecentActivity.module.scss",
+      "code": "margin: 0; // Overriding Matchbox defaults",
+      "line": 15
+    },
+    {
+      "file": "RecentActivity.module.scss",
+      "code": "font-size: rem(14);",
+      "line": 28
+    },
+    {
+      "file": "RecentActivity.module.scss",
+      "code": "font-size: rem(14);",
+      "line": 35
+    },
+    { "file": "RecentActivity.module.scss", "code": "border: 0;", "line": 36 },
+    {
+      "file": "RecentActivity.module.scss",
+      "code": "fill: #44D09E;",
+      "line": 45
     },
     {
       "file": "SettingsSection.module.scss",
-      "code": "border-bottom: 0px;",
-      "line": 8
+      "code": "margin-bottom: 0; // Overriding matchbox component styles",
+      "line": 3
     },
     { "file": "CreatePage.module.scss", "code": "padding: 10px;", "line": 10 },
     {
       "file": "EditAndPreviewPage.module.scss",
-      "code": "z-index: 100;",
+      "code": "z-index: 50;",
       "line": 6
     },
     {
       "file": "EditAndPreviewPage.module.scss",
-      "code": "margin-top: 60px;",
-      "line": 11
+      "code": "margin-top: 0;",
+      "line": 14
+    },
+    {
+      "file": "EditAndPreviewPage.module.scss",
+      "code": "margin-top: 70px;",
+      "line": 17
     },
     {
       "file": "EditAndPreviewPage.module.scss",
       "code": "color: #44D09E;",
-      "line": 15
+      "line": 22
     },
     {
       "file": "TrackingDomainRow.module.scss",
@@ -1919,6 +2145,50 @@
     },
     { "file": "User.module.scss", "code": "margin-bottom: 0;", "line": 3 },
     { "file": "User.module.scss", "code": "margin-bottom: 0;", "line": 7 },
-    { "file": "User.module.scss", "code": "font-size: rem(14);", "line": 9 }
+    { "file": "User.module.scss", "code": "font-size: rem(14);", "line": 9 },
+    { "file": "_charts.scss", "code": "margin-bottom: rem(30);", "line": 4 },
+    { "file": "_charts.scss", "code": "margin-bottom: 0;", "line": 8 },
+    { "file": "_charts.scss", "code": "font-size: 13px;", "line": 14 },
+    { "file": "_charts.scss", "code": "font-size: 13px;", "line": 37 },
+    {
+      "file": "_charts.scss",
+      "code": "background: #fff !important; // fuck cssinjs",
+      "line": 65
+    },
+    {
+      "file": "_charts.scss",
+      "code": "padding: rem(18) !important;",
+      "line": 69
+    },
+    { "file": "_charts.scss", "code": "font-size: rem(15);", "line": 74 },
+    {
+      "file": "_charts.scss",
+      "code": "margin-bottom: rem(9) !important;",
+      "line": 75
+    },
+    {
+      "file": "_charts.scss",
+      "code": "font-size: rem(13) !important;",
+      "line": 79
+    },
+    { "file": "_charts.scss", "code": "margin: 0 !important;", "line": 80 },
+    { "file": "_charts.scss", "code": "padding: 0 !important;", "line": 81 },
+    { "file": "_charts.scss", "code": "padding-right: rem(55);", "line": 87 },
+    { "file": "_charts.scss", "code": "margin-left: rem(30);", "line": 102 },
+    { "file": "_charts.scss", "code": "padding-top: rem(11);", "line": 103 },
+    { "file": "_charts.scss", "code": "padding-bottom: rem(0);", "line": 104 },
+    {
+      "file": "_charts.scss",
+      "code": "padding: rem(0) rem(15) rem(24) rem(6);",
+      "line": 110
+    },
+    { "file": "_charts.scss", "code": "font-size: rem(13);", "line": 111 },
+    { "file": "_charts.scss", "code": "margin-top: rem(-24);", "line": 115 },
+    { "file": "_resets.scss", "code": "margin: 0;", "line": 3 },
+    { "file": "_resets.scss", "code": "padding: 0;", "line": 4 },
+    { "file": "_resets.scss", "code": "background: transparent;", "line": 7 },
+    { "file": "_resets.scss", "code": "color: inherit;", "line": 9 },
+    { "file": "_resets.scss", "code": "border: 0;", "line": 20 },
+    { "file": "_resets.scss", "code": "padding: 0;", "line": 21 }
   ]
 }

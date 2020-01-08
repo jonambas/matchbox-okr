@@ -6,18 +6,23 @@ import size from '../../raw-data/size.json';
 
 function SizeGraph(props) {
   const [show, setShow] = React.useState(false);
-  const last = size['2019-12-01'];
+  const [date, setDate] = React.useState('2019-12-01');
+  console.log(date)
+  const last = React.useMemo(() => {
+    return size[date];
+  }, [date]);
+
   return (
     <>
       <h1>JS & CSS Size</h1>
 
-      <Graph />
+      <Graph onClick={setDate} />
 
       <div style={{ textAlign: 'center' }}>
         <div>Current Ratio: {((last.css / last.js) * 100).toFixed(2)}%</div>
         <div>JS: {last.js}</div>
         <div>CSS: {last.css}</div>
-        <div>Date: 2019-12-01</div>
+        <div>Date: {date}</div>
       </div>
 
       {/* {show && (

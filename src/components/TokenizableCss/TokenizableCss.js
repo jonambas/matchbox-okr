@@ -3,19 +3,24 @@ import Button from '../button';
 import Graph from '../Graph';
 
 import tokens from '../../raw-data/token-count-css-now.json';
+import raw from '../../raw-data/token-count-raw.json';
 
 function TokenizableCss(props) {
   const [show, setShow] = React.useState(false);
+  const [date, setDate] = React.useState(tokens.date);
+  const day = React.useMemo(() => {
+    return raw[date]
+  }, [date]);
 
   return (
     <>
       <h1>Tokenizable and Overridden CSS</h1>
 
-      <Graph xKey='css' />
+      <Graph xKey='css' onClick={setDate} />
 
       <div style={{ textAlign: 'center' }}>
-        <div>Total: {tokens.data.length}</div>
-        <div>Date: {tokens.date}</div>
+        <div>Total: {date === tokens.date ? tokens.data.length : day.css}</div>
+        <div>Date: {date}</div>
         <Button
           onClick={() => setShow(!show)}>
           {show ? 'Hide CSS' : 'Show CSS'}

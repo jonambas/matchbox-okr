@@ -7,7 +7,7 @@ import _ from 'lodash';
 
 import data from '../raw-data/token-count-raw.json';
 
-function Graph({ xKey = 'css' }) {
+function Graph({ xKey = 'css', onClick }) {
   const dataMap = _.sortBy(Object.keys(data).reduce((acc, key) => {
     acc.push({ date: key, ...data[key] });
     return acc;
@@ -47,7 +47,9 @@ function Graph({ xKey = 'css' }) {
           let barY = yMax - barHeight;
 
           return (
-            <Group key={`fbar-${letter}`}>
+            <Group key={`fbar-${letter}`} onClick={() => onClick(d.date)} style={{
+                    cursor: 'pointer'
+                  }}>
               <rect
                 x={barX}
                 y={yMax - height}

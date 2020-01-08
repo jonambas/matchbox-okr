@@ -1,6 +1,13 @@
 {
-  "date": "2019-09-01",
+  "date": "2020-01-01",
   "data": [
+    { "file": "BarChart.js", "code": "activeFill: '#22838A',", "line": 142 },
+    { "file": "BarChart.js", "code": "fill: '#B3ECEF',", "line": 143 },
+    {
+      "file": "TooltipMetric.js",
+      "code": "const TooltipMetric = ({ color = '#6e6e73', description, label, value }) => (",
+      "line": 4
+    },
     { "file": "EnableTfaForm.js", "code": "bgColor=\"#FFFFFF\"", "line": 67 },
     { "file": "EnableTfaForm.js", "code": "fgColor=\"#000000\"", "line": 68 },
     {
@@ -16,36 +23,48 @@
     {
       "file": "FolderPlacementBarChart.js",
       "code": "<text x={0} y={0} textAnchor=\"start\" fill=\"#666\">{payload.value}</text>",
-      "line": 7
-    },
-    {
-      "file": "FolderPlacementBarChart.js",
-      "code": "name: 'Inbox', value: placements.inbox_pct * 100, color: '#50D0D9'",
-      "line": 18
-    },
-    {
-      "file": "FolderPlacementBarChart.js",
-      "code": "name: 'Spam', value: placements.spam_pct * 100, color: '#0CBAC7'",
-      "line": 20
-    },
-    {
-      "file": "FolderPlacementBarChart.js",
-      "code": "name: 'Missing', value: placements.missing_pct * 100, color: '#00838C'",
-      "line": 22
+      "line": 8
     },
     {
       "file": "FolderPlacementBarChart.js",
       "code": "<Bar dataKey=\"value\" fill=\"#37aadc\" isAnimationActive={false} barSize={25}>",
-      "line": 36
+      "line": 37
     },
     {
       "file": "FolderPlacementBarChart.js",
       "code": "<LabelList fill=\"#55555a\" formatter={formatPercent} position=\"right\"/>",
-      "line": 38
+      "line": 39
     },
+    { "file": "TrendsChart.js", "code": "fill: '#203752',", "line": 18 },
+    { "file": "TrendsChart.js", "code": "fill: '#91C5FD',", "line": 23 },
+    { "file": "TrendsChart.js", "code": "fill: '#4194ED',", "line": 28 },
+    {
+      "file": "TrendsChart.js",
+      "code": "{ fill: '#ffffff', label: 'No Tests Sent', hasBorder: true },",
+      "line": 36
+    },
+    { "file": "graphs.js", "code": "color: '#0CBAC7'", "line": 1 },
+    { "file": "graphs.js", "code": "color: '#50D0D9'", "line": 6 },
+    { "file": "graphs.js", "code": "color: '#0CBAC7'", "line": 9 },
+    { "file": "graphs.js", "code": "color: '#00838C'", "line": 12 },
     { "file": "getStatusProps.js", "code": "fill: '#2AC995',", "line": 7 },
     { "file": "getStatusProps.js", "code": "fill: '#FF594D',", "line": 13 },
     { "file": "getStatusProps.js", "code": "fill: '#FFFFFF',", "line": 20 },
+    {
+      "file": "DeliveryHistoryLineChart.js",
+      "code": "stroke=\"#55555a\"",
+      "line": 31
+    },
+    {
+      "file": "DeliveryHistoryLineChart.js",
+      "code": "stroke=\"#55555a\"",
+      "line": 41
+    },
+    {
+      "file": "DeliveryHistoryLineChart.js",
+      "code": "stroke=\"#2693C3\"",
+      "line": 51
+    },
     {
       "file": "icons.js",
       "code": "<svg xmlns=\"http://www.w3.org/2000/svg\" width=\"100\" height=\"100\" viewBox=\"0 0 100 100\"><path fill=\"#ffda00\" d=\"M48.84 4.68A45.16 45.16 0 1 0 94 49.84 45.16 45.16 0 0 0 48.84 4.68zm-1.5 19.91a1.5 1.5 0 0 1 3 0V60a1.5 1.5 0 1 1-3 0zm3.26 51.22a2.29 2.29 0 0 1-4-1.6 2.29 2.29 0 0 1 4.4-.94 2.3 2.3 0 0 1-.4 2.54z\"/></svg>",
@@ -113,8 +132,8 @@
       "code": "*    { key: 'foo', fill: '#28C0C4' },",
       "line": 15
     },
-    { "file": "BarChart.js", "code": "fill: '#B3ECEF',", "line": 175 },
-    { "file": "BarChart.js", "code": "activeFill: '#22838A',", "line": 176 },
+    { "file": "BarChart.js", "code": "activeFill: '#22838A',", "line": 198 },
+    { "file": "BarChart.js", "code": "fill: '#B3ECEF',", "line": 199 },
     {
       "file": "DivergingBar.js",
       "code": "negativeFill: '#DB2F2D',",
@@ -125,17 +144,32 @@
       "code": "positiveFill: '#8CBE3C'",
       "line": 118
     },
-    { "file": "LineChart.js", "code": "stroke: '#000',", "line": 118 },
+    { "file": "LineChart.js", "code": "stroke: '#000',", "line": 119 },
     { "file": "Sparkline.js", "code": "stroke: '#000000',", "line": 49 },
-    {
-      "file": "TooltipMetric.js",
-      "code": "const TooltipMetric = ({ color = '#6e6e73', description, label, value }) => (",
-      "line": 4
-    },
     {
       "file": "SparklineDataCell.js",
       "code": "<Dot {...props} fill={colorMapByRank[props.payload.ranking]} stroke=\"#FFFFFF\" />",
       "line": 10
+    },
+    {
+      "file": "FormatRow.js",
+      "code": "{ label: 'Accepted', color: '#8CCA3A', value: number_succeeded },",
+      "line": 48
+    },
+    {
+      "file": "FormatRow.js",
+      "code": "{ label: 'Rejected', color: '#DB2F2D', value: number_failed },",
+      "line": 49
+    },
+    {
+      "file": "FormatRow.js",
+      "code": "{ label: 'Duplicates', color: '#FA6423', value: number_duplicates }",
+      "line": 50
+    },
+    {
+      "file": "statusTags.js",
+      "code": "const icon = isError ? <Warning color=\"#fa6423\" /> : <CheckCircle color=\"#9bcd5a\" />;",
+      "line": 14
     },
     { "file": "cohorts.js", "code": "fill: '#88E2E7',", "line": 2 },
     { "file": "cohorts.js", "code": "stroke: '#88E2E7',", "line": 3 },
@@ -191,6 +225,21 @@
       "file": "healthScoreThresholds.js",
       "code": "barColor: '#2CC995',",
       "line": 20
+    },
+    {
+      "file": "healthScoreThresholds.js",
+      "code": "danger: '#D1E4F4',",
+      "line": 30
+    },
+    {
+      "file": "healthScoreThresholds.js",
+      "code": "warning: '#91C5FD',",
+      "line": 31
+    },
+    {
+      "file": "healthScoreThresholds.js",
+      "code": "good: '#4194ED'",
+      "line": 32
     },
     { "file": "healthScoreV2.js", "code": "stroke: '#d2d2d7',", "line": 7 },
     { "file": "spamTrapHitTypes.js", "code": "fill: '#50CFDA',", "line": 4 },

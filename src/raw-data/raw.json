@@ -1,5 +1,2486 @@
 [
   {
+    "commit": "bd059ebcdcd5cc8d0e7e041cb6d372563dd49553",
+    "date": "2019-12-30",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/{WatchedPage.module.scss=>WatchListPage.module.scss}",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "6f602409784e5ae4e50b1168963717ac150e8d1c",
+    "date": "2019-12-26",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/components/MonitorsCollection.module.scss",
+        "insertions": 0,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "172e680e0f6ab642c229a5b20f02199482d4282b",
+    "date": "2019-12-17",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/WatchedPage.module.scss",
+        "insertions": 10,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/blacklist/components/MonitorsCollection.module.scss",
+        "insertions": 21,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "ed545b8df00652a4c3376047ecc5eb88646606ac",
+    "date": "2019-12-19",
+    "changes": []
+  },
+  {
+    "commit": "a1488a05a089b3149390ac16553c9861968f541a",
+    "date": "2019-12-19",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/{MonitorResourcePage.module.scss=>WatchlistAddPage.module.scss}",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "0e22e8608a0a70ef9f1d9a2bf5063569b4d2c802",
+    "date": "2019-12-18",
+    "changes": []
+  },
+  {
+    "commit": "82478c1651804c3a7bb804fbc1d41baa9e5bf47f",
+    "date": "2019-12-18",
+    "changes": []
+  },
+  {
+    "commit": "54c9987d98c1d9393c3263631d3e2a2d661f795a",
+    "date": "2019-12-18",
+    "changes": []
+  },
+  {
+    "commit": "ae98a9559cb7bf945794d5867b0e4d6040c683a0",
+    "date": "2019-12-18",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/MonitorResourcePage.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "a56b748778432c46b4a45ec3d00b02107ace64cc",
+    "date": "2019-12-17",
+    "changes": []
+  },
+  {
+    "commit": "28dfa241758a9565a3d230f421706bb98fe0bb12",
+    "date": "2019-12-17",
+    "changes": [
+      {
+        "path": "src/components/abbreviation/Abbreviation.module.scss",
+        "insertions": 7,
+        "deletions": 0
+      },
+      { "path": "src/index.scss", "insertions": 17, "deletions": 13 }
+    ]
+  },
+  {
+    "commit": "13825563a410c9da8097e9b3fa3ccef76346139f",
+    "date": "2019-12-17",
+    "changes": [
+      {
+        "path": "src/pages/ipPools/components/DeliveryHistoryLineChart.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "1491617d0b58f3f6ca0b244f6d6223652b9f3dc0",
+    "date": "2019-12-16",
+    "changes": []
+  },
+  {
+    "commit": "31f255f8cde5cdd92bef9e510de8e6fdbc2ec508",
+    "date": "2019-12-16",
+    "changes": [
+      {
+        "path": "src/pages/ipPools/components/DeliveryHistoryLineChart.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/reports/summary/components/async/LineChart.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      },
+      {
+        "path": "src/{pages/reports/summary/components/async/LineChart.scss=>styles/_charts.scss}",
+        "insertions": 27,
+        "deletions": 27
+      }
+    ]
+  },
+  {
+    "commit": "bbfebae0d83d34c1ae1f7b88938421c880a8c2fb",
+    "date": "2019-12-16",
+    "changes": []
+  },
+  {
+    "commit": "9e0e3e0d0e18ad92bb33a7107034cd95ccb16b88",
+    "date": "2019-12-16",
+    "changes": [
+      {
+        "path": "src/pages/ipPools/EditIpPage.module.scss",
+        "insertions": 3,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "dbae8ffda5d8b1a86e31175e2594065e0f172e0d",
+    "date": "2019-12-05",
+    "changes": [
+      {
+        "path": "src/pages/ipPools/EditIpPage.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "bc3fa9294a63ea5604261bca67f708c5b89214ab",
+    "date": "2019-12-13",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 6,
+        "deletions": 5
+      },
+      {
+        "path": "src/pages/ipPools/components/IpForm.module.scss",
+        "insertions": 29,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "fce7f4f59e911c2c291ea321d3c1296bbe7b9344",
+    "date": "2019-12-10",
+    "changes": [
+      {
+        "path": "src/components/reduxFormWrappers/SliderFieldWrapper.module.scss",
+        "insertions": 15,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/alerts/components/fields/EvaluatorFields.module.scss",
+        "insertions": 0,
+        "deletions": 12
+      }
+    ]
+  },
+  {
+    "commit": "7efdef1158d90c94a09d38aadd14fd3bb86db474",
+    "date": "2019-12-10",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 5,
+        "deletions": 6
+      },
+      {
+        "path": "src/pages/ipPools/components/IpForm.module.scss",
+        "insertions": 0,
+        "deletions": 29
+      }
+    ]
+  },
+  {
+    "commit": "0f2a7c73abdee513e3163e6536c032fa092a7b16",
+    "date": "2019-12-10",
+    "changes": []
+  },
+  {
+    "commit": "5383cfb7521701a304182f920dd91abc2431070a",
+    "date": "2019-12-10",
+    "changes": []
+  },
+  {
+    "commit": "96bed54f0a5fa180de864ab301b291679e8b58b7",
+    "date": "2019-12-10",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/TrendsFilters.module.scss",
+        "insertions": 3,
+        "deletions": 17
+      }
+    ]
+  },
+  {
+    "commit": "d0f6958df8c66e2d22cbb40869b5d8c2757d8886",
+    "date": "2019-12-10",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/TrendsFilters.module.scss",
+        "insertions": 24,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "44be634fc43a4bb5fd120176df0b903cda83e800",
+    "date": "2019-12-10",
+    "changes": []
+  },
+  {
+    "commit": "002aca64911d32c5d747fa2397b74dfe1415745f",
+    "date": "2019-12-10",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/IncidentsPage.module.scss",
+        "insertions": 6,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "f849123a2f08c7ed40376a6922c2f848756a6bbf",
+    "date": "2019-12-10",
+    "changes": []
+  },
+  {
+    "commit": "e24e70df52f40819b7707a3a64bd7e01b3e98b3a",
+    "date": "2019-12-09",
+    "changes": []
+  },
+  {
+    "commit": "776f55b43f396b36f1e9d7b78722a8b79b79dfcc",
+    "date": "2019-12-09",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/TrendsFilters.module.scss",
+        "insertions": 8,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "91f52c879e16b912b86c465166e7f02c1f125264",
+    "date": "2019-12-09",
+    "changes": []
+  },
+  {
+    "commit": "2b089a0f47f01639f2cd97f6c204f5946094eb23",
+    "date": "2019-12-06",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/components/IncidentsCollection.module.scss",
+        "insertions": 9,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "99534f285c23df1d3ff5122cc6fdaffe53f35a97",
+    "date": "2019-11-19",
+    "changes": [
+      {
+        "path": "src/pages/ipPools/components/IpForm.module.scss",
+        "insertions": 7,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "ce7b29e250c7a0587d3d22589717c32a632d4053",
+    "date": "2019-11-18",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 1,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "293dbee961e5e7f9d57de8da9e0c48aaf5c3397d",
+    "date": "2019-11-18",
+    "changes": [
+      {
+        "path": "src/pages/ipPools/components/IpForm.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "37c901950823d98a6629f4ac9dfaf590ff1d4cf8",
+    "date": "2019-11-13",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 5,
+        "deletions": 3
+      },
+      {
+        "path": "src/pages/ipPools/components/IpForm.module.scss",
+        "insertions": 2,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "849e9d4457a175b8b1c31b7828997891f0705e6e",
+    "date": "2019-11-12",
+    "changes": [
+      {
+        "path": "src/pages/ipPools/components/IpForm.module.scss",
+        "insertions": 25,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "b9b1e1eb365b955cca90312c3c34f77c1959a7ee",
+    "date": "2019-12-05",
+    "changes": [
+      {
+        "path": "src/components/notifications/Notification.module.scss",
+        "insertions": 0,
+        "deletions": 51
+      },
+      {
+        "path": "src/components/notifications/NotificationCenter.module.scss",
+        "insertions": 0,
+        "deletions": 34
+      }
+    ]
+  },
+  {
+    "commit": "16062560af6a67ed01f2bdcb2d03e352ec246562",
+    "date": "2019-12-04",
+    "changes": []
+  },
+  {
+    "commit": "5b8ff073a5ffc7cb358a601f8de211abc4744fcd",
+    "date": "2019-12-03",
+    "changes": [
+      {
+        "path": "src/pages/blacklist/components/IncidentsCollection.module.scss",
+        "insertions": 10,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "479c69fb5242b3b8ef12ef407274a4a39e9da213",
+    "date": "2019-12-03",
+    "changes": []
+  },
+  {
+    "commit": "9e22e549f2b62e0d7129b23d5159171b9e998f7f",
+    "date": "2019-12-02",
+    "changes": [
+      {
+        "path": "src/pages/dashboard/components/SignupModal.module.scss",
+        "insertions": 22,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "afb53190b542b3fa847e0b2cf51d33866df3b852",
+    "date": "2019-11-26",
+    "changes": [
+      {
+        "path": "src/pages/templates/components/editorActions/DeleteTemplateModal.module.scss",
+        "insertions": 9,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "9b775f37c09cba6f60910525dcc6cb1136341bf9",
+    "date": "2019-11-25",
+    "changes": []
+  },
+  {
+    "commit": "b4e25e92f2553ccdce216a15c887f200e0a7e722",
+    "date": "2019-11-25",
+    "changes": [
+      {
+        "path": "src/pages/dashboard/components/GuideListItem.module.scss",
+        "insertions": 0,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "6cfcdb1d660556e16f60f5565b6afeba725e4480",
+    "date": "2019-11-25",
+    "changes": [
+      {
+        "path": "src/pages/dashboard/components/GuideListItem.module.scss",
+        "insertions": 2,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "654185a436cf10415ac7c882e125811848d127fe",
+    "date": "2019-11-25",
+    "changes": []
+  },
+  {
+    "commit": "ca9e332b5528e0850807aed1315e3be593c9fa38",
+    "date": "2019-11-25",
+    "changes": [
+      {
+        "path": "src/pages/alerts/components/AlertDetails.module.scss",
+        "insertions": 2,
+        "deletions": 14
+      }
+    ]
+  },
+  {
+    "commit": "31ffc5281ea857d756e0801b07b812f47645982b",
+    "date": "2019-11-22",
+    "changes": [
+      {
+        "path": "src/pages/dashboard/components/GuideListItem.module.scss",
+        "insertions": 3,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "f1a2b63c5f0eeeedea734249ce52e68ad4ff4f1f",
+    "date": "2019-11-22",
+    "changes": [
+      {
+        "path": "src/pages/dashboard/components/GuideListItem.module.scss",
+        "insertions": 35,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "c45737b0d2b55d31f9bbad9bd617cf2cbe95ba7a",
+    "date": "2019-11-21",
+    "changes": []
+  },
+  {
+    "commit": "6baa703b2adaae408cafc216b45504edfb70cc8b",
+    "date": "2019-11-21",
+    "changes": []
+  },
+  {
+    "commit": "5828a7978a7102f9c37868aa41613daaa7c3992d",
+    "date": "2019-11-21",
+    "changes": []
+  },
+  {
+    "commit": "501c1c698cbadae5d8111141377895cb27aebbfb",
+    "date": "2019-11-21",
+    "changes": [
+      {
+        "path": "src/components/charts/BarChart.scss",
+        "insertions": 9,
+        "deletions": 0
+      },
+      {
+        "path": "src/{pages/signals/components/charts/tooltip=>components/charts}/Tooltip.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/{pages/signals/components/charts/tooltip=>components/charts}/Tooltip.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/{pages/signals/components/charts/tooltip=>components/charts}/TooltipMetric.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "67a4e3103d63c4925a861fdc0f226eba546fd978",
+    "date": "2019-11-20",
+    "changes": [
+      {
+        "path": "src/components/breadcrumbs/BreadCrumbs.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "e53f2a421534ac71c71672943cf96efbf66cd8fb",
+    "date": "2019-11-20",
+    "changes": [
+      {
+        "path": "src/components/breadcrumbs/BreadCrumbs.module.scss",
+        "insertions": 10,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "7233a26a12ae2d3fc55fdb2361e2a0481e3e473c",
+    "date": "2019-11-19",
+    "changes": [
+      {
+        "path": "src/components/breadcrumbs/BreadCrumbs.module.scss",
+        "insertions": 14,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "20dd7e3d8b59060358fa13dcf20f9bc60315a66a",
+    "date": "2019-11-19",
+    "changes": [
+      {
+        "path": "src/pages/alerts/components/AlertIncidents.module.scss",
+        "insertions": 1,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "3f27312cf3d430cd6d7118fefa25963ee57ad6ab",
+    "date": "2019-11-18",
+    "changes": [
+      {
+        "path": "src/components/iconButton/IconButton.module.scss",
+        "insertions": 10,
+        "deletions": 0
+      },
+      {
+        "path": "src/components/navigation/components/Top.module.scss",
+        "insertions": 7,
+        "deletions": 4
+      },
+      {
+        "path": "src/components/notifications/NotificationCenter.module.scss",
+        "insertions": 1,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "f667e9c3f06e3f24fd3056fb03010bdbb86a9725",
+    "date": "2019-11-08",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/Top.module.scss",
+        "insertions": 9,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "e40a326a0e8bb26ed823756014fe85055a1ae800",
+    "date": "2019-11-08",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/AccountDropdown.module.scss",
+        "insertions": 2,
+        "deletions": 0
+      },
+      {
+        "path": "src/components/navigation/components/Top.module.scss",
+        "insertions": 3,
+        "deletions": 4
+      },
+      {
+        "path": "src/components/notifications/NotificationCenter.module.scss",
+        "insertions": 3,
+        "deletions": 2
+      },
+      { "path": "src/styles/_resets.scss", "insertions": 24, "deletions": 0 }
+    ]
+  },
+  {
+    "commit": "b2487fea6231d298ba59a76723f1f7e152e3af2a",
+    "date": "2019-10-22",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/Top.module.scss",
+        "insertions": 7,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "a01fbc0c6a706b354f3a84b065e3cba423ed611a",
+    "date": "2019-10-22",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/Top.module.scss",
+        "insertions": 16,
+        "deletions": 14
+      }
+    ]
+  },
+  {
+    "commit": "821caa470650d27c8aa674c7b4139c2038700a23",
+    "date": "2019-10-22",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/AccountDropdown.module.scss",
+        "insertions": 7,
+        "deletions": 2
+      },
+      {
+        "path": "src/components/navigation/components/Top.module.scss",
+        "insertions": 16,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "0b988bcb1781ce6f730c6b6f83c748fc17a0141c",
+    "date": "2019-10-22",
+    "changes": [
+      {
+        "path": "src/components/notifications/NotificationCenter.module.scss",
+        "insertions": 8,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "e252282516dbd3286fdfa4ac2432378e7821bacb",
+    "date": "2019-11-18",
+    "changes": [
+      {
+        "path": "src/components/charts/Legend.module.scss",
+        "insertions": 32,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "4b36f561246e196548976e871e5004a12912edb2",
+    "date": "2019-11-18",
+    "changes": [
+      {
+        "path": "src/pages/alerts/components/AlertIncidents.module.scss",
+        "insertions": 5,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "f0e1371d2357344dae1605d7b4a7d5fdb20f0b02",
+    "date": "2019-11-18",
+    "changes": []
+  },
+  {
+    "commit": "fc8591f5c9cee3e6b2e8b9dbd5fc2f6ea67e9753",
+    "date": "2019-11-15",
+    "changes": [
+      {
+        "path": "src/pages/alerts/components/AlertIncidents.module.scss",
+        "insertions": 10,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "30b87e6626722115b2edead7f3c46ca80f12811b",
+    "date": "2019-11-15",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 15,
+        "deletions": 15
+      }
+    ]
+  },
+  {
+    "commit": "8ec2cef08166ccc2d4556cb8d632e5dd2adcad15",
+    "date": "2019-11-15",
+    "changes": [
+      {
+        "path": "src/pages/dashboard/components/GettingStartedGuide.module.scss",
+        "insertions": 2,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "8f94c8340801454161738c9a803b8b0df1e2d6ba",
+    "date": "2019-11-13",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/dashboard/components/GettingStartedGuide.module.scss",
+        "insertions": 10,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "a3f9763f6b436105948ced532f986dccf4f14faf",
+    "date": "2019-11-13",
+    "changes": []
+  },
+  {
+    "commit": "3acd4b701d227630b3cc399728c4a263684d41c1",
+    "date": "2019-11-12",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 0,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "6ce077565a2c469c2493c7db8a45f92aa2f0f233",
+    "date": "2019-11-13",
+    "changes": []
+  },
+  {
+    "commit": "fa5763038bb50c85a7201ffe6aa3a5960c522294",
+    "date": "2019-11-13",
+    "changes": []
+  },
+  {
+    "commit": "8119e81bb8b0757bc21541a98446e54673ddc8e5",
+    "date": "2019-11-13",
+    "changes": [
+      {
+        "path": "src/pages/reports/messageEvents/MessageEventsPage.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "bbcd61cb46424c2c7cb6f62ca7d6ccf441dda0fb",
+    "date": "2019-11-13",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 1,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "236814d02ee3444d57409acdbff26e29acdd73cf",
+    "date": "2019-11-13",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 0,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/dashboard/components/GettingStartedGuide.module.scss",
+        "insertions": 5,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "1012da683f89258a90e9c8cdf818e30aa8bc9b2b",
+    "date": "2019-11-12",
+    "changes": [
+      {
+        "path": "src/pages/reports/messageEvents/MessageEventsPage.module.scss",
+        "insertions": 7,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "33da765b96623380e0c97e72274cdf4cb9c9a5ab",
+    "date": "2019-11-12",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 2,
+        "deletions": 3
+      },
+      {
+        "path": "src/pages/dashboard/components/GettingStartedGuide.module.scss",
+        "insertions": 6,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "111aeae36c5cd680cb460e9e6178622a699677d2",
+    "date": "2019-11-12",
+    "changes": [
+      {
+        "path": "src/pages/templates/ListPage.module.scss",
+        "insertions": 0,
+        "deletions": 7
+      }
+    ]
+  },
+  {
+    "commit": "7d0d5067b526f3dce502849b39dd0e982954a487",
+    "date": "2019-11-12",
+    "changes": [
+      {
+        "path": "src/pages/alerts/ListPage.module.scss",
+        "insertions": 0,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "2c8f0e8143d08cf908606383f29e3740b22949bf",
+    "date": "2019-11-12",
+    "changes": []
+  },
+  {
+    "commit": "eb705202fd390b563f09a02dd9d909d67c6baa23",
+    "date": "2019-11-12",
+    "changes": [
+      {
+        "path": "src/pages/{templatesV2=>templates}/CreatePage.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/EditAndPreviewPage.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/ListPage.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/EditContents.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/EditNavigation.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/EditSection.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/Editor.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/FromEmail.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/ListComponents.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/PreviewContainer.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/PreviewControlBar.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/PreviewErrorFrame.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/PreviewFrame.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/PreviewHeader.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/PreviewSection.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/RecentActivity.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/SavedIndicator.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/editorActions/Actions.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/phone.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/settings/EditSettings.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/settings/SettingsForm.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/{templatesV2=>templates}/components/settings/SettingsSection.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "7ff4d5a0a44a0923eca69e10ead69d567c132eed",
+    "date": "2019-11-12",
+    "changes": [
+      {
+        "path": "src/pages/templates/components/FormEditor.module.scss",
+        "insertions": 0,
+        "deletions": 3
+      },
+      {
+        "path": "src/pages/templates/components/ListComponents.module.scss",
+        "insertions": 0,
+        "deletions": 19
+      },
+      {
+        "path": "src/pages/templates/components/PreviewFrame.module.scss",
+        "insertions": 0,
+        "deletions": 5
+      },
+      {
+        "path": "src/pages/templates/components/PreviewPanel.module.scss",
+        "insertions": 0,
+        "deletions": 15
+      }
+    ]
+  },
+  {
+    "commit": "ad7996ce48514c722f184753cfec0bc24395a9d6",
+    "date": "2019-11-08",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/Top.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "cc31dedae9bd81a9802b0c4cb2902756170f64e6",
+    "date": "2019-11-07",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/TestDetails.module.scss",
+        "insertions": 10,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "7628f392b916424ee873599e9021cdc6c2bf2c4d",
+    "date": "2019-11-07",
+    "changes": []
+  },
+  {
+    "commit": "ee74999c02d8456560b6df353274c706644eff1b",
+    "date": "2019-11-07",
+    "changes": [
+      {
+        "path": "src/pages/alerts/ListPage.module.scss",
+        "insertions": 10,
+        "deletions": 14
+      }
+    ]
+  },
+  {
+    "commit": "9013e3f5860ceb30ccccd4efb381863b9671daae",
+    "date": "2019-11-06",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 14,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "a86baa226596a6342c209c237545b6943774058c",
+    "date": "2019-11-06",
+    "changes": [
+      {
+        "path": "src/pages/alerts/ListPage.module.scss",
+        "insertions": 2,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "119da7a0e52e0af46fb4c0a87054f362b28b4306",
+    "date": "2019-11-06",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 4,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "a6f521745242ead5fc9cda004276c2d01afcd724",
+    "date": "2019-11-06",
+    "changes": [
+      {
+        "path": "src/components/card/Card.module.scss",
+        "insertions": 25,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "e6ab15d78c1a0ce0b2df387f97d96e183ac90ad9",
+    "date": "2019-11-05",
+    "changes": []
+  },
+  {
+    "commit": "655fc19cfe7ac84fc008f66d56013a9183d3d183",
+    "date": "2019-11-05",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/{ProvidersBreakdown.module.scss=>PlacementBreakdown.module.scss}",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "1475da20de93f7daae9da75668f9cc26f13b87dd",
+    "date": "2019-11-05",
+    "changes": []
+  },
+  {
+    "commit": "6dc5c2e656d4de45dcee6b2552d04cd92c2c6ab9",
+    "date": "2019-11-05",
+    "changes": []
+  },
+  {
+    "commit": "86738e051c59edb04fd604e48bcb8e8828a7181d",
+    "date": "2019-11-05",
+    "changes": []
+  },
+  {
+    "commit": "6266ce7fdd130bca6ebf92946669776b668232b9",
+    "date": "2019-11-04",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/TestDetails.module.scss",
+        "insertions": 10,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "9a3e21a2a9f30fb546854011bc87f18553b1222f",
+    "date": "2019-11-04",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/TestDetails.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "40392d6aee30ec1f4d96d35f478405ac8121ed14",
+    "date": "2019-10-29",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditSection.module.scss",
+        "insertions": 8,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/templatesV2/components/Editor.module.scss",
+        "insertions": 7,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "2817d6bdea35a2f632dd2cccb8ffa27279a4481f",
+    "date": "2019-10-28",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/Editor.module.scss",
+        "insertions": 9,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "b98ae958720b24f074420ba0729eb4e5b81fc441",
+    "date": "2019-11-01",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/ProvidersBreakdown.module.scss",
+        "insertions": 8,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "87bdf982c81860ebb32010db54940b84dd4ceb23",
+    "date": "2019-10-28",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/SendTestEmailButton.module.scss",
+        "insertions": 0,
+        "deletions": 14
+      }
+    ]
+  },
+  {
+    "commit": "9cc159200cb392694b92b4eee5b5159dbf7c5d78",
+    "date": "2019-10-31",
+    "changes": []
+  },
+  {
+    "commit": "6dac55840d790bbf98ce17c0d86678cd2f913b8a",
+    "date": "2019-10-25",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/AllMessagesCollection.module.scss",
+        "insertions": 11,
+        "deletions": 8
+      }
+    ]
+  },
+  {
+    "commit": "f5a28868f8cf05081ea05cc044849b30fb2c8745",
+    "date": "2019-10-25",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/AllMessagesCollection.module.scss",
+        "insertions": 0,
+        "deletions": 10
+      }
+    ]
+  },
+  {
+    "commit": "ab2c4febd9e85bcd3c6870fe5f856735b1cf2a0b",
+    "date": "2019-10-17",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/AllMessagesCollection.module.scss",
+        "insertions": 34,
+        "deletions": 14
+      }
+    ]
+  },
+  {
+    "commit": "c23b1591d3d46420c697464f420cf381fc88ac5b",
+    "date": "2019-10-25",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/editorActions/DuplicateTemplateModal.module.scss",
+        "insertions": 0,
+        "deletions": 14
+      }
+    ]
+  },
+  {
+    "commit": "173e580d7d909f9eec3a4ef27ca5c75dc883e5e4",
+    "date": "2019-10-24",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditSection.module.scss",
+        "insertions": 17,
+        "deletions": 5
+      },
+      {
+        "path": "src/pages/templatesV2/components/PreviewControlBar.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "a4313dd280304a7a701d89ba61788bf9c8b54779",
+    "date": "2019-10-24",
+    "changes": []
+  },
+  {
+    "commit": "6c8f2248885658df9c5c8388b3ef7fd6ff58e2df",
+    "date": "2019-10-24",
+    "changes": []
+  },
+  {
+    "commit": "be471badbae2d040f6dc3d45442dbb94682d6bbd",
+    "date": "2019-10-24",
+    "changes": [
+      {
+        "path": "src/pages/billing/forms/NewChangePlanForm.module.scss",
+        "insertions": 1,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "df50e33079d33eeaabc4b7b7075d5979b60ff84b",
+    "date": "2019-10-17",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/Editor.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "0a4e11cfe5f410b1f3b5dc833c52f45a602355bf",
+    "date": "2019-10-23",
+    "changes": [
+      {
+        "path": "src/pages/billing/forms/NewChangePlanForm.module.scss",
+        "insertions": 33,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "8a04e892bc3fd8b675ec87b74c2a2ced5807d203",
+    "date": "2019-10-18",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/RecentActivity.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "1588320ea49487df94a900ab2216119bb86d0356",
+    "date": "2019-10-18",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/RecentActivity.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "457e0f90513f8521653af0a70cdb1c5afd460bab",
+    "date": "2019-10-18",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/ListComponents.module.scss",
+        "insertions": 6,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/templatesV2/components/RecentActivity.module.scss",
+        "insertions": 8,
+        "deletions": 7
+      }
+    ]
+  },
+  {
+    "commit": "631d43d3538faeb9229854944643a06a6536366c",
+    "date": "2019-10-18",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/RecentActivity.module.scss",
+        "insertions": 6,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "44db4ce09faa83baa0a00de1a4f6f41ea0ef39ae",
+    "date": "2019-10-18",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/RecentActivity.module.scss",
+        "insertions": 6,
+        "deletions": 6
+      }
+    ]
+  },
+  {
+    "commit": "b658485ee925d4296fde1959d112b4873fb9c8c7",
+    "date": "2019-10-18",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/RecentActivity.module.scss",
+        "insertions": 16,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "0d11f01016c4b9b3d8b73e7ced2d6a859d27c1e4",
+    "date": "2019-10-18",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/ListPage.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/templatesV2/components/RecentActivity.module.scss",
+        "insertions": 49,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "d96c07ede9907ebd11fc2af43daff425de308e90",
+    "date": "2019-10-21",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/AllMessagesPage.module.scss",
+        "insertions": 17,
+        "deletions": 4
+      },
+      {
+        "path": "src/pages/inboxPlacement/components/AllMessagesCollection.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "9f9c1e20496498762cae8f9f328f28a432bedd70",
+    "date": "2019-10-18",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/AllMessagesCollection.module.scss",
+        "insertions": 2,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "1685c1319ea6ce29f4e585342a2574b6d996ffa3",
+    "date": "2019-10-15",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/AllMessagesPage.module.scss",
+        "insertions": 15,
+        "deletions": 8
+      }
+    ]
+  },
+  {
+    "commit": "35e96736e9e36d55c818f3d2c863238b88c2e769",
+    "date": "2019-10-15",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/AllMessagesCollection.module.scss",
+        "insertions": 37,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "8b0a52352d393e189d6720b7fa7a3ac8c05a6f2f",
+    "date": "2019-10-15",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/AllMessagesPage.module.scss",
+        "insertions": 21,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "2761b381e69d21031ef70c3c69c5d3901919bbd5",
+    "date": "2019-10-18",
+    "changes": []
+  },
+  {
+    "commit": "ef68e532cfb6e5f4a5b2cdde6141122fb07ab4ce",
+    "date": "2019-10-18",
+    "changes": [
+      {
+        "path": "src/components/percentWheel/PercentWheel.module.scss",
+        "insertions": 2,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "1bf068c0fd3d0f32ed760ab9b98f1ceccafd11b6",
+    "date": "2019-10-18",
+    "changes": [
+      {
+        "path": "src/components/percentWheel/PercentWheel.module.scss",
+        "insertions": 3,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "b2e514025e103fb0b1bce59e8ecf8683cf083e42",
+    "date": "2019-10-17",
+    "changes": []
+  },
+  {
+    "commit": "147d8ef4cf4ac9737e0e7b88bbbbf1db5b70d34f",
+    "date": "2019-10-17",
+    "changes": [
+      {
+        "path": "src/components/percentWheel/PercentWheel.module.scss",
+        "insertions": 13,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "23c56efb20f4950a6e8e8a611949b7c84d50a15d",
+    "date": "2019-10-17",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/ProvidersBreakdown.module.scss",
+        "insertions": 5,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "d14b2889bab1968a8ded7264d34da3043e412970",
+    "date": "2019-10-17",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/components/TestDetails.module.scss",
+        "insertions": 14,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "c6846784043c552ea301f60f3a4057effe5cf96c",
+    "date": "2019-10-17",
+    "changes": []
+  },
+  {
+    "commit": "d064f5b10bee9d211861dbe8564c2e775f4bf6d7",
+    "date": "2019-10-17",
+    "changes": [
+      {
+        "path": "src/pages/reports/messageEvents/components/MessageEventsSearch.module.scss",
+        "insertions": 19,
+        "deletions": 8
+      }
+    ]
+  },
+  {
+    "commit": "5aaab2436d93979b974a4aed2f8d8f9b495549d4",
+    "date": "2019-10-16",
+    "changes": [
+      {
+        "path": "src/pages/signals/components/HealthScoreLegend.module.scss",
+        "insertions": 2,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "31555b6055251a47eb095340e95a939a15da6357",
+    "date": "2019-10-16",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/settings/SettingsForm.module.scss",
+        "insertions": 0,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "d723b57918a039a6986c86845e9e1e53f6384bb5",
+    "date": "2019-10-15",
+    "changes": [
+      {
+        "path": "src/pages/reports/messageEvents/components/MessageEventsSearch.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "c1e2e5ef780992167043a2377f1ad2ad4edbc65f",
+    "date": "2019-10-15",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditContents.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "0254cca3e742befdb425bc03cb6b1508148981d9",
+    "date": "2019-10-11",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditContents.module.scss",
+        "insertions": 1,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "f89771289e7e39d27852542d4bed8442a8acc0a2",
+    "date": "2019-10-11",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/editorActions/DuplicateTemplateModal.module.scss",
+        "insertions": 14,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "4a781ac6d3fce2800fbb1ea11781866c5a0c5abb",
+    "date": "2019-10-09",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/PreviewControlBar.module.scss",
+        "insertions": 0,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "4ff1f79cf5b1f774e0de5f9c2312deeac144232a",
+    "date": "2019-10-03",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/SavedIndicator.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "02b0464c28677eda9e102cb22c82309826e52bc6",
+    "date": "2019-10-03",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditNavigation.module.scss",
+        "insertions": 0,
+        "deletions": 9
+      },
+      {
+        "path": "src/pages/templatesV2/components/SavedIndicator.module.scss",
+        "insertions": 28,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "f197175f3dcca982beab6c92198dfcd707c0ec68",
+    "date": "2019-10-03",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditSection.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "4979812bfa43f6c8ead8b96c40432e15ac168846",
+    "date": "2019-10-03",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/PreviewSection.module.scss",
+        "insertions": 0,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/templatesV2/components/settings/SettingsSection.module.scss",
+        "insertions": 0,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "0297f4afa30cc326f2f3d8f6e212e2e65614c1a8",
+    "date": "2019-10-03",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/Editor.module.scss",
+        "insertions": 2,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "a9c5a05c41b6d236d332c0b45b7758aef071b916",
+    "date": "2019-10-02",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/settings/{Form.module.scss=>SettingsForm.module.scss}",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "99e20d6cb158e778af69bffdb1b8937bf879c7da",
+    "date": "2019-10-02",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditNavigation.module.scss",
+        "insertions": 19,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "beaa9c307bf8fcfd9d491fc18c7199104f0e4c45",
+    "date": "2019-09-25",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditNavigation.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "951708e9fc75288196e36df7afe318371c6fab05",
+    "date": "2019-09-24",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/EditAndPreviewPage.module.scss",
+        "insertions": 1,
+        "deletions": 2
+      },
+      {
+        "path": "src/pages/templatesV2/components/EditContents.module.scss",
+        "insertions": 0,
+        "deletions": 9
+      },
+      {
+        "path": "src/pages/templatesV2/components/settings/EditSettings.module.scss",
+        "insertions": 6,
+        "deletions": 3
+      },
+      {
+        "path": "src/pages/templatesV2/components/settings/SettingsSection.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "8ab064b1c3b20717570fe1aa793823a04f086dbf",
+    "date": "2019-09-24",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/ListPage.module.scss",
+        "insertions": 6,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "4e1d445f67a0becbd43664802b75660e48cdd4d6",
+    "date": "2019-09-23",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/EditAndPreviewPage.module.scss",
+        "insertions": 12,
+        "deletions": 4
+      },
+      {
+        "path": "src/pages/templatesV2/components/EditNavigation.module.scss",
+        "insertions": 13,
+        "deletions": 7
+      }
+    ]
+  },
+  {
+    "commit": "14f65b8b51e976aa062f7a8bccad0091dc8c44a6",
+    "date": "2019-09-23",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditContents.module.scss",
+        "insertions": 15,
+        "deletions": 3
+      },
+      {
+        "path": "src/pages/templatesV2/components/EditSection.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/templatesV2/components/PreviewSection.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "deaf8688b2c72e63b35cf3d0c319d459f02bf278",
+    "date": "2019-10-15",
+    "changes": []
+  },
+  {
+    "commit": "937d91fcfc3ccb36dc83874615f5b1a455217abe",
+    "date": "2019-10-11",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/NavItem.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "4b3d11f7953efe30e5ae3c46034f547a097f32f0",
+    "date": "2019-10-11",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/NavItem.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "1657b0b486cec5c00e2a853a1c81bbf03659f4ad",
+    "date": "2019-10-11",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/NavItem.module.scss",
+        "insertions": 14,
+        "deletions": 8
+      }
+    ]
+  },
+  {
+    "commit": "3340137ce20dff6698e4ce5718bd920bb25f48d7",
+    "date": "2019-10-11",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/NavItem.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "1d62f66427ff16040081ab72c221fc46f12d789e",
+    "date": "2019-10-11",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/NavItem.module.scss",
+        "insertions": 2,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "7096fdf5180087542664e0c7dfaeaa1dc9676e50",
+    "date": "2019-10-11",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/NavItem.module.scss",
+        "insertions": 3,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "3c32080232719c8bca9e9a4b7f8f5a4e80751f6f",
+    "date": "2019-10-08",
+    "changes": [
+      {
+        "path": "src/pages/signals/components/HealthScoreLegend.module.scss",
+        "insertions": 3,
+        "deletions": 15
+      },
+      {
+        "path": "src/pages/signals/components/HealthScoreMetric.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "21a0604e8854b0ffc61df65baa0cf4a21a17ca40",
+    "date": "2019-10-03",
+    "changes": [
+      {
+        "path": "src/pages/signals/components/HealthScoreLegend.module.scss",
+        "insertions": 1,
+        "deletions": 3
+      },
+      {
+        "path": "src/pages/signals/components/HealthScoreMetric.module.scss",
+        "insertions": 5,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "b330c911f930d29b10e672626c882e1b80d49bcf",
+    "date": "2019-10-03",
+    "changes": [
+      {
+        "path": "src/pages/signals/components/{HSLegend.module.scss=>HealthScoreLegend.module.scss}",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/signals/components/{HSMetric.module.scss=>HealthScoreMetric.module.scss}",
+        "insertions": 0,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "c8b611b991e745c85b3c25afe5d3ba6f1de1f8d9",
+    "date": "2019-10-03",
+    "changes": [
+      {
+        "path": "src/pages/signals/components/HSLegend.module.scss",
+        "insertions": 47,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/signals/components/HSMetric.module.scss",
+        "insertions": 22,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "4093c7b01a9edea76ca1aeaac2e48257e029b6ce",
+    "date": "2019-10-10",
+    "changes": [
+      {
+        "path": "src/pages/auth/components/TfaForm.module.scss",
+        "insertions": 6,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "c8ae916e264d07eb32f5cc169d26bca42b95d5be",
+    "date": "2019-10-09",
+    "changes": [
+      {
+        "path": "src/pages/reports/messageEvents/components/SearchForm.module.scss",
+        "insertions": 3,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "1e209eafb701f13f6ea58a539cb5412734469d8c",
+    "date": "2019-10-09",
+    "changes": [
+      {
+        "path": "src/pages/reports/messageEvents/components/MessageEventsSearch.module.scss",
+        "insertions": 11,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "ce21499c9c40acea26697d85dc8d3bf111793226",
+    "date": "2019-09-24",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/CurrentPlanSection.module.scss",
+        "insertions": 13,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "db0c51fac5669a05ce4bef4506de90413825f1c7",
+    "date": "2019-10-08",
+    "changes": []
+  },
+  {
+    "commit": "e42eeaedb6a9b29bb08a21e260054d9f1bc76ff8",
+    "date": "2019-10-08",
+    "changes": []
+  },
+  {
+    "commit": "74dae42de17e80957ae7046182585824207ce3b5",
+    "date": "2019-10-08",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditNavigation.module.scss",
+        "insertions": 31,
+        "deletions": 13
+      }
+    ]
+  },
+  {
+    "commit": "2cba7d4bedc413211574cdb1dfcc9db2fa3cbeaa",
+    "date": "2019-10-07",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/SendTestEmailButton.module.scss",
+        "insertions": 2,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "a353a0d9727847e5b2afc6f8818e172f39c693a3",
+    "date": "2019-10-07",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/SendTestEmailButton.module.scss",
+        "insertions": 2,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "e66e40d850f36ca838210cd79a36889abcaf82ca",
+    "date": "2019-10-02",
+    "changes": [{ "path": "src/index.scss", "insertions": 4, "deletions": 0 }]
+  },
+  {
+    "commit": "fce189527331fe612c097870f9876fb47e80a388",
+    "date": "2019-09-26",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureChangeSection.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "68d61a64e4b698518486b337b30345074d0045f0",
+    "date": "2019-09-18",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureChangeSection.module.scss",
+        "insertions": 39,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "1c2f7a6ad22afc4ae0ce9e59879b9b40128114bd",
+    "date": "2019-09-17",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/SendTestEmailButton.module.scss",
+        "insertions": 1,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "2a3f28e6d6ee6744a975eae0b99500fa89451de5",
+    "date": "2019-09-17",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/SendTestEmailButton.module.scss",
+        "insertions": 15,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "73a6e8135712a487b49647c3a9437b13f71e4fd5",
+    "date": "2019-09-11",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/PreviewControlBar.module.scss",
+        "insertions": 3,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "ab76a442c988a3826d74cb8d812b38303654ecca",
+    "date": "2019-09-11",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/PreviewControlBar.module.scss",
+        "insertions": 22,
+        "deletions": 10
+      }
+    ]
+  },
+  {
+    "commit": "bdb7e6976f6d14b34c6f97ab666a540b02467691",
+    "date": "2019-09-11",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/PreviewControlBar.module.scss",
+        "insertions": 20,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "410ed911ebb582d1d73205d99a6bc0b0c11b7c4f",
+    "date": "2019-09-30",
+    "changes": []
+  },
+  {
+    "commit": "ab56772b8e969186f71e845fc5bcd9d7ac337234",
+    "date": "2019-09-26",
+    "changes": [
+      {
+        "path": "src/pages/signals/IntegrationPage.module.scss",
+        "insertions": 1,
+        "deletions": 10
+      },
+      {
+        "path": "src/pages/signals/components/IntegrationCollection.module.scss",
+        "insertions": 10,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "b9f8cdf60701018f727530514d64c7bb807dbe6f",
+    "date": "2019-09-26",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/SeedList.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/inboxPlacement/TestListPage.module.scss",
+        "insertions": 4,
+        "deletions": 6
+      }
+    ]
+  },
+  {
+    "commit": "ef8629d4f4ad7d541ebfc59b7f82b3836190ac09",
+    "date": "2019-09-26",
+    "changes": [
+      {
+        "path": "src/pages/signals/components/FormatRow.module.scss",
+        "insertions": 11,
+        "deletions": 27
+      }
+    ]
+  },
+  {
+    "commit": "beaac68f706fd219fc1f20d474d1c0bc09c6698c",
+    "date": "2019-09-26",
+    "changes": [
+      {
+        "path": "src/components/tooltip/Tooltip.module.scss",
+        "insertions": 13,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "933f698601d2f67280d4215f649eec6a76c16eea",
+    "date": "2019-09-23",
+    "changes": [
+      {
+        "path": "src/pages/signals/components/FormatRow.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "cd8ca1b4629fdb31f7f4b5b1498ce092a21b09f1",
+    "date": "2019-09-23",
+    "changes": [
+      {
+        "path": "src/pages/signals/IntegrationPage.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "7e77da13b46ae89dfde0d883e0616fc841aa94ae",
+    "date": "2019-09-23",
+    "changes": [
+      {
+        "path": "src/pages/signals/IntegrationPage.module.scss",
+        "insertions": 10,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/signals/components/FormatRow.module.scss",
+        "insertions": 23,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "16f299c3ff0b0dffdd15371048698b310a7b5b23",
+    "date": "2019-09-18",
+    "changes": [
+      {
+        "path": "src/{pages/reports/messageEvents/components=>components/collection}/CursorPaging.module.scss",
+        "insertions": 0,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/signals/components/FormatRow.module.scss",
+        "insertions": 11,
+        "deletions": 0
+      },
+      {
+        "path": "src/pages/signals/components/tags/statusTags.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "a8bea16a2729e42be78f1d945059befa212c146b",
+    "date": "2019-09-20",
+    "changes": []
+  },
+  {
+    "commit": "19bcaa3c8b52fdb9b6f8183206d8a02f5bcc70fe",
+    "date": "2019-09-16",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/NavItem.module.scss",
+        "insertions": 2,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "23180b1d85bb6627412c5115081a58dc713215c2",
+    "date": "2019-09-16",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditNavigation.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "4c77bbd0716cff20e177c438c10259adcc00f18f",
+    "date": "2019-09-16",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditNavigation.module.scss",
+        "insertions": 3,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "030d0b0b46e846a6ec58b848b400d88b31bbf61d",
+    "date": "2019-09-05",
+    "changes": [
+      {
+        "path": "src/pages/templatesV2/components/EditNavigation.module.scss",
+        "insertions": 16,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "e94d0e74ae2f673fd018f65f2d293883e7c2204f",
+    "date": "2019-09-05",
+    "changes": [
+      {
+        "path": "src/components/fullPage/FullPage.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "dfb459cf3946f8b024dcb8dca080aab1a85feea1",
+    "date": "2019-08-29",
+    "changes": [
+      {
+        "path": "src/components/buttonWrapper/ButtonWrapper.module.scss",
+        "insertions": 5,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "0570257800a3a8847313687bb909a6029a7a9361",
+    "date": "2019-09-16",
+    "changes": []
+  },
+  {
+    "commit": "5a2a9c5cc297cad321bead10f5433d6844011d9d",
+    "date": "2019-09-13",
+    "changes": [
+      {
+        "path": "src/components/navigation/components/NavItem.module.scss",
+        "insertions": 28,
+        "deletions": 10
+      }
+    ]
+  },
+  {
+    "commit": "7839f30d2a0df98f8daea7efccca820e26aec49a",
+    "date": "2019-09-11",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureComparisonModal.module.scss",
+        "insertions": 2,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "8aa52b967681f2ac9e2fee60bc1c5677bac804cb",
+    "date": "2019-09-11",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureComparisonModal.module.scss",
+        "insertions": 3,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/billing/components/PlanSelect.module.scss",
+        "insertions": 0,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "03f6bf6ab2746e0cc26212f88c8ea2f7704858d7",
+    "date": "2019-09-11",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/PlanSelect.module.scss",
+        "insertions": 4,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "e0d07e1fd243be4332609e8d09cc9fb3df801756",
+    "date": "2019-09-09",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureComparisonModal.module.scss",
+        "insertions": 2,
+        "deletions": 4
+      }
+    ]
+  },
+  {
+    "commit": "44e89d4abadcb11ac27b6a010163d9dce0dedd53",
+    "date": "2019-09-09",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureComparisonModal.module.scss",
+        "insertions": 6,
+        "deletions": 5
+      }
+    ]
+  },
+  {
+    "commit": "32f578edc18b29677e1dc7449490318056bcbc4b",
+    "date": "2019-09-05",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureComparisonModal.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "c0e3fc4eb6a027ab588b65ccd3f22f1dbc0f9c80",
+    "date": "2019-09-04",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureComparisonModal.module.scss",
+        "insertions": 7,
+        "deletions": 3
+      }
+    ]
+  },
+  {
+    "commit": "aeb1ac8bea09fca4348e2232bdcb79fe52cd1b81",
+    "date": "2019-08-30",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureComparisonModal.module.scss",
+        "insertions": 1,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "318b005c2d4fc6246d032b21a95dee7049bc3dbe",
+    "date": "2019-08-29",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/FeatureComparisonModal.module.scss",
+        "insertions": 41,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "0d9b04b7e0869249889ac8a1080402f5a8106fae",
+    "date": "2019-09-10",
+    "changes": []
+  },
+  {
+    "commit": "3502b457fce0e7c2d774327b8ddf4cde2e26823d",
+    "date": "2019-09-09",
+    "changes": []
+  },
+  {
+    "commit": "29dc85d66f6a6a5efe7f94787d9c149f5c2a957b",
+    "date": "2019-09-05",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/PlanSelect.module.scss",
+        "insertions": 0,
+        "deletions": 16
+      }
+    ]
+  },
+  {
+    "commit": "659005816dad0fb55e66d0789c848ae149fb1265",
+    "date": "2019-09-05",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/PlanSelect.module.scss",
+        "insertions": 17,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "3ac4f4eca27e4274bcabdf5b2921e1d5fedf36b9",
+    "date": "2019-09-05",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/PlanSelect.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "efdec8cc7e92a6a441833e6e1361bca26f92a396",
+    "date": "2019-09-05",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/PlanSelect.module.scss",
+        "insertions": 9,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "fbfe3476d6fdeeb2c0897aed8a4557580b422e64",
+    "date": "2019-09-05",
+    "changes": [
+      {
+        "path": "src/components/billing/PlanPrice.module.scss",
+        "insertions": 0,
+        "deletions": 1
+      },
+      {
+        "path": "src/pages/billing/components/CurrentPlanSection.module.scss",
+        "insertions": 14,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "eda8da2ae81d172d06e4945373e5f0b12e1ff9d2",
+    "date": "2019-09-05",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/PlanSelect.module.scss",
+        "insertions": 27,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "6faddaedc6b329cdf2d4999c396abce917af86ea",
+    "date": "2019-09-04",
+    "changes": []
+  },
+  {
+    "commit": "072bbb7bed2f96d8912c3bbfd79ee445130de810",
+    "date": "2019-08-30",
+    "changes": [
+      {
+        "path": "src/pages/inboxPlacement/TestListPage.module.scss",
+        "insertions": 0,
+        "deletions": 4
+      }
+    ]
+  },
+  {
     "commit": "9738311ba4b46ad3e4bda9f193b1ffe2d960163d",
     "date": "2019-08-29",
     "changes": [
@@ -14,6 +2495,11 @@
         "deletions": 2
       }
     ]
+  },
+  {
+    "commit": "6330cd95182b15633fcfc0b020bab9f85b0a9f3c",
+    "date": "2019-08-29",
+    "changes": []
   },
   {
     "commit": "a27a20f341cc42748b0f127e07c5f4117868ced5",
@@ -553,6 +3039,82 @@
         "path": "src/pages/reports/components/CustomReportRow.module.scss",
         "insertions": 0,
         "deletions": 7
+      }
+    ]
+  },
+  {
+    "commit": "5bf10aa6b745db07fab8b8d794428e5348bd7f6f",
+    "date": "2019-08-08",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/PendingCancelGlobalBanner.module.scss",
+        "insertions": 6,
+        "deletions": 2
+      }
+    ]
+  },
+  {
+    "commit": "ff00f86992ba7f9115c840fe1681e06266cb9463",
+    "date": "2019-08-08",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/PendingCancelGlobalBanner.module.scss",
+        "insertions": 7,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "4c8048281cb78697fb9960f9f0937b32bb0bc57d",
+    "date": "2019-08-08",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/PendingCancelGlobalBanner.module.scss",
+        "insertions": 1,
+        "deletions": 1
+      }
+    ]
+  },
+  {
+    "commit": "c1073d41b8d3e7de2e44f994c324527fbc8e8f84",
+    "date": "2019-08-07",
+    "changes": [
+      {
+        "path": "src/pages/billing/components/PendingCancelGlobalBanner.module.scss",
+        "insertions": 12,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "f61bde44e1377c0a972b70d91c6b2a8a265fe49c",
+    "date": "2019-08-07",
+    "changes": [
+      {
+        "path": "src/components/navigation/Navigation.module.scss",
+        "insertions": 0,
+        "deletions": 15
+      },
+      {
+        "path": "src/pages/billing/components/PendingCancelGlobalBanner.module.scss",
+        "insertions": 15,
+        "deletions": 0
+      }
+    ]
+  },
+  {
+    "commit": "f145a611fd3b9339b6736ba233f9b241e7ee47f9",
+    "date": "2019-08-07",
+    "changes": [
+      {
+        "path": "src/components/layout/Layout.module.scss",
+        "insertions": 6,
+        "deletions": 0
+      },
+      {
+        "path": "src/components/navigation/Navigation.module.scss",
+        "insertions": 19,
+        "deletions": 0
       }
     ]
   },
