@@ -47,23 +47,19 @@ const cssExcludes = [
   "@import",
 ]
 
+function includes(line, arr) {
+  return arr.reduce(
+    (acc, item) => line.includes(item) || acc,
+    false
+  );
+}
+
 glob(path.join(__dirname, "../../2web2ui/src/**/*.scss"), {}, (err, files) => {
   const json = files.reduce((acc, file) => {
     const content = fs.readFileSync(file, "utf8")
-
     const lines = content.split("\n").reduce((acc, line, i) => {
-      const shouldCheck = () =>
-        cssIncludes.reduce(
-          (acc, include) => line.includes(include) || acc,
-          false
-        )
-      const isNotToken = () =>
-        cssExcludes.reduce(
-          (acc, excludes) => line.includes(excludes) || acc,
-          false
-        )
 
-      if (shouldCheck() && !isNotToken()) {
+      if (includes(line, cssIncludes) && !includes(line, cssExcludes)) {
         acc.push({
           file: file.split("/").pop(),
           code: line.trim(),
@@ -110,20 +106,9 @@ glob(path.join(__dirname, "../../2web2ui/src/**/*.js"), {}, (err, files) => {
     )
     .reduce((acc, file) => {
       const content = fs.readFileSync(file, "utf8")
-
       const lines = content.split("\n").reduce((acc, line, i) => {
-        const shouldCheck = () =>
-          jsIncludes.reduce(
-            (acc, include) => line.includes(include) || acc,
-            false
-          )
-        const isNotToken = () =>
-          jsExcludes.reduce(
-            (acc, excludes) => line.includes(excludes) || acc,
-            false
-          )
 
-        if (shouldCheck() && !isNotToken()) {
+        if (includes(line, jsIncludes) && !includes(line, jsExcludes)) {
           acc.push({
             file: file.split("/").pop(),
             code: line.trim(),
